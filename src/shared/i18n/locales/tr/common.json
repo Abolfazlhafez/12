@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "required": "Bu alan zorunludur.",
+    "close": "Kapat",
+    "menu": "Menü",
+    "notFound": "Bulunamadı",
+    "confirm": "Onayla",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "retry": "Tekrar dene",
+    "error": "Hata",
+    "scrollToTop": "Yukarı dön",
+    "delete": "Sil",
+    "clearSearch": "Aramayı temizle",
+    "usePreviousText": "Önceki metni kullan",
+    "exportMenu": {
+      "label": "Dışa aktar",
+      "exporting": "Oluşturuluyor...",
+      "shareImage": "Resmi paylaş",
+      "shareExcel": "Excel'i paylaş (CSV)",
+      "saveToDeviceHeader": "Cihaz belleğine kaydet",
+      "saveImage": "Resmi cihaza kaydet",
+      "saveExcel": "Excel'i cihaza kaydet"
+    },
+    "photo": {
+      "heicUnavailable": "HEIC önizlemesi kullanılamıyor",
+      "retryPreviewTooltip": "Önizlemeyi yeniden oluşturmayı dene",
+      "defaultAlt": "Fotoğraf"
+    }
+  },
+  "app": {
+    "name": "Atölye Sorumlusu Asistanı"
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "resources": "Ekip ve Ekipman",
+    "activities": "Etkinlikler",
+    "reports": "Yönetim"
+  },
+  "topbar": {
+    "offlineTooltip": "İnternet bağlantısı yok — bu normal; bu uygulama tamamen çevrimdışı çalışır ve tüm veriler telefonunuzda saklanır.",
+    "offlineAria": "İnternet yok (çevrimdışı)",
+    "search": "Ara",
+    "settings": "Ayarlar",
+    "project": {
+      "switcherAria": "Proje değiştir",
+      "newProject": "Yeni proje",
+      "renameProject": "Projeyi düzenle",
+      "deleteProject": "Projeyi sil",
+      "dialogCreateTitle": "Yeni proje",
+      "dialogEditTitle": "Projeyi düzenle",
+      "nameLabel": "Proje adı",
+      "locationLabel": "Proje konumu (isteğe bağlı)",
+      "supervisorLabel": "Şef adı (isteğe bağlı)",
+      "save": "Kaydet",
+      "cancel": "Vazgeç",
+      "deleteConfirm": "\"{{name}}\" projesi silinsin mi? Kat/işçi/kasa verileri silinmez, sadece bu projede görünmez.",
+      "cannotDeleteLast": "Son kalan proje silinemez.",
+      "nameRequired": "Proje adı boş olamaz."
+    }
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "languageSection": {
+      "title": "Dil ve Para Birimi",
+      "languageLabel": "Uygulama dili",
+      "currencyLabel": "Para birimi",
+      "description": "Dili değiştirdiğinizde sayfa yönü ve takvim (Fars/Miladi) otomatik olarak ayarlanır."
+    },
+    "aboutSection": {
+      "title": "Hakkında",
+      "appName": "Şantiye Sorumlusu Asistanı (Karegah-Yar)",
+      "versionLabel": "Uygulama sürümü",
+      "description": "Bu uygulama tamamen çevrimdışı çalışır ve tüm verileriniz yalnızca bu telefonda saklanır."
+    },
+    "projectsSection": {
+      "title": "Projeler",
+      "description": "Birden fazla proje/şantiye arasında geçiş yapabilir veya yeni bir proje oluşturabilirsiniz. Her projenin kendi katları ve kasa defteri vardır."
+    }
+  },
+  "currency": {
+    "IRT": "İran Tomanı",
+    "USD": "ABD Doları",
+    "SAR": "Suudi Riyali",
+    "TRY": "Türk Lirası",
+    "PKR": "Pakistan Rupisi",
+    "IQD": "Irak Dinarı",
+    "AFN": "Afgan Afganisi",
+    "RUB": "Rus Rublesi"
+  },
+  "theme": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Otomatik (cihazı izle)"
+  },
+  "dashboard": {
+    "title": "Panel",
+    "quickBackup": "Hızlı yedekleme",
+    "shareSummary": "Bugünün özetini paylaş",
+    "loading": "Panel yükleniyor...",
+    "quickActions": {
+      "workLog": "İş raporu kaydet",
+      "attendance": "Devam durumu",
+      "addTransaction": "İşlem ekle"
+    },
+    "stats": {
+      "presentWorkers": "Mevcut işçiler",
+      "absentWorkers": "Devamsız işçiler",
+      "totalHoursToday": "Bugünkü toplam çalışma süresi",
+      "totalTimeLossToday": "Bugünkü toplam kayıp süre",
+      "todaySalary": "Bugünkü ödenecek ücret",
+      "personUnit": "kişi",
+      "onLeaveSuffix": "izinli"
+    },
+    "recentActivities": "Son etkinlikler",
+    "noActivitiesYet": "Henüz bir etkinlik kaydedilmedi.",
+    "noWorkersAlert": "Henüz işçi eklemediniz. «Kaynaklar» sekmesinden başlayın.",
+    "shareCopied": "Bugünün özeti kopyalandı.",
+    "shareCopyUnsupported": "Otomatik kopyalama desteklenmiyor.",
+    "backupReadyNative": "Yedek dosyası hazır. Kaydedin veya paylaşın.",
+    "backupReadyWeb": "Yedekleme başarıyla indirildi.",
+    "todayWorkLog": {
+      "title": "Bugünün iş günlüğü",
+      "photoCountSuffix": "{{count}} fotoğraf kaydedildi",
+      "noPhotos": "Fotoğraf yok",
+      "emptyHint": "Bugün için henüz rapor yok — fotoğraf veya not eklemek için dokunun."
+    },
+    "upcomingActivities": {
+      "title": "Yaklaşan etkinlikler",
+      "overdueChip": "{{count}} gecikmiş",
+      "emptyHint": "Kayıtlı yaklaşan etkinlik yok — eklemek için dokunun."
+    }
+  },
+  "resources": {
+    "title": "Atölye Ekibi ve Ekipmanları",
+    "tabs": {
+      "workers": "İşçiler",
+      "attendance": "Devam durumu",
+      "equipment": "Ekipman",
+      "cashbook": "Kasa defteri"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "Çalışma Kaydı",
+      "upcoming": "Planlar"
+    }
+  },
+  "workers": {
+    "pageTitle": "İşçi Yönetimi",
+    "searchPlaceholder": "Ad, görev veya telefon ile ara...",
+    "sortTooltip": "Sırala",
+    "sortAriaLabel": "İşçi listesini sırala",
+    "sort": {
+      "activeFirst": "Önce aktifler",
+      "nameAsc": "Alfabetik (ad)",
+      "wageDesc": "Ücret: en yüksek",
+      "wageAsc": "Ücret: en düşük",
+      "newest": "En yeni"
+    },
+    "activeCountChip": "{{total}} kişiden {{active}} aktif",
+    "emptyNoResults": "Sonuç bulunamadı.",
+    "emptyNoResultsDesc": "Arama terimini değiştirin.",
+    "emptyNone": "Henüz işçi eklenmedi.",
+    "emptyNoneDesc": "Yeni işçi eklemek için + düğmesini kullanın.",
+    "deleteAriaLabel": "{{name}} sil",
+    "addAriaLabel": "İşçi ekle",
+    "toastAdded": "İşçi başarıyla eklendi.",
+    "toastUpdated": "Değişiklikler başarıyla kaydedildi.",
+    "toastDeleted": "İşçi silindi.",
+    "toastDeactivated": "İşçi devre dışı bırakıldı ve aktif listede görünmeyecek.",
+    "toastCopiedGeneric": "{{label}} kopyalandı.",
+    "toastCopyUnsupported": "Otomatik kopyalama desteklenmiyor; lütfen değeri manuel olarak seçin.",
+    "toastWorkerInfoCopied": "İşçi bilgileri kopyalandı.",
+    "toastShareCopyUnsupported": "Otomatik kopyalama desteklenmiyor.",
+    "deleteDialog": {
+      "blockedTitle": "Silinemiyor",
+      "title": "İşçiyi sil",
+      "confirmText": "«{{name}}» silinsin mi? Bu işlem geri alınamaz.",
+      "confirmDeactivate": "Devre dışı bırak",
+      "confirmDelete": "Sil"
+    },
+    "galleryTitle": "Fotoğraf galerisi — {{name}}",
+    "shareLabels": {
+      "worker": "İşçi",
+      "position": "Görev",
+      "phone": "Telefon",
+      "cardNumber": "Kart numarası",
+      "sheba": "IBAN"
+    },
+    "avatarPicker": {
+      "previewAlt": "Profil fotoğrafı önizlemesi",
+      "previewInvalid": "Geçersiz önizleme",
+      "profilePhoto": "Profil fotoğrafı"
+    },
+    "wageSettingsTooltip": "İş türleri ve ücretler"
+  },
+  "workLog": {
+    "title": "Çalışma Kaydı",
+    "subtitle": "Fotoğrafları ve notları görmek için takvimde raporlu günleri seçin.",
+    "prevMonth": "Önceki ay",
+    "nextMonth": "Sonraki ay",
+    "goToToday": "Bugün",
+    "loadingCalendar": "Çalışma kaydı takvimi yükleniyor...",
+    "entryDialog": {
+      "title": "İş raporu ekle",
+      "countHint": "Bugün {{max}} fotoğraftan {{existing}} tanesi kaydedildi — {{remaining}} tane daha ekleyebilirsiniz.",
+      "photoAlt": "Fotoğraf {{index}}",
+      "takePhoto": "Fotoğraf çek",
+      "pickFromGallery": "Galeriden seç",
+      "captionLabel": "Yapılan işin açıklaması",
+      "captionPlaceholder": "Örn: 2. kat döşemesi betonu döküldü.",
+      "captionHelper": "Bu açıklama bu gruptaki tüm fotoğraflar için kaydedilecek.",
+      "cancel": "Vazgeç",
+      "submitting": "Kaydediliyor...",
+      "submitSingle": "Raporu kaydet",
+      "submitMultiple": "{{count}} fotoğrafı kaydet",
+      "maxPhotosError": "Günde en fazla {{max}} fotoğrafa izin verilir. Bazı fotoğraflar eklenmedi.",
+      "noPhotoError": "Lütfen yapılan işten en az bir fotoğraf seçin."
+    }
+  },
+  "futureActivities": {
+    "title": "Yaklaşan Etkinlikler",
+    "listView": "Liste görünümü",
+    "ganttView": "Gantt görünümü",
+    "tabUpcoming": "Yaklaşan",
+    "tabHistory": "Geçmiş",
+    "showCompleted": "Tamamlananları göster",
+    "historyHint": "Geçmiş, tamamlanmış veya tamamlanmamış tüm önceki etkinlikleri içerir.",
+    "sortAriaLabel": "Sıralama",
+    "sortByDate": "Tarihe göre sırala",
+    "sortByPriority": "Önceliğe göre sırala",
+    "emptyUpcomingTitle": "Henüz etkinlik yok",
+    "emptyHistoryTitle": "Henüz geçmiş yok",
+    "emptyUpcomingDesc": "Gelecek bir gün için etkinlik eklemek üzere aşağıdaki düğmeyi kullanın.",
+    "emptyHistoryDesc": "Geçmiş etkinlikler burada görünecek.",
+    "deleteItemAriaLabel": "{{title}} sil",
+    "toastCreatedMultiple": "{{count}} tekrarlayan etkinlik kaydedildi.",
+    "toastCreated": "Etkinlik kaydedildi.",
+    "toastUpdated": "Değişiklikler kaydedildi.",
+    "toastDeleted": "Etkinlik silindi.",
+    "toastSeriesDeleted": "Bu serideki tüm etkinlikler silindi.",
+    "deleteDialogTitle": "Etkinlik silinsin mi?",
+    "deleteDialogDesc": "Bu etkinlik kalıcı olarak silinecek.",
+    "deleteAction": "Sil",
+    "deleteSeriesDialogTitle": "Bu tekrarlayan etkinliği sil",
+    "deleteSeriesDialogDesc": "Bu etkinlik tekrarlayan bir serinin parçasıdır. Bu serideki tüm etkinlikler (geçmiş ve gelecek) silinecek.",
+    "deleteSeriesAction": "Tüm seriyi sil",
+    "priorityLow": "Düşük",
+    "priorityMedium": "Orta",
+    "priorityHigh": "Yüksek",
+    "priorityLabel": "{{level}} öncelik",
+    "statusCompleted": "Tamamlandı",
+    "statusNotCompleted": "Tamamlanmadı",
+    "daysCount": "{{count}} gün"
+  },
+  "floor": {
+    "nav": {
+      "title": "Dijital Kat Defteri"
+    },
+    "project": {
+      "title": "Proje Katları",
+      "subtitle": "Her katın dijital defterini yönetin",
+      "addFloor": "Kat Ekle",
+      "emptyTitle": "Henüz kat eklenmedi",
+      "emptyDescription": "Başlamak için projenin ilk katını ekleyin.",
+      "floorsCount": "{{count}} kat",
+      "avgProgress": "Ortalama ilerleme"
+    },
+    "usageType": {
+      "residential": "Konut",
+      "office": "Ofis",
+      "commercial": "Ticari",
+      "parking": "Otopark",
+      "storage": "Depo",
+      "utility": "Tesisat",
+      "common": "Ortak alan",
+      "roof": "Çatı",
+      "other": "Diğer"
+    },
+    "status": {
+      "not_started": "Başlamadı",
+      "in_progress": "Devam ediyor",
+      "paused": "Durduruldu",
+      "completed": "Tamamlandı"
+    },
+    "stageStatus": {
+      "not_started": "Başlamadı",
+      "in_progress": "Devam ediyor",
+      "blocked": "Takıldı",
+      "completed": "Tamamlandı"
+    },
+    "taskStatus": {
+      "todo": "Sırada",
+      "in_progress": "Yapılıyor",
+      "blocked": "Takıldı",
+      "done": "Tamamlandı"
+    },
+    "taskPriority": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "critical": "Kritik"
+    },
+    "issueSeverity": {
+      "low": "Düşük",
+      "medium": "Orta",
+      "high": "Yüksek",
+      "critical": "Kritik"
+    },
+    "issueStatus": {
+      "open": "Açık",
+      "in_progress": "İncelemede",
+      "resolved": "Çözüldü",
+      "rejected": "Reddedildi"
+    },
+    "checklistStatus": {
+      "pending": "Bekliyor",
+      "passed": "Onaylandı",
+      "failed": "Reddedildi",
+      "label": "Status"
+    },
+    "planCategory": {
+      "architecture": "Mimari",
+      "structure": "Statik",
+      "electrical": "Elektrik",
+      "mechanical": "Mekanik",
+      "utilities": "Tesisat",
+      "as_built": "Yapıldığı gibi",
+      "detail": "Detay çizimi",
+      "other": "Diğer"
+    },
+    "planStatus": {
+      "draft": "Taslak",
+      "review": "İncelemede",
+      "approved": "Onaylandı",
+      "obsolete": "Geçersiz"
+    },
+    "stageTitle": {
+      "project_start": "İşe başlama",
+      "structure": "Kaba inşaat",
+      "masonry": "Duvar örme",
+      "mep": "Elektrik ve mekanik tesisat",
+      "plaster": "Sıva işleri",
+      "flooring": "Zemin kaplama",
+      "painting": "Boya",
+      "completion": "Tamamlama ve teslim"
+    },
+    "checklistTitle": {
+      "electrical": "Elektrik tesisatı",
+      "mechanical": "Mekanik",
+      "water": "Su tesisatı",
+      "sewage": "Kanalizasyon",
+      "flooring": "Zemin",
+      "walls": "Duvarlar",
+      "ceiling": "Tavan",
+      "doors": "Kapılar",
+      "windows": "Pencereler",
+      "painting": "Boya",
+      "cleaning": "Son temizlik",
+      "defect_fixing": "Kusur giderme"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "Yeni kat",
+        "editTitle": "Katı düzenle",
+        "name": "Kat adı",
+        "namePlaceholder": "örn. Üçüncü kat",
+        "number": "Kat numarası",
+        "usageType": "Kullanım türü",
+        "area": "Alan (m²)",
+        "height": "Yükseklik (m)",
+        "description": "Açıklama",
+        "status": "Durum",
+        "save": "Kaydet",
+        "cancel": "Vazgeç",
+        "unitType": "Birim türü",
+        "unitCount": "Birim sayısı",
+        "unitCountError": "Birim sayısı en az 1 olmalıdır."
+      },
+      "stage": {
+        "editTitle": "Aşamayı düzenle",
+        "addTitle": "Yeni özel aşama",
+        "title": "Aşama başlığı",
+        "weight": "İlerleme hesabındaki ağırlık",
+        "status": "Durum",
+        "startDate": "Başlangıç tarihi",
+        "endDate": "Bitiş tarihi",
+        "description": "Açıklama",
+        "manualProgress": "Manuel ilerleme %",
+        "progressMode": "İlerleme hesaplama şekli",
+        "progressModeCalculated": "Görevlerden otomatik",
+        "progressModeManual": "Manuel",
+        "save": "Kaydet",
+        "cancel": "Vazgeç"
+      },
+      "task": {
+        "addTitle": "Yeni görev",
+        "editTitle": "Görevi düzenle",
+        "title": "Görev başlığı",
+        "stage": "Aşama",
+        "noStage": "Aşama yok",
+        "priority": "Öncelik",
+        "status": "Durum",
+        "worker": "Sorumlu işçi",
+        "noWorker": "Atanmadı",
+        "startDate": "Başlangıç tarihi",
+        "dueDate": "Son tarih",
+        "estimatedCost": "Tahmini maliyet",
+        "actualCost": "Gerçek maliyet",
+        "note": "Not",
+        "progress": "İlerleme %",
+        "save": "Kaydet",
+        "cancel": "Vazgeç",
+        "noTask": "Görev yok",
+        "description": "Açıklama"
+      },
+      "plan": {
+        "addTitle": "Plan ekle",
+        "editTitle": "Planı düzenle",
+        "title": "Plan başlığı",
+        "category": "Kategori",
+        "code": "Plan kodu",
+        "revision": "Revizyon numarası",
+        "status": "Durum",
+        "designer": "Tasarımcı",
+        "date": "Tarih",
+        "description": "Açıklama",
+        "file": "Plan dosyası (görsel)",
+        "newRevisionOf": "Bu planın yeni revizyonu",
+        "save": "Kaydet",
+        "cancel": "Vazgeç"
+      },
+      "issue": {
+        "addTitle": "Sorun bildir",
+        "editTitle": "Sorunu düzenle",
+        "title": "Sorun başlığı",
+        "description": "Açıklama",
+        "severity": "Önem derecesi",
+        "status": "Durum",
+        "stage": "İlgili aşama",
+        "task": "İlgili görev",
+        "assignedWorker": "Çözümden sorumlu",
+        "dueDate": "Çözüm tarihi",
+        "resolutionNote": "Çözüm notu",
+        "save": "Kaydet",
+        "cancel": "Vazgeç",
+        "noTask": "Görev yok"
+      },
+      "worker": {
+        "addTitle": "Kata işçi ekle",
+        "worker": "İşçi",
+        "role": "Bu kattaki rolü",
+        "rolePlaceholder": "örn. Tesisat taşeronu",
+        "stage": "İlgili aşama (isteğe bağlı)",
+        "save": "Ekle",
+        "cancel": "Vazgeç"
+      },
+      "checklistItem": {
+        "addTitle": "Kontrol listesine öğe ekle",
+        "title": "Başlık",
+        "save": "Ekle",
+        "cancel": "Vazgeç",
+        "edit": "Edit item",
+        "worker": "Responsible",
+        "note": "Note"
+      }
+    },
+    "tabs": {
+      "overview": "Genel bakış",
+      "tasks": "Görevler",
+      "docs": "Plan ve fotoğraflar",
+      "issues": "Raporlar ve sorunlar",
+      "finance": "Mali ve ekip"
+    },
+    "overview": {
+      "kpiProgress": "Genel ilerleme",
+      "kpiOpenTasks": "Açık görevler",
+      "kpiOpenIssues": "Açık sorunlar",
+      "kpiHealth": "Kat sağlığı",
+      "timelineTitle": "Aşama zaman çizelgesi",
+      "activityTitle": "Son etkinlikler",
+      "activityEmpty": "Henüz bir etkinlik kaydedilmedi.",
+      "tasksCount": "{{count}} görev",
+      "readyForNext": "Sonraki aşamaya hazır",
+      "remainingItems": "{{count}} öğe kaldı",
+      "kpiCost": "Kat Maliyeti"
+    },
+    "tasksTab": {
+      "title": "Bu kattaki görevler",
+      "addTask": "Yeni görev",
+      "empty": "Bu kat için henüz görev kaydedilmedi.",
+      "filterAll": "Tümü",
+      "checklistTitle": "Teslim kontrol listesi",
+      "checklistAddItem": "Öğe ekle",
+      "filterStatus": "Durum filtresi",
+      "filterPriority": "Öncelik filtresi",
+      "sort": "Sıralama",
+      "sortNewest": "En yeni",
+      "sortDueDate": "En yakın son tarih",
+      "sortProgress": "En yüksek ilerleme",
+      "all": "Tümü",
+      "taskPhotos": "Görev fotoğrafları"
+    },
+    "docsTab": {
+      "plansTitle": "Planlar",
+      "addPlan": "Plan ekle",
+      "plansEmpty": "Henüz plan yüklenmedi.",
+      "activeRevision": "Aktif revizyon",
+      "oldRevision": "Eski revizyon",
+      "viewRevisions": "Revizyon geçmişi",
+      "photosTitle": "Kat fotoğrafları",
+      "phaseBefore": "Before",
+      "phaseDuring": "During",
+      "phaseAfter": "After",
+      "comparePhases": "Önce/Sıra/Son Karşılaştır",
+      "compareTitle": "Fotoğraf Karşılaştırma",
+      "revisionLabel": "Rev."
+    },
+    "issuesTab": {
+      "title": "Sorunlar ve kusurlar",
+      "addIssue": "Sorun bildir",
+      "empty": "Bu kat için sorun kaydedilmedi.",
+      "activityTitle": "Olay kaydı",
+      "issuePhotos": "Sorun fotoğrafları"
+    },
+    "financeTab": {
+      "linkedTotal": "Kasa defterine kaydedilen toplam",
+      "workersTitle": "Bu kattaki işçiler",
+      "addWorker": "İşçi ekle",
+      "workersEmpty": "Bu kata henüz işçi eklenmedi.",
+      "taskCostsTitle": "Görev maliyet tahmini",
+      "estimatedTotal": "Tahmini toplam",
+      "actualTotal": "Gerçek toplam",
+      "todayCost": "Today",
+      "costPerSquareMeter": "Cost / m²",
+      "stageCosts": "Cost by stage"
+    },
+    "activity": {
+      "floorCreated": "«{{name}}» katı oluşturuldu.",
+      "floorStatusChanged": "Kat durumu «{{status}}» olarak değişti.",
+      "stageStarted": "Aşama başladı.",
+      "stageCreated": "\"{{title}}\" aşaması oluşturuldu.",
+      "stageCompleted": "Aşama tamamlandı.",
+      "stageDeleted": "\"{{title}}\" aşaması silindi.",
+      "stageBlocked": "Aşama takıldı.",
+      "taskCreated": "«{{title}}» görevi oluşturuldu.",
+      "taskCompleted": "«{{title}}» görevi tamamlandı.",
+      "planUploaded": "«{{title}}» planı yüklendi.",
+      "photoAdded": "Yeni bir fotoğraf eklendi.",
+      "issueCreated": "«{{title}}» sorunu bildirildi.",
+      "issueResolved": "«{{title}}» sorunu çözüldü.",
+      "checklistUpdated": "Kontrol listesi güncellendi.",
+      "workerAssigned": "{{name}} bu kata eklendi.",
+      "cashbookLinked": "Bir kasa defteri işlemi bu kata bağlandı.",
+      "reportSaved": "{{date}} çalışma raporu kaydedildi."
+    },
+    "dialogs": {
+      "deleteFloorTitle": "Katı sil",
+      "deleteFloorMessage": "Bu kat silindiğinde tüm aşamaları, görevleri, planları, sorunları ve kontrol listesi silinir. İşçiler, mali işlemler ve fotoğraflar silinmez, yalnızca bu katla bağlantıları kaldırılır. Bu işlem geri alınamaz.",
+      "deleteStageMessage": "Bu aşama silinecek; ilişkili görevler ve planlar silinmez, yalnızca bağlantıları kaldırılır.",
+      "deleteTaskMessage": "Bu görev silinsin mi?",
+      "deleteIssueMessage": "Bu sorun silinsin mi?",
+      "deletePlanMessage": "Bu plan silinsin mi?",
+      "removeWorkerMessage": "Bu işçi bu kattan kaldırılsın mı?",
+      "confirm": "Onayla",
+      "cancel": "Vazgeç"
+    },
+    "toasts": {
+      "floorCreated": "Kat oluşturuldu.",
+      "floorUpdated": "Kat güncellendi.",
+      "floorDeleted": "Kat silindi.",
+      "stageUpdated": "Aşama güncellendi.",
+      "taskCreated": "Görev oluşturuldu.",
+      "taskUpdated": "Görev güncellendi.",
+      "taskDeleted": "Görev silindi.",
+      "planCreated": "Plan eklendi.",
+      "planDeleted": "Plan silindi.",
+      "issueCreated": "Sorun oluşturuldu.",
+      "issueUpdated": "Sorun güncellendi.",
+      "issueDeleted": "Sorun silindi.",
+      "workerAdded": "İşçi eklendi.",
+      "workerRemoved": "İşçi kaldırıldı.",
+      "checklistItemAdded": "Kontrol listesi öğesi eklendi.",
+      "checklistUpdated": "Checklist item updated.",
+      "floorDuplicated": "Kat başarıyla çoğaltıldı."
+    },
+    "dashboard": {
+      "title": "Dijital kat defteri",
+      "subtitle": "{{count}} kat · ortalama ilerleme %{{progress}}",
+      "empty": "Henüz kat kaydedilmedi.",
+      "viewAll": "Tümünü gör",
+      "openTasks": "Open tasks: {{count}}",
+      "lastActivity": "Last activity"
+    },
+    "search": {
+      "floor": "Kat",
+      "floorTask": "Kat görevi",
+      "floorIssue": "Kat sorunu",
+      "floorPlan": "Kat planı",
+      "floorReport": "Kat raporu"
+    },
+    "backButton": "Geri",
+    "editFloor": "Katı düzenle",
+    "deleteFloor": "Katı sil",
+    "health": {
+      "dialogTitle": "Sağlık puanı neden bu sayı?",
+      "startScore": "100'den başlar",
+      "noPenalties": "Aktif ceza faktörü yok — tam puan.",
+      "resultScore": "Son puan: {{score}}",
+      "factors": {
+        "criticalIssues": "Açık kritik sorun ({{count}}× -15)",
+        "otherOpenIssues": "Diğer açık sorun ({{count}}× -5)",
+        "blockedStages": "Tıkanmış aşama ({{count}}× -10)",
+        "overdueTasks": "Süresi geçmiş görev ({{count}}× -5)",
+        "failedChecklist": "Başarısız kontrol listesi öğesi ({{count}}× -8)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "Linked reports",
+      "addReport": "Add report",
+      "date": "Report date",
+      "stage": "Related stage",
+      "noStage": "No stage",
+      "description": "Report description",
+      "reportSaved": "Report linked to the floor notebook.",
+      "linkedToFloor": "Linked to floor",
+      "emptyReport": "No description",
+      "emptyReports": "No reports have been linked to this floor yet.",
+      "activitiesTitle": "Scheduled activities",
+      "addActivity": "Add activity",
+      "activityTitle": "Activity title",
+      "activitySaved": "Activity added.",
+      "emptyActivities": "No activities have been scheduled for this floor yet.",
+      "completed": "Completed",
+      "export": "Export notebook"
+    },
+    "actions": {
+      "addStage": "Add stage",
+      "moveStageUp": "Aşamayı yukarı taşı",
+      "moveStageDown": "Aşamayı aşağı taşı",
+      "deleteStage": "Delete stage",
+      "deleteStageMessage": "Delete this stage? Task and plan links will be cleared, but the data itself will not be deleted.",
+      "exportNotebook": "Export notebook"
+    },
+    "planViewer": {
+      "view": "View plan",
+      "download": "Download",
+      "noPreview": "No preview available."
+    },
+    "handover": {
+      "handover": "Teslime hazır",
+      "needsFix": "Düzeltme gerekiyor",
+      "handoverReady": "Bu kat teslime hazır.",
+      "handoverNeedsFix": "Teslimden önce açık veya başarısız maddeleri kontrol edin.",
+      "checklistProgress": "Teslim kontrol listesi: {{total}} maddeden {{passed}} onaylandı"
+    },
+    "checklist": {
+      "photos": "Kontrol listesi fotoğrafları"
+    },
+    "duplicateFloor": "Katı çoğalt",
+    "checklistProgress": {
+      "completedCount": "{{total}} üzerinden {{completed}} tamam",
+      "failedCount": "{{count}} başarısız"
+    },
+    "unitType": {
+      "single": "Tek birim",
+      "multi": "Çok birimli"
+    }
+  },
+  "timeRange": {
+    "all": "Tüm zamanlar",
+    "today": "Bugün",
+    "week": "Bu hafta",
+    "month": "Bu ay",
+    "lastMonth": "Geçen ay",
+    "ariaLabel": "Zaman aralığı filtresi",
+    "last7Days": "Son 7 gün"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "Aramayı kapat",
+    "placeholder": "İşçi, işlem, faaliyet veya ekipman ara...",
+    "quickAccess": "Hızlı erişim",
+    "recentSearches": "Son aramalar",
+    "clearRecentSearches": "Son aramaları temizle",
+    "shortcutWorkers": "İşçiler",
+    "shortcutCashbook": "Kasa defteri",
+    "shortcutActivities": "Yaklaşan faaliyetler",
+    "shortcutEquipment": "Şantiye ekipmanı",
+    "minCharsHint": "En az 2 karakter yazın.",
+    "emptyTitle": "Sonuç bulunamadı",
+    "emptyDescription": "İşçi adı, işlem başlığı, faaliyet başlığı veya ekipman adına göre arayın.",
+    "activityCompletedSuffix": " — tamamlandı",
+    "openTasksSuffix": "açık görev"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "Gider",
+      "salary": "Maaş ödemesi",
+      "deposit": "Yatırım / gelir"
+    }
+  },
+  "notificationSettings": {
+    "title": "Yaklaşan faaliyet hatırlatmaları",
+    "description": "Etkinleştirildiğinde, her yaklaşan faaliyet için (belirlenen tarih/saatte, saat belirtilmemişse sabah 8'de) telefonunuzda yerel bir bildirim gösterilir — tamamen çevrimdışı.",
+    "nativeOnly": "Bildirimler yalnızca Android'e yüklenmiş sürümde kullanılabilir.",
+    "toggleLabel": "Faaliyetleri bildirimle hatırlat",
+    "syncing": "Hatırlatmalar senkronize ediliyor...",
+    "permissionDenied": "Bildirim izni verilmedi. Android ayarlarından etkinleştirin.",
+    "enabledToast": "Faaliyet hatırlatmaları açıldı.",
+    "disabledToast": "Faaliyet hatırlatmaları kapatıldı.",
+    "sendTest": "Test bildirimi gönder",
+    "sendingTest": "Gönderiliyor...",
+    "testSentToast": "Test bildirimi gönderildi — birkaç saniye içinde görünmeli."
+  },
+  "attendance": {
+    "form": {
+      "title": "Yoklama kaydet",
+      "dateLabel": "Tarih",
+      "checkInLabel": "Giriş saati",
+      "checkOutLabel": "Çıkış saati",
+      "noteLabel": "Not (isteğe bağlı)",
+      "cancel": "Vazgeç",
+      "submit": "Yoklamayı kaydet",
+      "validationError": "En az giriş veya çıkış saatini girin.",
+      "suggestionDefaultShift": "Bu işçinin varsayılan vardiyasına göre dolduruldu; gerekirse değiştirin.",
+      "suggestionLastAttendance": "Bu işçinin son kaydedilen yoklamasına göre dolduruldu; gerekirse değiştirin."
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "Fotoğraf ekle",
+      "pickPhotos": "Bir veya birden fazla fotoğraf seçin",
+      "selectedCount": "{{count}} fotoğraf seçildi",
+      "addMore": "Daha fazla ekle",
+      "dateLabel": "Fotoğraf tarihi",
+      "captionLabel": "Açıklama (isteğe bağlı, tüm fotoğraflar için)",
+      "cancel": "Vazgeç",
+      "uploading": "Yükleniyor...",
+      "addSingle": "Ekle",
+      "addMultiple": "{{count}} fotoğraf ekle",
+      "noPhotoError": "Lütfen en az bir fotoğraf seçin."
+    },
+    "gallery": {
+      "cancelSelection": "Seçimi iptal et",
+      "selectedCount": "{{count}} fotoğraf seçildi",
+      "selectAll": "Tümünü seç",
+      "deleteSelected": "Seçili fotoğrafları sil",
+      "loading": "Fotoğraflar yükleniyor...",
+      "emptyTitle": "Henüz fotoğraf yok.",
+      "emptyDescription": "İlk fotoğrafı eklemek için + butonunu kullanın.",
+      "addPhotoAria": "Fotoğraf ekle",
+      "uploadingProgress": "{{total}} üzerinden {{done}} yükleniyor...",
+      "uploadedSingle": "Fotoğraf başarıyla eklendi.",
+      "uploadedMultiple": "{{count}} fotoğraf başarıyla eklendi.",
+      "uploadedPartial": "{{total}} fotoğraftan {{success}} tanesi eklendi; {{failed}} tanesi başarısız oldu.",
+      "deletedSingle": "Fotoğraf silindi.",
+      "deletedMultiple": "{{count}} fotoğraf silindi.",
+      "deletedPartial": "{{total}} fotoğraftan {{success}} tanesi silindi; {{failed}} tanesi başarısız oldu.",
+      "deleteConfirmTitle": "Fotoğrafı sil",
+      "deleteConfirmDescription": "Bu fotoğrafı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "deleteAction": "Sil",
+      "bulkDeleteConfirmTitle": "{{count}} fotoğrafı sil",
+      "bulkDeleteConfirmDescription": "Seçili {{count}} fotoğrafı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "bulkDeleteConfirmAction": "{{count}} fotoğrafı sil"
+    },
+    "lightbox": {
+      "shareTitle": "Fotoğrafı paylaş"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "Mola kaydet",
+    "workerLabel": "İşçi",
+    "legalRightNote": "Bu süre işçinin yasal hakkıdır ve maaştan kesilmez.",
+    "typeBreakfast": "Kahvaltı",
+    "typeLunch": "Öğle yemeği",
+    "typeOther": "Diğer",
+    "noHistoryHint": "Bu işçi için bu mola türüne ait geçmiş yok; saati manuel girin — bir sonraki sefer önerilecektir.",
+    "startTimeLabel": "Başlangıç saati",
+    "endTimeLabel": "Bitiş saati",
+    "noteLabel": "Not (isteğe bağlı)",
+    "cancel": "Vazgeç",
+    "submit": "Molayı kaydet",
+    "validationError": "Başlangıç ve bitiş saati zorunludur."
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "İşçiye ekipman ata",
+      "equipmentLabel": "Ekipman",
+      "selectPlaceholder": "Seçin",
+      "availableCount": "Mevcut: {{count}} {{unit}}",
+      "workerLabel": "İşçi",
+      "quantityLabel": "Miktar",
+      "dateLabel": "Teslim tarihi",
+      "noteLabel": "Not (isteğe bağlı)",
+      "cancel": "Vazgeç",
+      "submit": "Teslim et",
+      "selectionRequired": "Ekipman ve işçi seçimi zorunludur.",
+      "quantityInvalid": "Miktar sıfırdan büyük olmalıdır.",
+      "insufficientStock": "Yeterli stok yok. Mevcut: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "Henüz ekipman teslim edilmedi.",
+      "emptyDescription": "+ butonuyla işçiye ekipman teslim edin.",
+      "workerLabel": "İşçi",
+      "quantityLabel": "Miktar",
+      "assignedDateLabel": "Teslim tarihi",
+      "returnedOn": "İade edildi: {{date}}",
+      "withWorker": "İşçide",
+      "daysInUse": "{{count}} gün işçide",
+      "returnAction": "İade et",
+      "fabAriaLabel": "Ekipman teslim et",
+      "toastAssigned": "Ekipman teslim edildi.",
+      "toastReturned": "Ekipman iadesi kaydedildi."
+    },
+    "pageTitle": "Saha ekipmanları",
+    "inventoryTab": "Envanter",
+    "assignTab": "İşçiye teslim"
+  },
+  "optionalLeave": {
+    "createTitle": "İzin kaydet",
+    "editTitle": "İzni düzenle",
+    "typeLabel": "İzin türü",
+    "type": {
+      "sick": "Hastalık izni",
+      "personal": "Kişisel izin",
+      "mission": "Görev",
+      "unpaid": "Ücretsiz izin",
+      "other": "Diğer"
+    },
+    "isPaidLabel": "Ücretli (normal iş günü gibi sayılır)",
+    "noteLabel": "Not (isteğe bağlı)",
+    "cancel": "Vazgeç",
+    "saving": "Kaydediliyor...",
+    "save": "Kaydet"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "Nöbet kaydet",
+      "editTitle": "Nöbeti düzenle",
+      "workerLabel": "İşçi",
+      "usePreviousShift": "Önceki vardiyayı kullan ({{start}} - {{end}})",
+      "startTimeLabel": "Nöbet başlangıç saati",
+      "endTimeLabel": "Nöbet bitiş saati",
+      "endTimeHelper": "Nöbet gece yarısını geçiyorsa, bitiş saati başlangıç saatinden küçük olabilir.",
+      "noteLabel": "Not (isteğe bağlı)",
+      "cancel": "Vazgeç",
+      "saveChanges": "Değişiklikleri kaydet",
+      "submit": "Nöbeti kaydet",
+      "validationError": "Nöbet başlangıç ve bitiş saati zorunludur."
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "Kasaları yönet",
+    "description": "Her kasa bağımsız bir hesaptır (örn. 'Şantiye nakit', 'Banka hesabı'). Her kasanın işlemleri ve bakiyesi diğerlerinden tamamen ayrı hesaplanır.",
+    "isDefaultTitle": "Varsayılan kasa",
+    "setDefaultTitle": "Varsayılan olarak ayarla",
+    "cannotDeleteDefault": "Varsayılan kasa silinemez",
+    "deleteTitle": "Kasayı sil",
+    "defaultChip": "Varsayılan",
+    "newFundPlaceholder": "Yeni kasa adı",
+    "add": "Ekle",
+    "close": "Kapat",
+    "deleteConfirmTitle": "Kasayı sil",
+    "deleteConfirmDescription": "'{{name}}' kasasını silmek istediğinizden emin misiniz? Bu kasada işlem varsa silinemez.",
+    "toastCreated": "Yeni kasa eklendi.",
+    "toastDefaultChanged": "Varsayılan kasa değiştirildi.",
+    "toastDeleted": "Kasa silindi."
+  },
+  "jobType": {
+    "createTitle": "Yeni meslek türü ekle",
+    "editTitle": "Mesleği düzenle",
+    "nameLabel": "Meslek adı",
+    "descriptionLabel": "Açıklama",
+    "categoryLabel": "Kategori",
+    "iconLabel": "Simge",
+    "wageNoteLabel": "Yaygın ücret hesaplama notu (isteğe bağlı)",
+    "wageNoteHelper": "İşçi ekleme formunda bu meslek yanında gösterilen kısa bir not.",
+    "suggestedMethodsLabel": "Önerilen ödeme yöntemleri",
+    "cancel": "Vazgeç",
+    "saving": "Kaydediliyor...",
+    "save": "Kaydet",
+    "toastCreated": "Yeni meslek oluşturuldu.",
+    "toastUpdated": "Meslek güncellendi.",
+    "category": {
+      "structure": "Yapı",
+      "masonry": "Duvarcılık",
+      "finishing": "İnce işler",
+      "flooring": "Zemin kaplama",
+      "mep": "Tesisat",
+      "installation": "Montaj",
+      "sitework": "Genel şantiye",
+      "other": "Diğer"
+    },
+    "emptyTitle": "Henüz meslek tanımlanmadı",
+    "builtInChip": "Varsayılan",
+    "editAction": "Düzenle",
+    "duplicateAction": "Kopyala",
+    "restoreAction": "Geri yükle",
+    "deleteAction": "Sil",
+    "deleteConfirmTitle": "Mesleği sil",
+    "deleteConfirmDescription": "'{{name}}' silinsin mi? Bu mesleğe sahip işçiler etkilenmez, yalnızca bu meslek seçim listesinde görünmez.",
+    "restoreConfirmTitle": "Varsayılana geri yükle",
+    "restoreConfirmDescription": "'{{name}}' orijinal haline (herhangi bir düzenlemeden önceki) geri döndürülecek.",
+    "toastDeleted": "Meslek silindi.",
+    "toastRestored": "Meslek varsayılana geri yüklendi.",
+    "toastDuplicated": "Meslek kopyalandı."
+  },
+  "ledgerEntry": {
+    "dialogTitle": "Hesap işlemi kaydet",
+    "workerLabel": "İşçi",
+    "typeAdvance": "Avans",
+    "typeAdvanceHelper": "İşçiye önceden ödenen ve maaşından kesilecek tutar",
+    "typeDeduction": "Manuel kesinti",
+    "typeDeductionHelper": "Örn. maaştan kesilecek devamsızlık saatleri",
+    "typeCredit": "Ek alacak",
+    "typeCreditHelper": "Normal maaşına ek olarak işçiye ödenmesi gereken tutar",
+    "cashbookCheckboxAdvance": "Bu tutar kasa defteri bakiyesinden de düşülsün",
+    "cashbookCheckboxDeduction": "Bu tutar kasa defterine 'gider' olarak da kaydedilsin",
+    "amountLabel": "Tutar",
+    "dateLabel": "Tarih",
+    "descriptionLabel": "Not (isteğe bağlı)",
+    "cancel": "Vazgeç",
+    "submit": "Kaydet",
+    "validationError": "Tutar pozitif bir sayı olmalıdır."
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "İşçi seç",
+      "selectWorkerPlaceholder": "Bir işçi seçin",
+      "fromDateLabel": "Başlangıç tarihi",
+      "toDateLabel": "Bitiş tarihi",
+      "toSeparator": "-",
+      "exportingPdf": "PDF oluşturuluyor...",
+      "downloadPdf": "PDF indir",
+      "presentDaysTitle": "Devam günleri",
+      "totalWorkHoursTitle": "Toplam çalışma saati",
+      "totalTimeLossTitle": "Toplam kayıp zaman",
+      "totalBreakTitle": "Toplam izinli mola",
+      "guardDutySalaryTitle": "Nöbet ücreti ({{count}} nöbet)",
+      "calendarView": "Takvim",
+      "listView": "Liste",
+      "dailyDetailsTitle": "Günlük detaylar",
+      "noRecordsInRange": "Bu aralıkta kayıt yok.",
+      "usefulTimeLabel": "Verimli",
+      "guardDutySuffix": "nöbet"
+    },
+    "monthly": {
+      "emptySelectTitle": "Bir işçi seçin",
+      "emptySelectDescription": "Aylık raporu görmek için bir işçi ve tarih aralığı seçin.",
+      "pdfFilenamePrefix": "aylik-rapor",
+      "rangeLabel": "Aralık",
+      "presentDaysValue": "{{count}} gün",
+      "totalSalaryTitle": "Toplam normal ücret"
+    },
+    "weekly": {
+      "emptySelectTitle": "Bir işçi seçin",
+      "emptySelectDescription": "Haftalık raporu görmek için önce bir işçi seçin.",
+      "pdfFilenamePrefix": "haftalik-rapor",
+      "weekLabel": "Hafta:",
+      "presentDaysValue": "7 günden {{count}}",
+      "totalSalaryTitle": "Bu haftaki toplam ücret",
+      "dailyDetailsTitle": "Haftanın günlük detayları",
+      "noRecordsInRange": "Bu hafta kayıt yok.",
+      "previousWeekAria": "Önceki hafta",
+      "nextWeekAria": "Sonraki hafta",
+      "currentWeekAria": "Bu hafta"
+    },
+    "tabs": {
+      "dailyMonthly": "Günlük ve aylık",
+      "payroll": "İşçi maaşları",
+      "cashbook": "Kasa defteri"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "Günlük",
+      "weeklyToggle": "Haftalık",
+      "monthlyToggle": "Aylık"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "İşçilere git",
+      "hint": "Bir işçinin bakiyesini görmek ve kapatmak için \"Saha kaynakları ← İşçiler\" bölümünden adına dokunun."
+    }
+  },
+  "cloudBackup": {
+    "title": "Bulut yedekleme (isteğe bağlı)",
+    "descriptionBeforeLink": "Yerel yedeklemeye ek olarak, verilerinizin şifrelenmiş bir kopyasını her 24 saatte bir otomatik olarak ücretsiz bir",
+    "descriptionAfterLink": "hesabına (bağımsız bir bulut hizmeti) kaydedebilirsiniz. Bu tamamen isteğe bağlıdır; uygulama onsuz da tamamen çevrimdışı çalışır.",
+    "enableLabel": "Bulut yedeklemeyi etkinleştir",
+    "urlLabel": "Supabase proje URL'si",
+    "keyLabel": "Supabase anahtarı (Publishable / anon)",
+    "intervalLabel": "Bulut yedekleme aralığı",
+    "interval12h": "Her 12 saatte",
+    "interval24h": "Günlük (24 saat)",
+    "interval3d": "Her 3 günde",
+    "intervalWeekly": "Haftalık",
+    "testConnection": "Bağlantıyı test et",
+    "restoreAction": "Bulut yedeğinden geri yükle",
+    "lastBackupLabel": "Son başarılı bulut yedeği",
+    "sqlGuideTitle": "Supabase'de tablo oluşturma rehberi",
+    "sqlGuideDescription": "Supabase projenizin SQL Editor'ünde bu komutu bir kez çalıştırın:",
+    "saveSettings": "Ayarları kaydet",
+    "restoreConfirmTitle": "Bulut yedeğinden geri yükle",
+    "restoreConfirmDescription": "Bulut yedeğinden geri yükleme, bu cihazdaki tüm mevcut verileri buluttaki en son sürümle değiştirir. Bu geri alınamaz. Devam edilsin mi?",
+    "toastSettingsSaved": "Bulut yedekleme ayarları kaydedildi.",
+    "toastRestoreSuccess": "Bulut yedeğinden geri yükleme başarıyla tamamlandı. Uygulama yeniden yüklenecek...",
+    "settingsNotLoadedError": "Ayarlar henüz yüklenmedi."
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "-"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "İşler ve ücretler",
+    "jobsTab": "İşler",
+    "methodsTab": "Hesaplama yöntemleri"
+  },
+  "charts": {
+    "monthlySalaryTitle": "Bu aralık için günlük ücret grafiği",
+    "salaryLabel": "Ücret",
+    "dateLabelPrefix": "Tarih",
+    "weeklyTrendTitle": "Son 7 gün eğilimi (verimli saatler)",
+    "usefulHoursLabel": "Verimli saatler",
+    "hourUnitSuffix": "{{value}} saat"
+  },
+  "voiceNote": {
+    "sectionTitle": "Sesli Notlar",
+    "record": "Kaydet",
+    "recording": "Kaydediliyor",
+    "unsupported": "Bu cihazda ses kaydı desteklenmiyor.",
+    "permissionDenied": "Mikrofon erişimi reddedildi.",
+    "tooShort": "Kayıt çok kısaydı, tekrar deneyin.",
+    "empty": "Henüz sesli not yok."
+  }
+}

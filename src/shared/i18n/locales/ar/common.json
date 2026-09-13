@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "required": "هذا الحقل مطلوب.",
+    "close": "إغلاق",
+    "menu": "القائمة",
+    "notFound": "غير موجود",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "retry": "إعادة المحاولة",
+    "error": "خطأ",
+    "scrollToTop": "العودة إلى الأعلى",
+    "delete": "حذف",
+    "clearSearch": "مسح البحث",
+    "usePreviousText": "استخدام النص السابق",
+    "exportMenu": {
+      "label": "تصدير",
+      "exporting": "جارٍ الإنشاء...",
+      "shareImage": "مشاركة الصورة",
+      "shareExcel": "مشاركة إكسل (CSV)",
+      "saveToDeviceHeader": "حفظ في ذاكرة الجهاز",
+      "saveImage": "حفظ الصورة في الجهاز",
+      "saveExcel": "حفظ إكسل في الجهاز"
+    },
+    "photo": {
+      "heicUnavailable": "معاينة HEIC غير متاحة",
+      "retryPreviewTooltip": "إعادة محاولة إنشاء المعاينة",
+      "defaultAlt": "صورة"
+    }
+  },
+  "app": {
+    "name": "مساعد مشرف الورشة"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "resources": "الفريق والمعدات",
+    "activities": "الأنشطة",
+    "reports": "الإدارة"
+  },
+  "topbar": {
+    "offlineTooltip": "لا يوجد اتصال بالإنترنت — هذا طبيعي؛ يعمل هذا التطبيق دون اتصال بالكامل وتُحفظ جميع البيانات هنا على هاتفك.",
+    "offlineAria": "بدون إنترنت (غير متصل)",
+    "search": "بحث",
+    "settings": "الإعدادات",
+    "project": {
+      "switcherAria": "تبديل المشروع",
+      "newProject": "مشروع جديد",
+      "renameProject": "تعديل المشروع",
+      "deleteProject": "حذف المشروع",
+      "dialogCreateTitle": "مشروع جديد",
+      "dialogEditTitle": "تعديل المشروع",
+      "nameLabel": "اسم المشروع",
+      "locationLabel": "موقع المشروع (اختياري)",
+      "supervisorLabel": "اسم المشرف (اختياري)",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "deleteConfirm": "حذف المشروع «{{name}}»؟ بيانات الطوابق/العمال/الصندوق لن تُحذف، فقط لن تظهر في هذا المشروع.",
+      "cannotDeleteLast": "لا يمكن حذف آخر مشروع متبقٍ.",
+      "nameRequired": "لا يمكن أن يكون اسم المشروع فارغًا."
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "languageSection": {
+      "title": "اللغة والعملة",
+      "languageLabel": "لغة التطبيق",
+      "currencyLabel": "العملة",
+      "description": "عند تغيير اللغة، يتم ضبط اتجاه الصفحة والتقويم (فارسي/ميلادي) تلقائيًا."
+    },
+    "aboutSection": {
+      "title": "حول التطبيق",
+      "appName": "مساعد مشرف الورشة (كارگاه‌یار)",
+      "versionLabel": "إصدار التطبيق",
+      "description": "هذا التطبيق يعمل بالكامل دون اتصال بالإنترنت وجميع بياناتك تُخزَّن فقط على هذا الهاتف."
+    },
+    "projectsSection": {
+      "title": "المشاريع",
+      "description": "يمكنك التبديل بين عدة مشاريع/ورش أو إنشاء مشروع جديد. لكل مشروع طوابقه ودفتر حسابه الخاص."
+    }
+  },
+  "currency": {
+    "IRT": "تومان إيراني",
+    "USD": "دولار أمريكي",
+    "SAR": "ريال سعودي",
+    "TRY": "ليرة تركية",
+    "PKR": "روبية باكستانية",
+    "IQD": "دينار عراقي",
+    "AFN": "أفغاني أفغانستاني",
+    "RUB": "روبل روسي"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "تلقائي (حسب الجهاز)"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "quickBackup": "نسخ احتياطي سريع",
+    "shareSummary": "مشاركة ملخص اليوم",
+    "loading": "جارٍ تحميل لوحة التحكم...",
+    "quickActions": {
+      "workLog": "تسجيل تقرير العمل",
+      "attendance": "الحضور والغياب",
+      "addTransaction": "إضافة معاملة"
+    },
+    "stats": {
+      "presentWorkers": "العمال الحاضرون",
+      "absentWorkers": "العمال الغائبون",
+      "totalHoursToday": "إجمالي ساعات العمل اليوم",
+      "totalTimeLossToday": "إجمالي وقت التعطل اليوم",
+      "todaySalary": "مبلغ الأجور المستحقة اليوم",
+      "personUnit": "شخص",
+      "onLeaveSuffix": "إجازة"
+    },
+    "recentActivities": "آخر الأنشطة",
+    "noActivitiesYet": "لم يتم تسجيل أي نشاط بعد.",
+    "noWorkersAlert": "لم تقم بإضافة أي عامل بعد. ابدأ من تبويب «الموارد».",
+    "shareCopied": "تم نسخ ملخص اليوم.",
+    "shareCopyUnsupported": "النسخ التلقائي غير مدعوم.",
+    "backupReadyNative": "ملف النسخ الاحتياطي جاهز. احفظه أو شاركه.",
+    "backupReadyWeb": "تم تنزيل النسخة الاحتياطية بنجاح.",
+    "todayWorkLog": {
+      "title": "سجل عمل اليوم",
+      "photoCountSuffix": "تم تسجيل {{count}} صورة",
+      "noPhotos": "بدون صور",
+      "emptyHint": "لم يتم تسجيل أي تقرير لهذا اليوم بعد — اضغط لإضافة صورة أو ملاحظة."
+    },
+    "upcomingActivities": {
+      "title": "الأنشطة القادمة",
+      "overdueChip": "{{count}} متأخر",
+      "emptyHint": "لم يتم تسجيل أي نشاط قادم — اضغط للإضافة."
+    }
+  },
+  "resources": {
+    "title": "فريق ومعدات الورشة",
+    "tabs": {
+      "workers": "العمال",
+      "attendance": "الحضور والغياب",
+      "equipment": "المعدات",
+      "cashbook": "دفتر الحسابات"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "سجل العمل",
+      "upcoming": "الجدول الزمني"
+    }
+  },
+  "workers": {
+    "pageTitle": "إدارة العمال",
+    "searchPlaceholder": "ابحث بالاسم أو المنصب أو رقم الهاتف...",
+    "sortTooltip": "ترتيب",
+    "sortAriaLabel": "ترتيب قائمة العمال",
+    "sort": {
+      "activeFirst": "النشطون أولاً",
+      "nameAsc": "أبجدي (الاسم)",
+      "wageDesc": "الأجر: الأعلى",
+      "wageAsc": "الأجر: الأدنى",
+      "newest": "الأحدث"
+    },
+    "activeCountChip": "{{active}} نشط من {{total}}",
+    "emptyNoResults": "لا توجد نتائج.",
+    "emptyNoResultsDesc": "غيّر كلمة البحث.",
+    "emptyNone": "لم يتم تسجيل أي عامل بعد.",
+    "emptyNoneDesc": "استخدم زر + لإضافة عامل جديد.",
+    "deleteAriaLabel": "حذف {{name}}",
+    "addAriaLabel": "إضافة عامل",
+    "toastAdded": "تمت إضافة العامل بنجاح.",
+    "toastUpdated": "تم حفظ التغييرات بنجاح.",
+    "toastDeleted": "تم حذف العامل.",
+    "toastDeactivated": "تم إلغاء تفعيل العامل ولن يظهر في قائمة النشطين.",
+    "toastCopiedGeneric": "تم نسخ {{label}}.",
+    "toastCopyUnsupported": "النسخ التلقائي غير مدعوم؛ يرجى تحديد القيمة يدويًا.",
+    "toastWorkerInfoCopied": "تم نسخ بيانات العامل.",
+    "toastShareCopyUnsupported": "النسخ التلقائي غير مدعوم.",
+    "deleteDialog": {
+      "blockedTitle": "لا يمكن الحذف",
+      "title": "حذف العامل",
+      "confirmText": "هل أنت متأكد من حذف «{{name}}»؟ لا يمكن التراجع عن هذا الإجراء.",
+      "confirmDeactivate": "إلغاء التفعيل",
+      "confirmDelete": "حذف"
+    },
+    "galleryTitle": "معرض الصور — {{name}}",
+    "shareLabels": {
+      "worker": "العامل",
+      "position": "المنصب",
+      "phone": "الهاتف",
+      "cardNumber": "رقم البطاقة",
+      "sheba": "آيبان"
+    },
+    "avatarPicker": {
+      "previewAlt": "معاينة صورة الملف الشخصي",
+      "previewInvalid": "معاينة غير صالحة",
+      "profilePhoto": "صورة الملف الشخصي"
+    },
+    "wageSettingsTooltip": "أنواع الوظائف والأجور"
+  },
+  "workLog": {
+    "title": "سجل العمل",
+    "subtitle": "اختر الأيام التي تحتوي على تقارير في التقويم لعرض صور وملاحظات ذلك اليوم.",
+    "prevMonth": "الشهر السابق",
+    "nextMonth": "الشهر التالي",
+    "goToToday": "اليوم",
+    "loadingCalendar": "جارٍ تحميل تقويم سجل العمل...",
+    "entryDialog": {
+      "title": "إضافة تقرير عمل",
+      "countHint": "{{existing}} من {{max}} صورة مسجَّلة اليوم — يمكنك إضافة {{remaining}} صورة أخرى.",
+      "photoAlt": "صورة {{index}}",
+      "takePhoto": "التقاط صورة",
+      "pickFromGallery": "اختيار من المعرض",
+      "captionLabel": "وصف العمل المنجَز",
+      "captionPlaceholder": "مثال: تم صب خرسانة سقف الطابق الثاني.",
+      "captionHelper": "سيُحفظ هذا الوصف لجميع صور هذه الدفعة.",
+      "cancel": "إلغاء",
+      "submitting": "جارٍ الحفظ...",
+      "submitSingle": "حفظ التقرير",
+      "submitMultiple": "حفظ {{count}} صور",
+      "maxPhotosError": "الحد الأقصى المسموح به {{max}} صورة يوميًا. لم تتم إضافة بعض الصور.",
+      "noPhotoError": "يرجى اختيار صورة واحدة على الأقل للعمل المنجَز."
+    }
+  },
+  "futureActivities": {
+    "title": "الأنشطة القادمة",
+    "listView": "عرض القائمة",
+    "ganttView": "عرض جانت",
+    "tabUpcoming": "القادمة",
+    "tabHistory": "السجل",
+    "showCompleted": "إظهار المكتملة",
+    "historyHint": "يشمل السجل الأنشطة السابقة، سواء المكتملة أو غير المكتملة.",
+    "sortAriaLabel": "ترتيب العرض",
+    "sortByDate": "الترتيب حسب التاريخ",
+    "sortByPriority": "الترتيب حسب الأولوية",
+    "emptyUpcomingTitle": "لا توجد أنشطة بعد",
+    "emptyHistoryTitle": "لا يوجد سجل بعد",
+    "emptyUpcomingDesc": "استخدم الزر أدناه لإضافة نشاط ليوم قادم.",
+    "emptyHistoryDesc": "ستظهر الأنشطة السابقة هنا.",
+    "deleteItemAriaLabel": "حذف {{title}}",
+    "toastCreatedMultiple": "تم تسجيل {{count}} حدث لنشاط متكرر.",
+    "toastCreated": "تم تسجيل النشاط.",
+    "toastUpdated": "تم حفظ التغييرات.",
+    "toastDeleted": "تم حذف النشاط.",
+    "toastSeriesDeleted": "تم حذف جميع أحداث هذه السلسلة.",
+    "deleteDialogTitle": "حذف النشاط؟",
+    "deleteDialogDesc": "سيتم حذف هذا النشاط نهائيًا.",
+    "deleteAction": "حذف",
+    "deleteSeriesDialogTitle": "حذف هذا النشاط المتكرر",
+    "deleteSeriesDialogDesc": "هذا النشاط جزء من سلسلة متكررة. سيتم حذف جميع أحداث هذه السلسلة (الماضية والقادمة).",
+    "deleteSeriesAction": "حذف السلسلة بأكملها",
+    "priorityLow": "منخفضة",
+    "priorityMedium": "متوسطة",
+    "priorityHigh": "عالية",
+    "priorityLabel": "أولوية {{level}}",
+    "statusCompleted": "منجَز",
+    "statusNotCompleted": "غير منجَز",
+    "daysCount": "{{count}} أيام"
+  },
+  "floor": {
+    "nav": {
+      "title": "دفتر الطابق الرقمي"
+    },
+    "project": {
+      "title": "طوابق المشروع",
+      "subtitle": "أدر الدفتر الرقمي لكل طابق",
+      "addFloor": "إضافة طابق",
+      "emptyTitle": "لا يوجد طابق بعد",
+      "emptyDescription": "أضف أول طابق في المشروع للبدء.",
+      "floorsCount": "{{count}} طابق",
+      "avgProgress": "متوسط التقدم"
+    },
+    "usageType": {
+      "residential": "سكني",
+      "office": "إداري",
+      "commercial": "تجاري",
+      "parking": "موقف سيارات",
+      "storage": "مخزن",
+      "utility": "تمديدات",
+      "common": "مشاعات",
+      "roof": "سطح",
+      "other": "أخرى"
+    },
+    "status": {
+      "not_started": "لم يبدأ",
+      "in_progress": "قيد التنفيذ",
+      "paused": "متوقف",
+      "completed": "مكتمل"
+    },
+    "stageStatus": {
+      "not_started": "لم تبدأ",
+      "in_progress": "قيد التنفيذ",
+      "blocked": "متعثرة",
+      "completed": "مكتملة"
+    },
+    "taskStatus": {
+      "todo": "قيد الانتظار",
+      "in_progress": "قيد التنفيذ",
+      "blocked": "متعثرة",
+      "done": "منجزة"
+    },
+    "taskPriority": {
+      "low": "منخفضة",
+      "medium": "متوسطة",
+      "high": "عالية",
+      "critical": "حرجة"
+    },
+    "issueSeverity": {
+      "low": "منخفضة",
+      "medium": "متوسطة",
+      "high": "عالية",
+      "critical": "حرجة"
+    },
+    "issueStatus": {
+      "open": "مفتوحة",
+      "in_progress": "قيد المراجعة",
+      "resolved": "تم الحل",
+      "rejected": "مرفوضة"
+    },
+    "checklistStatus": {
+      "pending": "قيد الفحص",
+      "passed": "مقبول",
+      "failed": "مرفوض",
+      "label": "Status"
+    },
+    "planCategory": {
+      "architecture": "معماري",
+      "structure": "إنشائي",
+      "electrical": "كهرباء",
+      "mechanical": "ميكانيك",
+      "utilities": "تمديدات",
+      "as_built": "كما نُفذ",
+      "detail": "تفصيلي",
+      "other": "أخرى"
+    },
+    "planStatus": {
+      "draft": "مسودة",
+      "review": "قيد المراجعة",
+      "approved": "معتمدة",
+      "obsolete": "ملغاة"
+    },
+    "stageTitle": {
+      "project_start": "بدء العمل",
+      "structure": "الهيكل الإنشائي",
+      "masonry": "البناء بالطابوق",
+      "mep": "الكهرباء والميكانيك",
+      "plaster": "الجص واللياسة",
+      "flooring": "الأرضيات",
+      "painting": "الدهان",
+      "completion": "الإنجاز والتسليم"
+    },
+    "checklistTitle": {
+      "electrical": "التمديدات الكهربائية",
+      "mechanical": "الميكانيك",
+      "water": "تمديدات المياه",
+      "sewage": "الصرف الصحي",
+      "flooring": "الأرضية",
+      "walls": "الجدران",
+      "ceiling": "السقف",
+      "doors": "الأبواب",
+      "windows": "النوافذ",
+      "painting": "الدهان",
+      "cleaning": "التنظيف النهائي",
+      "defect_fixing": "إصلاح العيوب"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "طابق جديد",
+        "editTitle": "تعديل الطابق",
+        "name": "اسم الطابق",
+        "namePlaceholder": "مثال: الطابق الثالث",
+        "number": "رقم الطابق",
+        "usageType": "نوع الاستخدام",
+        "area": "المساحة (م²)",
+        "height": "الارتفاع (م)",
+        "description": "الوصف",
+        "status": "الحالة",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "unitType": "نوع الوحدة",
+        "unitCount": "عدد الوحدات",
+        "unitCountError": "يجب أن يكون عدد الوحدات ١ على الأقل."
+      },
+      "stage": {
+        "editTitle": "تعديل المرحلة",
+        "addTitle": "مرحلة مخصصة جديدة",
+        "title": "عنوان المرحلة",
+        "weight": "الوزن في حساب التقدم",
+        "status": "الحالة",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "description": "الوصف",
+        "manualProgress": "نسبة التقدم اليدوية",
+        "progressMode": "طريقة حساب التقدم",
+        "progressModeCalculated": "تلقائي من المهام",
+        "progressModeManual": "يدوي",
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      },
+      "task": {
+        "addTitle": "مهمة جديدة",
+        "editTitle": "تعديل المهمة",
+        "title": "عنوان المهمة",
+        "stage": "المرحلة",
+        "noStage": "بدون مرحلة",
+        "priority": "الأولوية",
+        "status": "الحالة",
+        "worker": "العامل المسؤول",
+        "noWorker": "غير محدد",
+        "startDate": "تاريخ البدء",
+        "dueDate": "تاريخ الاستحقاق",
+        "estimatedCost": "التكلفة التقديرية",
+        "actualCost": "التكلفة الفعلية",
+        "note": "ملاحظة",
+        "progress": "نسبة التقدم",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "noTask": "بدون مهمة",
+        "description": "الوصف"
+      },
+      "plan": {
+        "addTitle": "إضافة مخطط",
+        "editTitle": "تعديل المخطط",
+        "title": "عنوان المخطط",
+        "category": "الفئة",
+        "code": "رمز المخطط",
+        "revision": "رقم المراجعة",
+        "status": "الحالة",
+        "designer": "المصمم",
+        "date": "التاريخ",
+        "description": "الوصف",
+        "file": "ملف المخطط (صورة)",
+        "newRevisionOf": "مراجعة جديدة لهذا المخطط",
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      },
+      "issue": {
+        "addTitle": "الإبلاغ عن مشكلة",
+        "editTitle": "تعديل المشكلة",
+        "title": "عنوان المشكلة",
+        "description": "الوصف",
+        "severity": "الخطورة",
+        "status": "الحالة",
+        "stage": "المرحلة المرتبطة",
+        "task": "المهمة المرتبطة",
+        "assignedWorker": "المسؤول عن الحل",
+        "dueDate": "تاريخ الاستحقاق",
+        "resolutionNote": "ملاحظة الحل",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "noTask": "بدون مهمة"
+      },
+      "worker": {
+        "addTitle": "إضافة عامل إلى الطابق",
+        "worker": "العامل",
+        "role": "الدور في هذا الطابق",
+        "rolePlaceholder": "مثال: مقاول تمديدات",
+        "stage": "المرحلة المرتبطة (اختياري)",
+        "save": "إضافة",
+        "cancel": "إلغاء"
+      },
+      "checklistItem": {
+        "addTitle": "إضافة عنصر إلى القائمة",
+        "title": "العنوان",
+        "save": "إضافة",
+        "cancel": "إلغاء",
+        "edit": "Edit item",
+        "worker": "Responsible",
+        "note": "Note"
+      }
+    },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "tasks": "المهام",
+      "docs": "المخططات والصور",
+      "issues": "التقارير والمشكلات",
+      "finance": "المالية والفريق"
+    },
+    "overview": {
+      "kpiProgress": "التقدم الكلي",
+      "kpiOpenTasks": "المهام المفتوحة",
+      "kpiOpenIssues": "المشكلات المفتوحة",
+      "kpiHealth": "سلامة الطابق",
+      "timelineTitle": "مسار تنفيذ المراحل",
+      "activityTitle": "آخر الأنشطة",
+      "activityEmpty": "لم يتم تسجيل أي نشاط بعد.",
+      "tasksCount": "{{count}} مهمة",
+      "readyForNext": "جاهز للمرحلة التالية",
+      "remainingItems": "{{count}} عنصر متبقٍ",
+      "kpiCost": "تكلفة الطابق"
+    },
+    "tasksTab": {
+      "title": "مهام هذا الطابق",
+      "addTask": "مهمة جديدة",
+      "empty": "لم يتم تسجيل أي مهمة لهذا الطابق بعد.",
+      "filterAll": "الكل",
+      "checklistTitle": "قائمة تسليم الطابق",
+      "checklistAddItem": "إضافة عنصر",
+      "filterStatus": "تصفية الحالة",
+      "filterPriority": "تصفية الأولوية",
+      "sort": "ترتيب",
+      "sortNewest": "الأحدث",
+      "sortDueDate": "أقرب موعد",
+      "sortProgress": "أعلى تقدم",
+      "all": "الكل",
+      "taskPhotos": "صور المهمة"
+    },
+    "docsTab": {
+      "plansTitle": "المخططات",
+      "addPlan": "إضافة مخطط",
+      "plansEmpty": "لم يتم رفع أي مخطط بعد.",
+      "activeRevision": "المراجعة الفعالة",
+      "oldRevision": "مراجعة سابقة",
+      "viewRevisions": "سجل المراجعات",
+      "photosTitle": "صور الطابق",
+      "phaseBefore": "Before",
+      "phaseDuring": "During",
+      "phaseAfter": "After",
+      "comparePhases": "مقارنة قبل/أثناء/بعد",
+      "compareTitle": "مقارنة الصور",
+      "revisionLabel": "مراجعة"
+    },
+    "issuesTab": {
+      "title": "المشكلات والعيوب",
+      "addIssue": "الإبلاغ عن مشكلة",
+      "empty": "لم يتم تسجيل أي مشكلة لهذا الطابق.",
+      "activityTitle": "سجل الأحداث",
+      "issuePhotos": "صور المشكلة"
+    },
+    "financeTab": {
+      "linkedTotal": "إجمالي المسجل في دفتر الحساب",
+      "workersTitle": "العاملون في هذا الطابق",
+      "addWorker": "إضافة عامل",
+      "workersEmpty": "لم يُضف أي عامل إلى هذا الطابق بعد.",
+      "taskCostsTitle": "تقدير تكلفة المهام",
+      "estimatedTotal": "الإجمالي التقديري",
+      "actualTotal": "الإجمالي الفعلي",
+      "todayCost": "Today",
+      "costPerSquareMeter": "Cost / m²",
+      "stageCosts": "Cost by stage"
+    },
+    "activity": {
+      "floorCreated": "تم إنشاء الطابق «{{name}}».",
+      "floorStatusChanged": "تغيّرت حالة الطابق إلى «{{status}}».",
+      "stageStarted": "بدأت المرحلة.",
+      "stageCreated": "تم إنشاء المرحلة «{{title}}».",
+      "stageCompleted": "اكتملت المرحلة.",
+      "stageDeleted": "تم حذف المرحلة «{{title}}».",
+      "stageBlocked": "تعثّرت المرحلة.",
+      "taskCreated": "تم تسجيل المهمة «{{title}}».",
+      "taskCompleted": "أُنجزت المهمة «{{title}}».",
+      "planUploaded": "تم رفع المخطط «{{title}}».",
+      "photoAdded": "تمت إضافة صورة جديدة.",
+      "issueCreated": "تم تسجيل المشكلة «{{title}}».",
+      "issueResolved": "تم حل المشكلة «{{title}}».",
+      "checklistUpdated": "تم تحديث القائمة.",
+      "workerAssigned": "تمت إضافة {{name}} إلى هذا الطابق.",
+      "cashbookLinked": "تم ربط معاملة من دفتر الحساب بهذا الطابق.",
+      "reportSaved": "تم حفظ تقرير العمل لـ {{date}}."
+    },
+    "dialogs": {
+      "deleteFloorTitle": "حذف الطابق",
+      "deleteFloorMessage": "بحذف هذا الطابق ستُحذف جميع مراحله ومهامه ومخططاته ومشكلاته وقائمته. لن يتم حذف العمال أو المعاملات المالية أو الصور، بل سيتم فقط فك ارتباطها بهذا الطابق. لا يمكن التراجع عن هذا الإجراء.",
+      "deleteStageMessage": "سيتم حذف هذه المرحلة؛ لن تُحذف المهام والمخططات المرتبطة بها، بل سيُفك ارتباطها فقط.",
+      "deleteTaskMessage": "هل تريد حذف هذه المهمة؟",
+      "deleteIssueMessage": "هل تريد حذف هذه المشكلة؟",
+      "deletePlanMessage": "هل تريد حذف هذا المخطط؟",
+      "removeWorkerMessage": "هل تريد إزالة هذا العامل من هذا الطابق؟",
+      "confirm": "تأكيد",
+      "cancel": "إلغاء"
+    },
+    "toasts": {
+      "floorCreated": "تم إنشاء الطابق.",
+      "floorUpdated": "تم تحديث الطابق.",
+      "floorDeleted": "تم حذف الطابق.",
+      "stageUpdated": "تم تحديث المرحلة.",
+      "taskCreated": "تم تسجيل المهمة.",
+      "taskUpdated": "تم تحديث المهمة.",
+      "taskDeleted": "تم حذف المهمة.",
+      "planCreated": "تمت إضافة المخطط.",
+      "planDeleted": "تم حذف المخطط.",
+      "issueCreated": "تم تسجيل المشكلة.",
+      "issueUpdated": "تم تحديث المشكلة.",
+      "issueDeleted": "تم حذف المشكلة.",
+      "workerAdded": "تمت إضافة العامل.",
+      "workerRemoved": "تمت إزالة العامل.",
+      "checklistItemAdded": "تمت إضافة عنصر القائمة.",
+      "checklistUpdated": "Checklist item updated.",
+      "floorDuplicated": "تم نسخ الطابق بنجاح."
+    },
+    "dashboard": {
+      "title": "دفتر الطوابق الرقمي",
+      "subtitle": "{{count}} طابق · متوسط التقدم {{progress}}٪",
+      "empty": "لم يتم تسجيل أي طابق بعد.",
+      "viewAll": "عرض الكل",
+      "openTasks": "Open tasks: {{count}}",
+      "lastActivity": "Last activity"
+    },
+    "search": {
+      "floor": "طابق",
+      "floorTask": "مهمة طابق",
+      "floorIssue": "مشكلة طابق",
+      "floorPlan": "مخطط طابق",
+      "floorReport": "تقرير الطابق"
+    },
+    "backButton": "رجوع",
+    "editFloor": "تعديل الطابق",
+    "deleteFloor": "حذف الطابق",
+    "health": {
+      "dialogTitle": "لماذا نتيجة السلامة هذا الرقم؟",
+      "startScore": "يبدأ من 100",
+      "noPenalties": "لا توجد عوامل خصم فعّالة — النتيجة كاملة.",
+      "resultScore": "النتيجة النهائية: {{score}}",
+      "factors": {
+        "criticalIssues": "مشكلة حرجة مفتوحة ({{count}}× -15)",
+        "otherOpenIssues": "مشكلة أخرى مفتوحة ({{count}}× -5)",
+        "blockedStages": "مرحلة متوقفة ({{count}}× -10)",
+        "overdueTasks": "مهمة متأخرة ({{count}}× -5)",
+        "failedChecklist": "بند قائمة تحقق فاشل ({{count}}× -8)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "Linked reports",
+      "addReport": "Add report",
+      "date": "Report date",
+      "stage": "Related stage",
+      "noStage": "No stage",
+      "description": "Report description",
+      "reportSaved": "Report linked to the floor notebook.",
+      "linkedToFloor": "Linked to floor",
+      "emptyReport": "No description",
+      "emptyReports": "No reports have been linked to this floor yet.",
+      "activitiesTitle": "Scheduled activities",
+      "addActivity": "Add activity",
+      "activityTitle": "Activity title",
+      "activitySaved": "Activity added.",
+      "emptyActivities": "No activities have been scheduled for this floor yet.",
+      "completed": "Completed",
+      "export": "Export notebook"
+    },
+    "actions": {
+      "addStage": "Add stage",
+      "moveStageUp": "نقل المرحلة لأعلى",
+      "moveStageDown": "نقل المرحلة لأسفل",
+      "deleteStage": "Delete stage",
+      "deleteStageMessage": "Delete this stage? Task and plan links will be cleared, but the data itself will not be deleted.",
+      "exportNotebook": "Export notebook"
+    },
+    "planViewer": {
+      "view": "View plan",
+      "download": "Download",
+      "noPreview": "No preview available."
+    },
+    "handover": {
+      "handover": "جاهز للتسليم",
+      "needsFix": "يحتاج إلى معالجة النواقص",
+      "handoverReady": "هذا الطابق جاهز للتسليم.",
+      "handoverNeedsFix": "راجع البنود المفتوحة أو الفاشلة قبل التسليم.",
+      "checklistProgress": "قائمة التسليم: {{passed}} من {{total}} معتمد"
+    },
+    "checklist": {
+      "photos": "صور قائمة التسليم"
+    },
+    "duplicateFloor": "نسخ الطابق",
+    "checklistProgress": {
+      "completedCount": "{{completed}} من {{total}} مكتمل",
+      "failedCount": "{{count}} فشل"
+    },
+    "unitType": {
+      "single": "وحدة واحدة",
+      "multi": "متعدد الوحدات"
+    }
+  },
+  "timeRange": {
+    "all": "كل الوقت",
+    "today": "اليوم",
+    "week": "هذا الأسبوع",
+    "month": "هذا الشهر",
+    "lastMonth": "الشهر الماضي",
+    "ariaLabel": "عامل تصفية النطاق الزمني",
+    "last7Days": "آخر 7 أيام"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "إغلاق البحث",
+    "placeholder": "ابحث عن عامل، معاملة، نشاط أو معدات...",
+    "quickAccess": "وصول سريع",
+    "recentSearches": "عمليات البحث الأخيرة",
+    "clearRecentSearches": "مسح عمليات البحث الأخيرة",
+    "shortcutWorkers": "العمال",
+    "shortcutCashbook": "دفتر الحسابات",
+    "shortcutActivities": "الأنشطة القادمة",
+    "shortcutEquipment": "معدات الورشة",
+    "minCharsHint": "اكتب حرفين على الأقل.",
+    "emptyTitle": "لم يتم العثور على نتائج",
+    "emptyDescription": "ابحث باسم العامل أو عنوان المعاملة أو عنوان النشاط أو اسم المعدات.",
+    "activityCompletedSuffix": " — مكتمل",
+    "openTasksSuffix": "مهمة مفتوحة"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "مصروف",
+      "salary": "دفع راتب",
+      "deposit": "إيداع / دخل"
+    }
+  },
+  "notificationSettings": {
+    "title": "تذكيرات الأنشطة القادمة",
+    "description": "عند التفعيل، يظهر إشعار محلي على هاتفك لكل نشاط قادم (في التاريخ والوقت المحددين، أو الساعة ٨ صباحًا إن لم يُحدَّد وقت) — دون اتصال بالإنترنت بالكامل.",
+    "nativeOnly": "الإشعارات متاحة فقط في النسخة المثبتة على أندرويد.",
+    "toggleLabel": "تذكيري بالأنشطة عبر إشعار",
+    "syncing": "جارٍ مزامنة التذكيرات...",
+    "permissionDenied": "لم يتم منح إذن الإشعارات. فعّله من إعدادات أندرويد.",
+    "enabledToast": "تم تفعيل تذكيرات الأنشطة.",
+    "disabledToast": "تم إيقاف تذكيرات الأنشطة.",
+    "sendTest": "إرسال إشعار تجريبي",
+    "sendingTest": "جارٍ الإرسال...",
+    "testSentToast": "تم إرسال الإشعار التجريبي — يجب أن يظهر خلال ثوانٍ قليلة."
+  },
+  "attendance": {
+    "form": {
+      "title": "تسجيل الحضور",
+      "dateLabel": "التاريخ",
+      "checkInLabel": "وقت الدخول",
+      "checkOutLabel": "وقت الخروج",
+      "noteLabel": "ملاحظة (اختياري)",
+      "cancel": "إلغاء",
+      "submit": "تسجيل الحضور",
+      "validationError": "أدخل وقت الدخول أو الخروج على الأقل.",
+      "suggestionDefaultShift": "تم التعبئة بناءً على الوردية الافتراضية لهذا العامل؛ عدّلها إذا لزم الأمر.",
+      "suggestionLastAttendance": "تم التعبئة بناءً على آخر حضور مسجَّل لهذا العامل؛ عدّلها إذا لزم الأمر."
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "إضافة صورة",
+      "pickPhotos": "اختيار صورة أو أكثر",
+      "selectedCount": "تم اختيار {{count}} صورة",
+      "addMore": "إضافة المزيد",
+      "dateLabel": "تاريخ الصور",
+      "captionLabel": "وصف (اختياري، لجميع الصور)",
+      "cancel": "إلغاء",
+      "uploading": "جارٍ الرفع...",
+      "addSingle": "إضافة",
+      "addMultiple": "إضافة {{count}} صور",
+      "noPhotoError": "يرجى اختيار صورة واحدة على الأقل."
+    },
+    "gallery": {
+      "cancelSelection": "إلغاء التحديد",
+      "selectedCount": "تم تحديد {{count}} صورة",
+      "selectAll": "تحديد الكل",
+      "deleteSelected": "حذف الصور المحددة",
+      "loading": "جارٍ تحميل الصور...",
+      "emptyTitle": "لا توجد صور بعد.",
+      "emptyDescription": "استخدم زر + لإضافة أول صورة.",
+      "addPhotoAria": "إضافة صورة",
+      "uploadingProgress": "جارٍ رفع {{done}} من {{total}}...",
+      "uploadedSingle": "تمت إضافة الصورة بنجاح.",
+      "uploadedMultiple": "تمت إضافة {{count}} صورة بنجاح.",
+      "uploadedPartial": "تمت إضافة {{success}} من {{total}} صورة؛ فشل {{failed}}.",
+      "deletedSingle": "تم حذف الصورة.",
+      "deletedMultiple": "تم حذف {{count}} صورة.",
+      "deletedPartial": "تم حذف {{success}} من {{total}} صورة؛ فشل {{failed}}.",
+      "deleteConfirmTitle": "حذف الصورة",
+      "deleteConfirmDescription": "هل أنت متأكد من حذف هذه الصورة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "deleteAction": "حذف",
+      "bulkDeleteConfirmTitle": "حذف {{count}} صورة",
+      "bulkDeleteConfirmDescription": "هل أنت متأكد من حذف {{count}} صورة محددة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "bulkDeleteConfirmAction": "حذف {{count}} صورة"
+    },
+    "lightbox": {
+      "shareTitle": "مشاركة الصورة"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "تسجيل استراحة",
+    "workerLabel": "العامل",
+    "legalRightNote": "هذا الوقت حق قانوني للعامل ولا يُخصم من الراتب.",
+    "typeBreakfast": "الفطور",
+    "typeLunch": "الغداء",
+    "typeOther": "أخرى",
+    "noHistoryHint": "لا يوجد سجل لهذا النوع من الاستراحة لهذا العامل؛ أدخل الوقت يدويًا — سيُقترح في المرة القادمة.",
+    "startTimeLabel": "وقت البدء",
+    "endTimeLabel": "وقت الانتهاء",
+    "noteLabel": "ملاحظة (اختياري)",
+    "cancel": "إلغاء",
+    "submit": "حفظ الاستراحة",
+    "validationError": "وقت البدء والانتهاء مطلوبان."
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "تسليم معدات لعامل",
+      "equipmentLabel": "المعدات",
+      "selectPlaceholder": "اختر",
+      "availableCount": "متاح: {{count}} {{unit}}",
+      "workerLabel": "العامل",
+      "quantityLabel": "الكمية",
+      "dateLabel": "تاريخ التسليم",
+      "noteLabel": "ملاحظة (اختياري)",
+      "cancel": "إلغاء",
+      "submit": "تسليم",
+      "selectionRequired": "اختيار المعدات والعامل مطلوب.",
+      "quantityInvalid": "يجب أن تكون الكمية أكبر من صفر.",
+      "insufficientStock": "الكمية غير كافية. المتاح: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "لم يتم تسليم أي معدات بعد.",
+      "emptyDescription": "استخدم زر + لتسليم المعدات لعامل.",
+      "workerLabel": "العامل",
+      "quantityLabel": "الكمية",
+      "assignedDateLabel": "تاريخ التسليم",
+      "returnedOn": "أُعيد: {{date}}",
+      "withWorker": "لدى العامل",
+      "daysInUse": "{{count}} أيام لدى العامل",
+      "returnAction": "إرجاع",
+      "fabAriaLabel": "تسليم معدات",
+      "toastAssigned": "تم تسليم المعدات.",
+      "toastReturned": "تم تسجيل إرجاع المعدات."
+    },
+    "pageTitle": "معدات الموقع",
+    "inventoryTab": "المخزون",
+    "assignTab": "التسليم للعامل"
+  },
+  "optionalLeave": {
+    "createTitle": "تسجيل إجازة",
+    "editTitle": "تعديل الإجازة",
+    "typeLabel": "نوع الإجازة",
+    "type": {
+      "sick": "إجازة مرضية",
+      "personal": "إجازة شخصية",
+      "mission": "مهمة",
+      "unpaid": "إجازة بدون راتب",
+      "other": "أخرى"
+    },
+    "isPaidLabel": "مدفوعة الأجر (تُحتسب كيوم عمل عادي)",
+    "noteLabel": "ملاحظة (اختياري)",
+    "cancel": "إلغاء",
+    "saving": "جارٍ الحفظ...",
+    "save": "حفظ"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "تسجيل نوبة حراسة",
+      "editTitle": "تعديل نوبة حراسة",
+      "workerLabel": "العامل",
+      "usePreviousShift": "استخدام النوبة السابقة ({{start}} إلى {{end}})",
+      "startTimeLabel": "وقت بدء النوبة",
+      "endTimeLabel": "وقت انتهاء النوبة",
+      "endTimeHelper": "إذا كانت النوبة تمتد بعد منتصف الليل، يمكن أن يكون وقت الانتهاء أصغر من وقت البدء.",
+      "noteLabel": "ملاحظة (اختياري)",
+      "cancel": "إلغاء",
+      "saveChanges": "حفظ التغييرات",
+      "submit": "حفظ النوبة",
+      "validationError": "وقت بدء وانتهاء النوبة مطلوبان."
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "إدارة الصناديق",
+    "description": "كل صندوق حساب مستقل (مثل «نقدية الورشة»، «الحساب البنكي»). تُحسب معاملات كل صندوق ورصيده بشكل منفصل تمامًا عن غيره.",
+    "isDefaultTitle": "الصندوق الافتراضي",
+    "setDefaultTitle": "تعيين كافتراضي",
+    "cannotDeleteDefault": "لا يمكن حذف الصندوق الافتراضي",
+    "deleteTitle": "حذف الصندوق",
+    "defaultChip": "افتراضي",
+    "newFundPlaceholder": "اسم الصندوق الجديد",
+    "add": "إضافة",
+    "close": "إغلاق",
+    "deleteConfirmTitle": "حذف الصندوق",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف صندوق «{{name}}»؟ إذا كان لهذا الصندوق أي معاملات، لن يكون الحذف ممكنًا.",
+    "toastCreated": "تمت إضافة صندوق جديد.",
+    "toastDefaultChanged": "تم تغيير الصندوق الافتراضي.",
+    "toastDeleted": "تم حذف الصندوق."
+  },
+  "jobType": {
+    "createTitle": "إضافة نوع وظيفة جديد",
+    "editTitle": "تعديل الوظيفة",
+    "nameLabel": "اسم الوظيفة",
+    "descriptionLabel": "الوصف",
+    "categoryLabel": "الفئة",
+    "iconLabel": "الأيقونة",
+    "wageNoteLabel": "ملاحظة عن طريقة الحساب الشائعة (اختياري)",
+    "wageNoteHelper": "ملاحظة قصيرة تظهر بجانب هذه الوظيفة في نموذج إضافة العامل.",
+    "suggestedMethodsLabel": "طرق الدفع المقترحة",
+    "cancel": "إلغاء",
+    "saving": "جارٍ الحفظ...",
+    "save": "حفظ",
+    "toastCreated": "تم إنشاء وظيفة جديدة.",
+    "toastUpdated": "تم تحديث الوظيفة.",
+    "category": {
+      "structure": "الهيكل الإنشائي",
+      "masonry": "البناء",
+      "finishing": "التشطيبات",
+      "flooring": "الأرضيات",
+      "mep": "التمديدات",
+      "installation": "التركيب",
+      "sitework": "أعمال عامة",
+      "other": "أخرى"
+    },
+    "emptyTitle": "لم تُعرَّف أي وظيفة بعد",
+    "builtInChip": "افتراضي",
+    "editAction": "تعديل",
+    "duplicateAction": "نسخ",
+    "restoreAction": "استعادة",
+    "deleteAction": "حذف",
+    "deleteConfirmTitle": "حذف الوظيفة",
+    "deleteConfirmDescription": "هل أنت متأكد من حذف «{{name}}»؟ سيظل العمال الذين لديهم هذه الوظيفة دون تغيير، فقط لن تظهر هذه الوظيفة بعد الآن في قائمة الاختيار.",
+    "restoreConfirmTitle": "استعادة إلى الافتراضي",
+    "restoreConfirmDescription": "ستعود «{{name}}» إلى حالتها الأصلية (قبل أي تعديل).",
+    "toastDeleted": "تم حذف الوظيفة.",
+    "toastRestored": "تمت استعادة الوظيفة إلى الوضع الافتراضي.",
+    "toastDuplicated": "تم إنشاء نسخة من الوظيفة."
+  },
+  "ledgerEntry": {
+    "dialogTitle": "تسجيل معاملة حساب",
+    "workerLabel": "العامل",
+    "typeAdvance": "سلفة",
+    "typeAdvanceHelper": "مبلغ دُفع مسبقًا للعامل ويجب خصمه من راتبه",
+    "typeDeduction": "خصم يدوي",
+    "typeDeductionHelper": "مثل ساعات غياب يجب خصمها من الراتب",
+    "typeCredit": "استحقاق إضافي",
+    "typeCreditHelper": "مبلغ مستحق للعامل بالإضافة إلى راتبه العادي",
+    "cashbookCheckboxAdvance": "خصم هذا المبلغ أيضًا من رصيد دفتر الحسابات",
+    "cashbookCheckboxDeduction": "تسجيل هذا المبلغ أيضًا كـ«مصروف» في دفتر الحسابات",
+    "amountLabel": "المبلغ",
+    "dateLabel": "التاريخ",
+    "descriptionLabel": "ملاحظة (اختياري)",
+    "cancel": "إلغاء",
+    "submit": "حفظ",
+    "validationError": "يجب أن يكون المبلغ رقمًا موجبًا."
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "اختيار العامل",
+      "selectWorkerPlaceholder": "اختر عاملاً",
+      "fromDateLabel": "من تاريخ",
+      "toDateLabel": "إلى تاريخ",
+      "toSeparator": "إلى",
+      "exportingPdf": "جارٍ إنشاء PDF...",
+      "downloadPdf": "تنزيل PDF",
+      "presentDaysTitle": "أيام الحضور",
+      "totalWorkHoursTitle": "إجمالي ساعات العمل",
+      "totalTimeLossTitle": "إجمالي الوقت الضائع",
+      "totalBreakTitle": "إجمالي الاستراحات المسموحة",
+      "guardDutySalaryTitle": "أجر الحراسة ({{count}} نوبة)",
+      "calendarView": "التقويم",
+      "listView": "قائمة",
+      "dailyDetailsTitle": "التفاصيل اليومية",
+      "noRecordsInRange": "لا توجد سجلات في هذه الفترة.",
+      "usefulTimeLabel": "المفيد",
+      "guardDutySuffix": "حراسة"
+    },
+    "monthly": {
+      "emptySelectTitle": "اختر عاملاً",
+      "emptySelectDescription": "لعرض التقرير الشهري، اختر عاملاً ونطاقًا زمنيًا.",
+      "pdfFilenamePrefix": "تقرير-شهري",
+      "rangeLabel": "الفترة",
+      "presentDaysValue": "{{count}} أيام",
+      "totalSalaryTitle": "إجمالي الراتب العادي"
+    },
+    "weekly": {
+      "emptySelectTitle": "اختر عاملاً",
+      "emptySelectDescription": "لعرض التقرير الأسبوعي، اختر عاملاً أولاً.",
+      "pdfFilenamePrefix": "تقرير-أسبوعي",
+      "weekLabel": "أسبوع",
+      "presentDaysValue": "{{count}} من 7 أيام",
+      "totalSalaryTitle": "إجمالي راتب هذا الأسبوع",
+      "dailyDetailsTitle": "تفاصيل أيام الأسبوع",
+      "noRecordsInRange": "لا توجد سجلات هذا الأسبوع.",
+      "previousWeekAria": "الأسبوع السابق",
+      "nextWeekAria": "الأسبوع التالي",
+      "currentWeekAria": "الأسبوع الحالي"
+    },
+    "tabs": {
+      "dailyMonthly": "يومي وشهري",
+      "payroll": "رواتب العمال",
+      "cashbook": "دفتر الحسابات"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "يومي",
+      "weeklyToggle": "أسبوعي",
+      "monthlyToggle": "شهري"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "الذهاب إلى العمال",
+      "hint": "لعرض وتسوية حساب أي عامل، اضغط على اسمه من «موارد الموقع ← العمال»."
+    }
+  },
+  "cloudBackup": {
+    "title": "النسخ الاحتياطي السحابي (اختياري)",
+    "descriptionBeforeLink": "بالإضافة إلى النسخة الاحتياطية المحلية، يمكنك حفظ نسخة مشفرة من البيانات تلقائيًا كل ٢٤ ساعة في حساب مجاني على",
+    "descriptionAfterLink": "(خدمة سحابية مستقلة). هذا اختياري تمامًا؛ يعمل التطبيق دون اتصال بالكامل بدونه.",
+    "enableLabel": "تفعيل النسخ الاحتياطي السحابي",
+    "urlLabel": "رابط مشروع Supabase",
+    "keyLabel": "مفتاح Supabase (Publishable / anon)",
+    "intervalLabel": "الفاصل الزمني للنسخ الاحتياطي السحابي",
+    "interval12h": "كل ١٢ ساعة",
+    "interval24h": "يوميًا (٢٤ ساعة)",
+    "interval3d": "كل ٣ أيام",
+    "intervalWeekly": "أسبوعيًا",
+    "testConnection": "اختبار الاتصال",
+    "restoreAction": "استعادة من النسخة السحابية",
+    "lastBackupLabel": "آخر نسخة احتياطية سحابية ناجحة",
+    "sqlGuideTitle": "دليل إنشاء الجدول في Supabase",
+    "sqlGuideDescription": "في محرر SQL بمشروع Supabase الخاص بك، نفّذ هذا الأمر مرة واحدة:",
+    "saveSettings": "حفظ الإعدادات",
+    "restoreConfirmTitle": "استعادة من النسخة السحابية",
+    "restoreConfirmDescription": "استعادة النسخة السحابية ستستبدل جميع البيانات الحالية على هذا الجهاز بأحدث نسخة مخزنة في السحابة. لا يمكن التراجع عن هذا. هل تريد المتابعة؟",
+    "toastSettingsSaved": "تم حفظ إعدادات النسخ الاحتياطي السحابي.",
+    "toastRestoreSuccess": "تمت الاستعادة من النسخة السحابية بنجاح. سيُعاد تحميل التطبيق...",
+    "settingsNotLoadedError": "لم يتم تحميل الإعدادات بعد."
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "إلى"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "الوظائف والأجور",
+    "jobsTab": "الوظائف",
+    "methodsTab": "طرق الحساب"
+  },
+  "charts": {
+    "monthlySalaryTitle": "مخطط الأجر اليومي لهذه الفترة",
+    "salaryLabel": "الأجر",
+    "dateLabelPrefix": "التاريخ",
+    "weeklyTrendTitle": "اتجاه آخر 7 أيام (ساعات العمل المفيدة)",
+    "usefulHoursLabel": "ساعات العمل المفيدة",
+    "hourUnitSuffix": "{{value}} ساعة"
+  },
+  "voiceNote": {
+    "sectionTitle": "الملاحظات الصوتية",
+    "record": "تسجيل",
+    "recording": "جارٍ التسجيل",
+    "unsupported": "تسجيل الصوت غير مدعوم على هذا الجهاز.",
+    "permissionDenied": "تم رفض الوصول إلى الميكروفون.",
+    "tooShort": "التسجيل كان قصيرًا جدًا، حاول مرة أخرى.",
+    "empty": "لا توجد ملاحظات صوتية بعد."
+  }
+}

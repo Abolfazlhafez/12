@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "بار کیدل...",
+    "required": "دا ساحه اړینه ده.",
+    "close": "تړل",
+    "menu": "غورنۍ",
+    "notFound": "ونه موندل شو",
+    "confirm": "تصویب",
+    "cancel": "لغوه کول",
+    "save": "خوندي کول",
+    "retry": "بیا هڅه وکړئ",
+    "error": "تېروتنه",
+    "scrollToTop": "پورته ته لاړ شئ",
+    "delete": "ړنګول",
+    "clearSearch": "لټون پاک کول",
+    "usePreviousText": "پخوانی متن وکاروئ",
+    "exportMenu": {
+      "label": "صادرات",
+      "exporting": "جوړول...",
+      "shareImage": "د عکس شریکول",
+      "shareExcel": "د اېکسل شریکول (CSV)",
+      "saveToDeviceHeader": "په ډیوایس کې خوندي کول",
+      "saveImage": "عکس په ډیوایس کې خوندي کول",
+      "saveExcel": "اېکسل په ډیوایس کې خوندي کول"
+    },
+    "photo": {
+      "heicUnavailable": "د HEIC مخکتنه شتون نلري",
+      "retryPreviewTooltip": "د مخکتنې جوړولو بیا هڅه",
+      "defaultAlt": "عکس"
+    }
+  },
+  "app": {
+    "name": "د کارگاه سرپرست مرستیال"
+  },
+  "nav": {
+    "dashboard": "ډشبورډ",
+    "resources": "ټیم او تجهیزات",
+    "activities": "فعالیتونه",
+    "reports": "مدیریت"
+  },
+  "topbar": {
+    "offlineTooltip": "د انټرنیټ اړیکه نشته — دا عادي ده؛ دا اپلیکیشن په بشپړ ډول آفلاین کار کوي او ټول معلومات ستاسو په ټیلیفون کې خوندي دي.",
+    "offlineAria": "بې انټرنیټه (آفلاین)",
+    "search": "لټون",
+    "settings": "امستنې",
+    "project": {
+      "switcherAria": "پروژه بدلول",
+      "newProject": "نوی پروژه",
+      "renameProject": "پروژه سمون",
+      "deleteProject": "پروژه ړنګول",
+      "dialogCreateTitle": "نوی پروژه",
+      "dialogEditTitle": "پروژه سمون",
+      "nameLabel": "د پروژې نوم",
+      "locationLabel": "د پروژې ځای (اختیاري)",
+      "supervisorLabel": "د سرپرست نوم (اختیاري)",
+      "save": "ساتل",
+      "cancel": "لغوه کول",
+      "deleteConfirm": "پروژه «{{name}}» ړنګه شي؟ د پوړونو/کارګرانو/صندوق معلومات به ړنګ نشي، یوازې به په دې پروژه کې نه ښکاري.",
+      "cannotDeleteLast": "وروستۍ پاتې پروژه نشي ړنګېدلی.",
+      "nameRequired": "د پروژې نوم نشي خالي کیدلی."
+    }
+  },
+  "settings": {
+    "title": "امستنې",
+    "languageSection": {
+      "title": "ژبه او پیسې",
+      "languageLabel": "د اپلیکیشن ژبه",
+      "currencyLabel": "پیسې",
+      "description": "د ژبې په بدلولو سره، د پاڼې لوری او کليز (لمریز/زیږدیز) په اتومات ډول تنظیمېږي."
+    },
+    "aboutSection": {
+      "title": "زموږ په اړه",
+      "appName": "د کارګاه سرپرست مرستیال (کارگاه‌یار)",
+      "versionLabel": "د اپلیکیشن نسخه",
+      "description": "دا اپلیکیشن په بشپړ ډول آفلاین کار کوي او ستاسو ټول معلومات یوازې پدې ټیلیفون کې خوندي کیږي."
+    },
+    "projectsSection": {
+      "title": "پروژې",
+      "description": "تاسو کولی شئ د څو پروژو/ساحو ترمنځ سویچ وکړئ یا نوې پروژه جوړه کړئ. هره پروژه خپلې طبقې او د پیسو کتاب لري."
+    }
+  },
+  "currency": {
+    "IRT": "ایراني تومن",
+    "USD": "امریکایي ډالر",
+    "SAR": "سعودي ریال",
+    "TRY": "ترکي لیره",
+    "PKR": "پاکستاني کلدار",
+    "IQD": "عراقي ډېنار",
+    "AFN": "افغانۍ",
+    "RUB": "روسي روبل"
+  },
+  "theme": {
+    "light": "روښانه",
+    "dark": "تیاره",
+    "system": "اتومات (د وسیلې پیروي)"
+  },
+  "dashboard": {
+    "title": "ډشبورډ",
+    "quickBackup": "چټک بیک اپ",
+    "shareSummary": "د نن ورځې لنډیز شریک کړئ",
+    "loading": "ډشبورډ لوډ کیږي...",
+    "quickActions": {
+      "workLog": "د کار راپور ثبت کړئ",
+      "attendance": "حاضري",
+      "addTransaction": "معامله اضافه کړئ"
+    },
+    "stats": {
+      "presentWorkers": "حاضر کارکونکي",
+      "absentWorkers": "غیرحاضر کارکونکي",
+      "totalHoursToday": "د نن ورځې د کار ټول ساعتونه",
+      "totalTimeLossToday": "د نن ورځې ضایع شوی وخت",
+      "todaySalary": "د نن ورځې د ورکړې وړ معاش",
+      "personUnit": "کسان",
+      "onLeaveSuffix": "رخصت"
+    },
+    "recentActivities": "وروستي فعالیتونه",
+    "noActivitiesYet": "تر اوسه هیڅ فعالیت ثبت نشوی.",
+    "noWorkersAlert": "تاسو تر اوسه هیڅ کارکونکی نه دی اضافه کړی. د «سرچینو» ټب نه پیل وکړئ.",
+    "shareCopied": "د نن ورځې لنډیز کاپي شو.",
+    "shareCopyUnsupported": "اتومات کاپي ملاتړ نه کیږي.",
+    "backupReadyNative": "د بیک اپ فایل چمتو دی. خوندي یې کړئ یا یې شریک کړئ.",
+    "backupReadyWeb": "بیک اپ په بریالیتوب سره ډاونلوډ شو.",
+    "todayWorkLog": {
+      "title": "د نن ورځې د کار راپور",
+      "photoCountSuffix": "{{count}} عکسونه ثبت شوي",
+      "noPhotos": "بې عکسه",
+      "emptyHint": "تر اوسه د نن ورځې لپاره هیڅ راپور ثبت شوی نه دی — د عکس یا یادداشت اضافه کولو لپاره ټک ورکړئ."
+    },
+    "upcomingActivities": {
+      "title": "راتلونکي فعالیتونه",
+      "overdueChip": "{{count}} ناوخته",
+      "emptyHint": "هیڅ راتلونکی فعالیت ثبت شوی نه دی — د اضافه کولو لپاره ټک ورکړئ."
+    }
+  },
+  "resources": {
+    "title": "د کارگاه ټیم او تجهیزات",
+    "tabs": {
+      "workers": "کارکونکي",
+      "attendance": "حاضري",
+      "equipment": "تجهیزات",
+      "cashbook": "د کیش کتاب"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "د کار ریکارډ",
+      "upcoming": "پلانونه"
+    }
+  },
+  "workers": {
+    "pageTitle": "د کارکونکو مدیریت",
+    "searchPlaceholder": "د نوم، دنده یا تلیفون شمېرې لخوا لټون...",
+    "sortTooltip": "ترتیب",
+    "sortAriaLabel": "د کارکونکو لیست ترتیب کړئ",
+    "sort": {
+      "activeFirst": "لومړی فعال",
+      "nameAsc": "الفبايي (نوم)",
+      "wageDesc": "مزد: ډېر",
+      "wageAsc": "مزد: لږ",
+      "newest": "نوی ترین"
+    },
+    "activeCountChip": "{{total}} څخه {{active}} فعال",
+    "emptyNoResults": "هیڅ پایله ونه موندل شوه.",
+    "emptyNoResultsDesc": "د لټون جمله بدله کړئ.",
+    "emptyNone": "تر اوسه هیڅ کارکونکی ثبت نشوی.",
+    "emptyNoneDesc": "د + تڼۍ په واسطه نوی کارکونکی اضافه کړئ.",
+    "deleteAriaLabel": "{{name}} حذف کړئ",
+    "addAriaLabel": "کارکونکی اضافه کړئ",
+    "toastAdded": "کارکونکی په بریالیتوب سره اضافه شو.",
+    "toastUpdated": "بدلونونه په بریالیتوب سره خوندي شول.",
+    "toastDeleted": "کارکونکی حذف شو.",
+    "toastDeactivated": "کارکونکی غیرفعال شو او په فعالو کارکونکو کې نه ښکاري.",
+    "toastCopiedGeneric": "{{label}} کاپي شو.",
+    "toastCopyUnsupported": "اتومات کاپي ملاتړ نه کیږي؛ مهرباني وکړئ قیمت په لاسي ډول غوره کړئ.",
+    "toastWorkerInfoCopied": "د کارکونکي معلومات کاپي شول.",
+    "toastShareCopyUnsupported": "اتومات کاپي ملاتړ نه کیږي.",
+    "deleteDialog": {
+      "blockedTitle": "حذف ممکن نه دی",
+      "title": "کارکونکی حذف کړئ",
+      "confirmText": "ایا تاسو ډاډه یاست چې «{{name}}» حذف کړئ؟ دا کار بیرته نشي کیدی.",
+      "confirmDeactivate": "غیرفعال کول",
+      "confirmDelete": "حذف"
+    },
+    "galleryTitle": "د عکسونو ګالري — {{name}}",
+    "shareLabels": {
+      "worker": "کارکونکی",
+      "position": "دنده",
+      "phone": "تلیفون",
+      "cardNumber": "د کارت شمېره",
+      "sheba": "شیبا"
+    },
+    "avatarPicker": {
+      "previewAlt": "د پروفایل عکس مخکتنه",
+      "previewInvalid": "ناسم مخکتنه",
+      "profilePhoto": "د پروفایل عکس"
+    },
+    "wageSettingsTooltip": "د دندې ډولونه او مزدوري"
+  },
+  "workLog": {
+    "title": "د کار ریکارډ",
+    "subtitle": "د هغې ورځې انځورونه او یادښتونه لیدلو لپاره، په رول‌نامه کې راپور لرونکې ورځې وټاکئ.",
+    "prevMonth": "تیره میاشت",
+    "nextMonth": "راتلونکې میاشت",
+    "goToToday": "نن",
+    "loadingCalendar": "د کار ریکارډ رول‌نامه بارېږي...",
+    "entryDialog": {
+      "title": "د کار راپور اضافه کول",
+      "countHint": "نن ورځ {{max}} کې څخه {{existing}} انځورونه ثبت شوي — تاسو کولی شئ نور {{remaining}} انځورونه اضافه کړئ.",
+      "photoAlt": "انځور {{index}}",
+      "takePhoto": "انځور اخیستل",
+      "pickFromGallery": "له ګالري نه غوره کول",
+      "captionLabel": "د ترسره شوي کار تشریح",
+      "captionPlaceholder": "لکه: د دویمې پوړۍ چت کانکریټ وشو.",
+      "captionHelper": "دا تشریح به د دې ډلې د ټولو انځورونو لپاره خوندي شي.",
+      "cancel": "لغوه کول",
+      "submitting": "خوندي کیږي...",
+      "submitSingle": "راپور خوندي کول",
+      "submitMultiple": "{{count}} انځورونه خوندي کول",
+      "maxPhotosError": "په ورځ کې تر {{max}} انځورونو پورې اجازه ده. ځینې انځورونه اضافه نشول.",
+      "noPhotoError": "مهرباني وکړئ د ترسره شوي کار لږترلږه یو انځور غوره کړئ."
+    }
+  },
+  "futureActivities": {
+    "title": "راتلونکې فعالیتونه",
+    "listView": "د لیست نندارتون",
+    "ganttView": "د ګانت نندارتون",
+    "tabUpcoming": "راتلونکي",
+    "tabHistory": "تاریخچه",
+    "showCompleted": "بشپړ شوي ښکاره کړئ",
+    "historyHint": "تاریخچه پخوانۍ فعالیتونه لري، بشپړ شوي وي که نه.",
+    "sortAriaLabel": "د ښودلو ترتیب",
+    "sortByDate": "د نیټې پر بنسټ ترتیب",
+    "sortByPriority": "د لومړیتوب پر بنسټ ترتیب",
+    "emptyUpcomingTitle": "هیڅ فعالیت نه دی ثبت شوی",
+    "emptyHistoryTitle": "لا تر اوسه هیڅ تاریخچه نشته",
+    "emptyUpcomingDesc": "د لاندې تڼۍ په کارولو سره د راتلونکې ورځې لپاره فعالیت ثبت کړئ.",
+    "emptyHistoryDesc": "پخوانۍ فعالیتونه به دلته ښکاره شي.",
+    "deleteItemAriaLabel": "{{title}} حذف کړئ",
+    "toastCreatedMultiple": "{{count}} تکراري د فعالیت پیښې ثبت شوې.",
+    "toastCreated": "فعالیت ثبت شو.",
+    "toastUpdated": "بدلونونه خوندي شول.",
+    "toastDeleted": "فعالیت حذف شو.",
+    "toastSeriesDeleted": "د دې لړۍ ټولې پیښې حذف شوې.",
+    "deleteDialogTitle": "فعالیت حذف شي؟",
+    "deleteDialogDesc": "دا فعالیت به تل لپاره حذف شي.",
+    "deleteAction": "حذف",
+    "deleteSeriesDialogTitle": "دا تکراري فعالیت حذف کړئ",
+    "deleteSeriesDialogDesc": "دا فعالیت د یوې تکراري لړۍ برخه ده. د دې لړۍ ټولې پیښې (پخوانۍ او راتلونکې) به حذف شي.",
+    "deleteSeriesAction": "ټوله لړۍ حذف کړئ",
+    "priorityLow": "لږ",
+    "priorityMedium": "منځنی",
+    "priorityHigh": "زیات",
+    "priorityLabel": "{{level}} لومړیتوب",
+    "statusCompleted": "بشپړ شوی",
+    "statusNotCompleted": "بشپړ نشوی",
+    "daysCount": "{{count}} ورځې"
+  },
+  "floor": {
+    "nav": {
+      "title": "د پوړ ډیجیټل یادښت‌کتاب"
+    },
+    "project": {
+      "title": "د پروژې پوړونه",
+      "subtitle": "د هر پوړ ډیجیټل یادښت‌کتاب اداره کړئ",
+      "addFloor": "پوړ اضافه کول",
+      "emptyTitle": "تر اوسه هیڅ پوړ نشته",
+      "emptyDescription": "د پیل لپاره د پروژې لومړی پوړ اضافه کړئ.",
+      "floorsCount": "{{count}} پوړونه",
+      "avgProgress": "منځنی پرمختګ"
+    },
+    "usageType": {
+      "residential": "استوګنیز",
+      "office": "دفتري",
+      "commercial": "سوداګریز",
+      "parking": "پارکینګ",
+      "storage": "ګدام",
+      "utility": "تاسیسات",
+      "common": "ګډ برخه",
+      "roof": "چت",
+      "other": "نور"
+    },
+    "status": {
+      "not_started": "پیل نشوی",
+      "in_progress": "روان دی",
+      "paused": "درولی شوی",
+      "completed": "بشپړ شوی"
+    },
+    "stageStatus": {
+      "not_started": "پیل نشوی",
+      "in_progress": "روان دی",
+      "blocked": "بند شوی",
+      "completed": "بشپړ شوی"
+    },
+    "taskStatus": {
+      "todo": "په لیست کې",
+      "in_progress": "ترسره کیږي",
+      "blocked": "بند شوی",
+      "done": "بشپړ شوی"
+    },
+    "taskPriority": {
+      "low": "ټیټ",
+      "medium": "منځنی",
+      "high": "لوړ",
+      "critical": "بحراني"
+    },
+    "issueSeverity": {
+      "low": "ټیټ",
+      "medium": "منځنی",
+      "high": "لوړ",
+      "critical": "بحراني"
+    },
+    "issueStatus": {
+      "open": "خلاص",
+      "in_progress": "تر بیاکتنې لاندې",
+      "resolved": "حل شوی",
+      "rejected": "رد شوی"
+    },
+    "checklistStatus": {
+      "pending": "تر کتنې لاندې",
+      "passed": "منل شوی",
+      "failed": "رد شوی",
+      "label": "Status"
+    },
+    "planCategory": {
+      "architecture": "معماري",
+      "structure": "جوړښت",
+      "electrical": "برېښنا",
+      "mechanical": "میخانیکي",
+      "utilities": "تاسیسات",
+      "as_built": "د جوړښت مطابق",
+      "detail": "تفصیلي نقشه",
+      "other": "نور"
+    },
+    "planStatus": {
+      "draft": "مسوده",
+      "review": "تر بیاکتنې لاندې",
+      "approved": "تایید شوی",
+      "obsolete": "لغوه شوی"
+    },
+    "stageTitle": {
+      "project_start": "د کار پیل",
+      "structure": "جوړښت",
+      "masonry": "دیوال چینونه",
+      "mep": "برېښنایي او میخانیکي تاسیسات",
+      "plaster": "پلستر کاري",
+      "flooring": "د ټاخټي کار",
+      "painting": "رنګ کول",
+      "completion": "بشپړول او سپارل"
+    },
+    "checklistTitle": {
+      "electrical": "برېښنایي سیمونه",
+      "mechanical": "میخانیکي",
+      "water": "د اوبو نلونه",
+      "sewage": "فاضل اوبه",
+      "flooring": "ټاخټی",
+      "walls": "دیوالونه",
+      "ceiling": "چت",
+      "doors": "دروازې",
+      "windows": "کړکۍ",
+      "painting": "رنګ کول",
+      "cleaning": "وروستۍ پاکول",
+      "defect_fixing": "د نیمګړتیاوو سمول"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "نوی پوړ",
+        "editTitle": "د پوړ سمون",
+        "name": "د پوړ نوم",
+        "namePlaceholder": "لکه، دریم پوړ",
+        "number": "د پوړ شمیره",
+        "usageType": "د کارونې ډول",
+        "area": "مساحت (متر مربع)",
+        "height": "لوړوالی (متر)",
+        "description": "توضیحات",
+        "status": "حالت",
+        "save": "ساتل",
+        "cancel": "لغوه کول",
+        "unitType": "د واحد ډول",
+        "unitCount": "د واحدونو شمېر",
+        "unitCountError": "د واحدونو شمېر باید لږترلږه ۱ وي."
+      },
+      "stage": {
+        "editTitle": "د پړاو سمون",
+        "addTitle": "نوی ځانګړی پړاو",
+        "title": "د پړاو سرلیک",
+        "weight": "د پرمختګ په محاسبه کې وزن",
+        "status": "حالت",
+        "startDate": "د پیل نېټه",
+        "endDate": "د پای نېټه",
+        "description": "توضیحات",
+        "manualProgress": "لاسي پرمختګ سلنه",
+        "progressMode": "د پرمختګ د محاسبې طریقه",
+        "progressModeCalculated": "له دندو نه پخپله",
+        "progressModeManual": "لاسي",
+        "save": "ساتل",
+        "cancel": "لغوه کول"
+      },
+      "task": {
+        "addTitle": "نوې دنده",
+        "editTitle": "د دندې سمون",
+        "title": "د دندې سرلیک",
+        "stage": "پړاو",
+        "noStage": "بې پړاوه",
+        "priority": "لومړیتوب",
+        "status": "حالت",
+        "worker": "مسؤل کارګر",
+        "noWorker": "نه دی ټاکل شوی",
+        "startDate": "د پیل نېټه",
+        "dueDate": "د بشپړولو نېټه",
+        "estimatedCost": "اټکل شوی لګښت",
+        "actualCost": "واقعي لګښت",
+        "note": "یادښت",
+        "progress": "د پرمختګ سلنه",
+        "save": "ساتل",
+        "cancel": "لغوه کول",
+        "noTask": "کار نشته",
+        "description": "توضیحات"
+      },
+      "plan": {
+        "addTitle": "نقشه اضافه کول",
+        "editTitle": "د نقشې سمون",
+        "title": "د نقشې سرلیک",
+        "category": "ډله",
+        "code": "د نقشې کوډ",
+        "revision": "د بیاکتنې شمیره",
+        "status": "حالت",
+        "designer": "ډیزاینر",
+        "date": "نېټه",
+        "description": "توضیحات",
+        "file": "د نقشې فایل (انځور)",
+        "newRevisionOf": "د دې نقشې نوې بیاکتنه",
+        "save": "ساتل",
+        "cancel": "لغوه کول"
+      },
+      "issue": {
+        "addTitle": "د ستونزې راپور",
+        "editTitle": "د ستونزې سمون",
+        "title": "د ستونزې سرلیک",
+        "description": "توضیحات",
+        "severity": "شدت",
+        "status": "حالت",
+        "stage": "اړوند پړاو",
+        "task": "اړوند کار",
+        "assignedWorker": "د حل مسؤل",
+        "dueDate": "د حل نېټه",
+        "resolutionNote": "د حل یادښت",
+        "save": "ساتل",
+        "cancel": "لغوه کول",
+        "noTask": "هیڅ کار نشته"
+      },
+      "worker": {
+        "addTitle": "پوړ ته کارګر اضافه کول",
+        "worker": "کارګر",
+        "role": "په دې پوړ کې رول",
+        "rolePlaceholder": "لکه، د تاسیساتو قراردادي",
+        "stage": "اړوند پړاو (اختیاري)",
+        "save": "اضافه کول",
+        "cancel": "لغوه کول"
+      },
+      "checklistItem": {
+        "addTitle": "چک لست ته بند اضافه کول",
+        "title": "سرلیک",
+        "save": "اضافه کول",
+        "cancel": "لغوه کول",
+        "edit": "Edit item",
+        "worker": "Responsible",
+        "note": "Note"
+      }
+    },
+    "tabs": {
+      "overview": "لنډیز",
+      "tasks": "دندې",
+      "docs": "نقشې او انځورونه",
+      "issues": "راپورونه او ستونزې",
+      "finance": "مالي او ډله"
+    },
+    "overview": {
+      "kpiProgress": "ټوليز پرمختګ",
+      "kpiOpenTasks": "خلاصې دندې",
+      "kpiOpenIssues": "خلاصې ستونزې",
+      "kpiHealth": "د پوړ روغتیا",
+      "timelineTitle": "د پړاوونو مهالویش",
+      "activityTitle": "وروستي فعالیتونه",
+      "activityEmpty": "تر اوسه هیڅ فعالیت نه دی ثبت شوی.",
+      "tasksCount": "{{count}} دندې",
+      "readyForNext": "د راتلونکي پړاو لپاره چمتو دی",
+      "remainingItems": "{{count}} پاتې بندونه",
+      "kpiCost": "د پوړ لګښت"
+    },
+    "tasksTab": {
+      "title": "د دې پوړ دندې",
+      "addTask": "نوې دنده",
+      "empty": "تر اوسه د دې پوړ لپاره هیڅ دنده نه ده ثبت شوې.",
+      "filterAll": "ټول",
+      "checklistTitle": "د پوړ د سپارلو چک لست",
+      "checklistAddItem": "بند اضافه کول",
+      "filterStatus": "د حالت فلټر",
+      "filterPriority": "د لومړیتوب فلټر",
+      "sort": "ترتیب",
+      "sortNewest": "تر ټولو نوي",
+      "sortDueDate": "تر ټولو نږدې نېټه",
+      "sortProgress": "تر ټولو ډېر پرمختګ",
+      "all": "ټول",
+      "taskPhotos": "د دندې انځورونه"
+    },
+    "docsTab": {
+      "plansTitle": "نقشې",
+      "addPlan": "نقشه اضافه کول",
+      "plansEmpty": "تر اوسه هیڅ نقشه نه ده اپلوډ شوې.",
+      "activeRevision": "فعاله بیاکتنه",
+      "oldRevision": "زړه بیاکتنه",
+      "viewRevisions": "د بیاکتنو تاریخچه",
+      "photosTitle": "د پوړ انځورونه",
+      "phaseBefore": "Before",
+      "phaseDuring": "During",
+      "phaseAfter": "After",
+      "comparePhases": "د مخکې/منځ/وروسته پرتله",
+      "compareTitle": "د انځورونو پرتله",
+      "revisionLabel": "بياکتنه"
+    },
+    "issuesTab": {
+      "title": "ستونزې او نیمګړتیاوې",
+      "addIssue": "د ستونزې راپور",
+      "empty": "د دې پوړ لپاره هیڅ ستونزه نه ده ثبت شوې.",
+      "activityTitle": "د پیښو ثبت",
+      "issuePhotos": "د ستونزې عکسونه"
+    },
+    "financeTab": {
+      "linkedTotal": "په کیش بوک کې ثبت شوی ټول",
+      "workersTitle": "د دې پوړ کارګران",
+      "addWorker": "کارګر اضافه کول",
+      "workersEmpty": "تر اوسه هیڅ کارګر دې پوړ ته نه دی اضافه شوی.",
+      "taskCostsTitle": "د دندو د لګښت اټکل",
+      "estimatedTotal": "اټکل شوی ټول",
+      "actualTotal": "واقعي ټول",
+      "todayCost": "Today",
+      "costPerSquareMeter": "Cost / m²",
+      "stageCosts": "Cost by stage"
+    },
+    "activity": {
+      "floorCreated": "پوړ «{{name}}» جوړ شو.",
+      "floorStatusChanged": "د پوړ حالت «{{status}}» ته وګرځید.",
+      "stageStarted": "پړاو پیل شو.",
+      "stageCreated": "مرحله «{{title}}» جوړ شو.",
+      "stageCompleted": "پړاو بشپړ شو.",
+      "stageDeleted": "مرحله «{{title}}» ړنګ شو.",
+      "stageBlocked": "پړاو بند شو.",
+      "taskCreated": "دنده «{{title}}» ثبت شوه.",
+      "taskCompleted": "دنده «{{title}}» بشپړه شوه.",
+      "planUploaded": "نقشه «{{title}}» اپلوډ شوه.",
+      "photoAdded": "نوی انځور اضافه شو.",
+      "issueCreated": "ستونزه «{{title}}» ثبت شوه.",
+      "issueResolved": "ستونزه «{{title}}» حل شوه.",
+      "checklistUpdated": "چک لست تازه شو.",
+      "workerAssigned": "{{name}} دې پوړ ته اضافه شو.",
+      "cashbookLinked": "د کیش بوک یوه معامله دې پوړ سره وتړل شوه.",
+      "reportSaved": "د {{date}} کاري راپور ثبت شو."
+    },
+    "dialogs": {
+      "deleteFloorTitle": "د پوړ ړنګول",
+      "deleteFloorMessage": "د دې پوړ په ړنګولو سره، ټول پړاوونه، دندې، نقشې، ستونزې او چک لست به ړنګ شي. کارګران، مالي معاملې او انځورونه به نه ړنګیږي، یوازې د دې پوړ سره یې اړیکه به پرې شي. دا کار بیرته نشي کیدی.",
+      "deleteStageMessage": "دا پړاو به ړنګ شي؛ اړونده دندې او نقشې به نه ړنګیږي، یوازې یې اړیکه به پرې شي.",
+      "deleteTaskMessage": "ایا دا دنده ړنګه شي؟",
+      "deleteIssueMessage": "ایا دا ستونزه ړنګه شي؟",
+      "deletePlanMessage": "ایا دا نقشه ړنګه شي؟",
+      "removeWorkerMessage": "ایا دا کارګر له دې پوړ نه لرې شي؟",
+      "confirm": "تایید",
+      "cancel": "لغوه کول"
+    },
+    "toasts": {
+      "floorCreated": "پوړ جوړ شو.",
+      "floorUpdated": "پوړ تازه شو.",
+      "floorDeleted": "پوړ ړنګ شو.",
+      "stageUpdated": "پړاو تازه شو.",
+      "taskCreated": "دنده ثبت شوه.",
+      "taskUpdated": "دنده تازه شوه.",
+      "taskDeleted": "دنده ړنګه شوه.",
+      "planCreated": "نقشه اضافه شوه.",
+      "planDeleted": "نقشه ړنګه شوه.",
+      "issueCreated": "ستونزه ثبت شوه.",
+      "issueUpdated": "ستونزه تازه شوه.",
+      "issueDeleted": "ستونزه ړنګه شوه.",
+      "workerAdded": "کارګر اضافه شو.",
+      "workerRemoved": "کارګر لرې شو.",
+      "checklistItemAdded": "د چک لست بند اضافه شو.",
+      "checklistUpdated": "Checklist item updated.",
+      "floorDuplicated": "پوړ په بریالیتوب نقل شو."
+    },
+    "dashboard": {
+      "title": "د پوړونو ډیجیټل یادښت‌کتاب",
+      "subtitle": "{{count}} پوړونه · منځنی پرمختګ {{progress}}٪",
+      "empty": "تر اوسه هیڅ پوړ نه دی ثبت شوی.",
+      "viewAll": "ټول کتل",
+      "openTasks": "Open tasks: {{count}}",
+      "lastActivity": "Last activity"
+    },
+    "search": {
+      "floor": "پوړ",
+      "floorTask": "د پوړ دنده",
+      "floorIssue": "د پوړ ستونزه",
+      "floorPlan": "د پوړ نقشه",
+      "floorReport": "د پوړ راپور"
+    },
+    "backButton": "شاته",
+    "editFloor": "د پوړ سمون",
+    "deleteFloor": "د پوړ ړنګول",
+    "health": {
+      "dialogTitle": "د روغتیا نمرہ ولی دا شمیره ده؟",
+      "startScore": "له 100 څخه پیل کیږي",
+      "noPenalties": "هیڅ فعاله جریمه فکتور شتون نلري — بشپړه نمرہ.",
+      "resultScore": "وروستۍ نمرہ: {{score}}",
+      "factors": {
+        "criticalIssues": "خلاص جدي ستونزه ({{count}}× -15)",
+        "otherOpenIssues": "نورې خلاصې ستونزې ({{count}}× -5)",
+        "blockedStages": "بندشوی پړاو ({{count}}× -10)",
+        "overdueTasks": "ناوخته دنده ({{count}}× -5)",
+        "failedChecklist": "پاتې د چک لیست توکی ({{count}}× -8)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "Linked reports",
+      "addReport": "Add report",
+      "date": "Report date",
+      "stage": "Related stage",
+      "noStage": "No stage",
+      "description": "Report description",
+      "reportSaved": "Report linked to the floor notebook.",
+      "linkedToFloor": "Linked to floor",
+      "emptyReport": "No description",
+      "emptyReports": "No reports have been linked to this floor yet.",
+      "activitiesTitle": "Scheduled activities",
+      "addActivity": "Add activity",
+      "activityTitle": "Activity title",
+      "activitySaved": "Activity added.",
+      "emptyActivities": "No activities have been scheduled for this floor yet.",
+      "completed": "Completed",
+      "export": "Export notebook"
+    },
+    "actions": {
+      "addStage": "Add stage",
+      "moveStageUp": "مرحله پورته کړئ",
+      "moveStageDown": "مرحله ښکته کړئ",
+      "deleteStage": "Delete stage",
+      "deleteStageMessage": "Delete this stage? Task and plan links will be cleared, but the data itself will not be deleted.",
+      "exportNotebook": "Export notebook"
+    },
+    "planViewer": {
+      "view": "View plan",
+      "download": "Download",
+      "noPreview": "No preview available."
+    },
+    "handover": {
+      "handover": "سپارلو ته چمتو",
+      "needsFix": "اصلاح ته اړتیا لري",
+      "handoverReady": "دا پوړ سپارلو ته چمتو دی.",
+      "handoverNeedsFix": "د سپارلو مخکې خلاص یا ناکام موارد وڅېړئ.",
+      "checklistProgress": "د سپارلو چک‌لېست: له {{total}} څخه {{passed}} تایید شوي"
+    },
+    "checklist": {
+      "photos": "د چک لست عکسونه"
+    },
+    "duplicateFloor": "پوړ نقلول",
+    "checklistProgress": {
+      "completedCount": "{{completed}} د {{total}} څخه بشپړ شوی",
+      "failedCount": "{{count}} ناکام"
+    },
+    "unitType": {
+      "single": "یو واحده",
+      "multi": "څو واحده"
+    }
+  },
+  "timeRange": {
+    "all": "ټول وخت",
+    "today": "نن",
+    "week": "دا اونۍ",
+    "month": "دا میاشت",
+    "lastMonth": "تیره میاشت",
+    "ariaLabel": "د وخت د بریدونو فلټر",
+    "last7Days": "وروستي 7 ورځې"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "لټون بندول",
+    "placeholder": "کارګر، راکړه ورکړه، فعالیت یا وسایل ولټوئ...",
+    "quickAccess": "چټک لاسرسی",
+    "recentSearches": "وروستي لټونونه",
+    "clearRecentSearches": "وروستي لټونونه پاک کړئ",
+    "shortcutWorkers": "کارګران",
+    "shortcutCashbook": "د پیسو کتاب",
+    "shortcutActivities": "راتلونکي فعالیتونه",
+    "shortcutEquipment": "د ساحې وسایل",
+    "minCharsHint": "لږترلږه ۲ توري ولیکئ.",
+    "emptyTitle": "هیڅ پایله ونه موندل شوه",
+    "emptyDescription": "د کارګر نوم، د راکړې ورکړې سرلیک، د فعالیت سرلیک یا د وسایلو نوم ولټوئ.",
+    "activityCompletedSuffix": " — بشپړ شوی",
+    "openTasksSuffix": "پرانیستی دنده"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "لګښت",
+      "salary": "د معاش تادیه",
+      "deposit": "زیرمه / عاید"
+    }
+  },
+  "notificationSettings": {
+    "title": "د راتلونکو فعالیتونو یادونه",
+    "description": "کله چې فعاله شي، د هر راتلونکي فعالیت لپاره (په ټاکل شوې نېټه/وخت کې، یا که وخت نه وي ټاکل شوی نو د سهار ۸ بجې) ستاسو په ټیلیفون کې یو محلي خبرتیا ښودل کیږي — بشپړ آفلاین.",
+    "nativeOnly": "خبرتیاوې یوازې د اینډرایډ نصب شوي نسخه کې شتون لري.",
+    "toggleLabel": "زما فعالیتونه د خبرتیا له لارې راونیسه",
+    "syncing": "یادونې همغږي کیږي...",
+    "permissionDenied": "د خبرتیا اجازه نه ده ورکړل شوې. له اینډرایډ تنظیماتو یې فعاله کړئ.",
+    "enabledToast": "د فعالیت یادونې فعالې شوې.",
+    "disabledToast": "د فعالیت یادونې غیرفعالې شوې.",
+    "sendTest": "د ازموینې خبرتیا ولیږئ",
+    "sendingTest": "لیږل...",
+    "testSentToast": "د ازموینې خبرتیا ولیږل شوه — باید په څو ثانیو کې راڅرګنده شي."
+  },
+  "attendance": {
+    "form": {
+      "title": "حاضري ثبتول",
+      "dateLabel": "نېټه",
+      "checkInLabel": "د راتګ وخت",
+      "checkOutLabel": "د تګ وخت",
+      "noteLabel": "یادداشت (اختیاري)",
+      "cancel": "لغوه کول",
+      "submit": "حاضري ثبتول",
+      "validationError": "لږترلږه د راتګ یا تګ وخت ولیکئ.",
+      "suggestionDefaultShift": "د دې کارګر د تلواله شفت پر بنسټ ډکه شوه؛ که اړتیا وي بدله یې کړئ.",
+      "suggestionLastAttendance": "د دې کارګر د وروستۍ ثبت شوې حاضرۍ پر بنسټ ډکه شوه؛ که اړتیا وي بدله یې کړئ."
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "انځور اضافه کول",
+      "pickPhotos": "یو یا څو انځورونه غوره کړئ",
+      "selectedCount": "{{count}} انځورونه غوره شوي",
+      "addMore": "نور اضافه کول",
+      "dateLabel": "د انځورونو نېټه",
+      "captionLabel": "تشریح (اختیاري، د ټولو انځورونو لپاره)",
+      "cancel": "لغوه کول",
+      "uploading": "پورته کیږي...",
+      "addSingle": "اضافه کول",
+      "addMultiple": "{{count}} انځورونه اضافه کول",
+      "noPhotoError": "مهرباني وکړئ لږترلږه یو انځور غوره کړئ."
+    },
+    "gallery": {
+      "cancelSelection": "د غوره کولو لغوه کول",
+      "selectedCount": "{{count}} انځورونه غوره شوي",
+      "selectAll": "ټول غوره کول",
+      "deleteSelected": "غوره شوي انځورونه حذفول",
+      "loading": "انځورونه لوډ کیږي...",
+      "emptyTitle": "تر اوسه هیڅ انځور نشته.",
+      "emptyDescription": "د + تڼۍ په کارولو لومړی انځور اضافه کړئ.",
+      "addPhotoAria": "انځور اضافه کول",
+      "uploadingProgress": "{{total}} کې څخه {{done}} پورته کیږي...",
+      "uploadedSingle": "انځور په بریالیتوب سره اضافه شو.",
+      "uploadedMultiple": "{{count}} انځورونه په بریالیتوب سره اضافه شول.",
+      "uploadedPartial": "{{total}} کې څخه {{success}} انځورونه اضافه شول؛ {{failed}} ناکامه شول.",
+      "deletedSingle": "انځور حذف شو.",
+      "deletedMultiple": "{{count}} انځورونه حذف شول.",
+      "deletedPartial": "{{total}} کې څخه {{success}} انځورونه حذف شول؛ {{failed}} ناکامه شول.",
+      "deleteConfirmTitle": "انځور حذفول",
+      "deleteConfirmDescription": "ایا تاسو ډاډه یاست چې دا انځور حذف کړئ؟ دا کړنه بیرته نشي کیدی.",
+      "deleteAction": "حذفول",
+      "bulkDeleteConfirmTitle": "{{count}} انځورونو حذفول",
+      "bulkDeleteConfirmDescription": "ایا تاسو ډاډه یاست چې {{count}} غوره شوي انځورونه حذف کړئ؟ دا کړنه بیرته نشي کیدی.",
+      "bulkDeleteConfirmAction": "{{count}} انځورونو حذفول"
+    },
+    "lightbox": {
+      "shareTitle": "د عکس شریکول"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "وقفه ثبتول",
+    "workerLabel": "کارګر",
+    "legalRightNote": "دا وخت د کارګر قانوني حق دی او له معاش نه نه کمیږي.",
+    "typeBreakfast": "ناری",
+    "typeLunch": "غرمه خواړه",
+    "typeOther": "نور",
+    "noHistoryHint": "د دې کارګر لپاره د دې ډول وقفې هیڅ سابقه نشته؛ وخت په لاسي ډول ولیکئ — راتلونکی ځل به وړاندیز شي.",
+    "startTimeLabel": "د پیل وخت",
+    "endTimeLabel": "د پای وخت",
+    "noteLabel": "یادداشت (اختیاري)",
+    "cancel": "لغوه کول",
+    "submit": "وقفه خوندي کول",
+    "validationError": "د پیل او پای وخت اړین دی."
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "کارګر ته وسایل ورکول",
+      "equipmentLabel": "وسایل",
+      "selectPlaceholder": "غوره کړئ",
+      "availableCount": "شته: {{count}} {{unit}}",
+      "workerLabel": "کارګر",
+      "quantityLabel": "شمېر",
+      "dateLabel": "د ورکړې نېټه",
+      "noteLabel": "یادداشت (اختیاري)",
+      "cancel": "لغوه کول",
+      "submit": "ورکړه",
+      "selectionRequired": "د وسایلو او کارګر ټاکل اړین دي.",
+      "quantityInvalid": "شمېر باید له صفر څخه زیات وي.",
+      "insufficientStock": "کافي زیرمه نشته. شته: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "تر اوسه هیڅ وسایل نه دي ورکړل شوي.",
+      "emptyDescription": "د + تڼۍ په کارولو کارګر ته وسایل ورکړئ.",
+      "workerLabel": "کارګر",
+      "quantityLabel": "شمېر",
+      "assignedDateLabel": "د ورکړې نېټه",
+      "returnedOn": "بېرته راستون شوی: {{date}}",
+      "withWorker": "د کارګر سره",
+      "daysInUse": "{{count}} ورځې د کارګر سره",
+      "returnAction": "بېرته راستنول",
+      "fabAriaLabel": "وسایل ورکړه",
+      "toastAssigned": "وسایل ورکړل شول.",
+      "toastReturned": "د وسایلو بېرته راستنول ثبت شول."
+    },
+    "pageTitle": "د کارګاه توکي",
+    "inventoryTab": "زیرمه",
+    "assignTab": "کارګر ته سپارل"
+  },
+  "optionalLeave": {
+    "createTitle": "رخصتي ثبتول",
+    "editTitle": "د رخصتۍ سمون",
+    "typeLabel": "د رخصتۍ ډول",
+    "type": {
+      "sick": "د ناروغۍ رخصتي",
+      "personal": "شخصي رخصتي",
+      "mission": "دنده",
+      "unpaid": "پرته له معاشه رخصتي",
+      "other": "نور"
+    },
+    "isPaidLabel": "له معاش سره (لکه د عادي کاري ورځې محاسبه کیږي)",
+    "noteLabel": "یادداشت (اختیاري)",
+    "cancel": "لغوه کول",
+    "saving": "خوندي کیږي...",
+    "save": "خوندي کول"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "د پاسوالۍ نوبت ثبتول",
+      "editTitle": "د پاسوالۍ نوبت سمول",
+      "workerLabel": "کارګر",
+      "usePreviousShift": "پخوانی شفت وکاروئ ({{start}} تر {{end}})",
+      "startTimeLabel": "د نوبت پیل وخت",
+      "endTimeLabel": "د نوبت پای وخت",
+      "endTimeHelper": "که نوبت له نیمې شپې تیریږي، د پای وخت کولی شي د پیل وخت نه کم وي.",
+      "noteLabel": "یادداشت (اختیاري)",
+      "cancel": "لغوه کول",
+      "saveChanges": "بدلونونه خوندي کول",
+      "submit": "نوبت خوندي کول",
+      "validationError": "د نوبت پیل او پای وخت اړین دی."
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "د صندوقونو مدیریت",
+    "description": "هر صندوق یو خپلواک حساب دی (لکه «د کارګاه نغدي»، «بانکي حساب»). د هر صندوق راکړې ورکړې او پاتې بیه په بشپړ ډول له نورو جلا محاسبه کیږي.",
+    "isDefaultTitle": "تلواله صندوق",
+    "setDefaultTitle": "د تلوالي په توګه ټاکل",
+    "cannotDeleteDefault": "تلواله صندوق نشي حذفیدلی",
+    "deleteTitle": "صندوق حذفول",
+    "defaultChip": "تلواله",
+    "newFundPlaceholder": "د نوي صندوق نوم",
+    "add": "اضافه کول",
+    "close": "تړل",
+    "deleteConfirmTitle": "صندوق حذفول",
+    "deleteConfirmDescription": "ایا تاسو ډاډه یاست چې د «{{name}}» صندوق حذف کړئ؟ که دا صندوق راکړه ورکړه ولري، حذفول به ممکن نه وي.",
+    "toastCreated": "نوی صندوق اضافه شو.",
+    "toastDefaultChanged": "تلواله صندوق بدل شو.",
+    "toastDeleted": "صندوق حذف شو."
+  },
+  "jobType": {
+    "createTitle": "د نوي دندې ډول اضافه کول",
+    "editTitle": "دنده سمول",
+    "nameLabel": "د دندې نوم",
+    "descriptionLabel": "تشریح",
+    "categoryLabel": "کټګورۍ",
+    "iconLabel": "انځورنښه",
+    "wageNoteLabel": "د عام محاسبې یادداشت (اختیاري)",
+    "wageNoteHelper": "لنډ یادداشت چې د کارګر د اضافه کولو فورمه کې د دې دندې تر څنګ ښودل کیږي.",
+    "suggestedMethodsLabel": "وړاندیز شوي د تادیاتو میتودونه",
+    "cancel": "لغوه کول",
+    "saving": "خوندي کیږي...",
+    "save": "خوندي کول",
+    "toastCreated": "نوې دنده جوړه شوه.",
+    "toastUpdated": "دنده تازه شوه.",
+    "category": {
+      "structure": "جوړښت",
+      "masonry": "بنایي",
+      "finishing": "نری کار",
+      "flooring": "چوکاټ او پوښښ",
+      "mep": "تاسیسات",
+      "installation": "نصب",
+      "sitework": "عمومي کار",
+      "other": "نور"
+    },
+    "emptyTitle": "تر اوسه هیڅ دنده نه ده ټاکل شوې",
+    "builtInChip": "تلواله",
+    "editAction": "سمول",
+    "duplicateAction": "کاپي کول",
+    "restoreAction": "بېرته راستنول",
+    "deleteAction": "حذفول",
+    "deleteConfirmTitle": "دنده حذفول",
+    "deleteConfirmDescription": "ایا تاسو ډاډه یاست چې «{{name}}» حذف کړئ؟ هغه کارګران چې دا دنده لري بدل نه شي، یوازې دا دنده به نور په لیست کې نه ښکاري.",
+    "restoreConfirmTitle": "بېرته د تلوالي حالت ته راستنول",
+    "restoreConfirmDescription": "«{{name}}» به خپل اصلي حالت ته (له هر ډول سمون نه مخکې) راستون شي.",
+    "toastDeleted": "دنده حذف شوه.",
+    "toastRestored": "دنده بېرته تلواله حالت ته راستنه شوه.",
+    "toastDuplicated": "د دندې یوه کاپي جوړه شوه."
+  },
+  "ledgerEntry": {
+    "dialogTitle": "د حساب راکړه ورکړه ثبتول",
+    "workerLabel": "کارګر",
+    "typeAdvance": "مخکینۍ ورکړه",
+    "typeAdvanceHelper": "هغه اندازه چې مخکې کارګر ته ورکړل شوې او باید د معاش نه کمه شي",
+    "typeDeduction": "لاسي کمونه",
+    "typeDeductionHelper": "لکه د غیرحاضرۍ ساعتونه چې باید له معاش نه کم شي",
+    "typeCredit": "اضافي غوښتنه",
+    "typeCreditHelper": "هغه اندازه چې د عادي معاش سربیره کارګر ته ورکول کیږي",
+    "cashbookCheckboxAdvance": "دا اندازه هم د پیسو کتاب له بیلانس نه کمه شي",
+    "cashbookCheckboxDeduction": "دا اندازه هم د پیسو کتاب کې د «لګښت» په توګه ثبت شي",
+    "amountLabel": "اندازه",
+    "dateLabel": "نېټه",
+    "descriptionLabel": "یادداشت (اختیاري)",
+    "cancel": "لغوه کول",
+    "submit": "خوندي کول",
+    "validationError": "اندازه باید مثبت عدد وي."
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "کارګر غوره کول",
+      "selectWorkerPlaceholder": "یو کارګر غوره کړئ",
+      "fromDateLabel": "له نېټې",
+      "toDateLabel": "تر نېټې",
+      "toSeparator": "تر",
+      "exportingPdf": "PDF جوړیږي...",
+      "downloadPdf": "PDF ډاونلوډ کول",
+      "presentDaysTitle": "د حاضرۍ ورځې",
+      "totalWorkHoursTitle": "د کار ټول ساعتونه",
+      "totalTimeLossTitle": "ټول ضایع شوی وخت",
+      "totalBreakTitle": "ټول مجاز وقفه",
+      "guardDutySalaryTitle": "د پاسوالۍ مزد ({{count}} نوبتونه)",
+      "calendarView": "کلیز",
+      "listView": "لیست",
+      "dailyDetailsTitle": "ورځنۍ توضیحات",
+      "noRecordsInRange": "په دې موده کې هیڅ ریکارډ نشته.",
+      "usefulTimeLabel": "ګټور",
+      "guardDutySuffix": "پاسوالي"
+    },
+    "monthly": {
+      "emptySelectTitle": "یو کارګر غوره کړئ",
+      "emptySelectDescription": "د میاشتنی راپور لیدلو لپاره، کارګر او د نېټو دوره غوره کړئ.",
+      "pdfFilenamePrefix": "میاشتنی-راپور",
+      "rangeLabel": "موده",
+      "presentDaysValue": "{{count}} ورځې",
+      "totalSalaryTitle": "د عادي معاش ټول"
+    },
+    "weekly": {
+      "emptySelectTitle": "یو کارګر غوره کړئ",
+      "emptySelectDescription": "د اونیز راپور لیدلو لپاره، لومړی یو کارګر غوره کړئ.",
+      "pdfFilenamePrefix": "اونیز-راپور",
+      "weekLabel": "اونۍ:",
+      "presentDaysValue": "د ۷ ورځو نه {{count}}",
+      "totalSalaryTitle": "د دې اونۍ ټول معاش",
+      "dailyDetailsTitle": "د اونۍ ورځنۍ توضیحات",
+      "noRecordsInRange": "پدې اونۍ کې هیڅ ریکارډ نشته.",
+      "previousWeekAria": "پخوانۍ اونۍ",
+      "nextWeekAria": "راتلونکې اونۍ",
+      "currentWeekAria": "اوسنۍ اونۍ"
+    },
+    "tabs": {
+      "dailyMonthly": "ورځنی او میاشتنی",
+      "payroll": "د کارګرانو معاش",
+      "cashbook": "د کیش کتاب"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "ورځنی",
+      "weeklyToggle": "اونيز",
+      "monthlyToggle": "میاشتنی"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "کارګرانو ته ورشئ",
+      "hint": "د یو کارګر حساب لیدو او تصفیه کولو لپاره، د \"د کارګاه سرچینې ← کارګران\" برخې څخه د هغه په نوم ټک ورکړئ."
+    }
+  },
+  "cloudBackup": {
+    "title": "د ورېځ زیرمه (اختیاري)",
+    "descriptionBeforeLink": "د محلي بیک اپ سربیره، تاسو کولی شئ د معلوماتو یوه رمزبندي شوې کاپي هر ۲۴ ساعته په اوتومات ډول یو وړیا حساب ته",
+    "descriptionAfterLink": "(خپلواکه د ورېځ خدمت) کې خوندي کړئ. دا په بشپړ ډول اختیاري دی؛ اپلیکیشن پرته له دې هم په بشپړ ډول آفلاین کار کوي.",
+    "enableLabel": "د ورېځ زیرمه فعالول",
+    "urlLabel": "د Supabase پروژې پته",
+    "keyLabel": "د Supabase کیلي (Publishable / anon)",
+    "intervalLabel": "د ورېځ زیرمې وقفه",
+    "interval12h": "هر ۱۲ ساعته",
+    "interval24h": "ورځنی (۲۴ ساعته)",
+    "interval3d": "هر ۳ ورځې",
+    "intervalWeekly": "اونیز",
+    "testConnection": "د اړیکې ازموینه",
+    "restoreAction": "له ورېځ زیرمې نه بېرته راستنول",
+    "lastBackupLabel": "وروستۍ بریالۍ د ورېځ زیرمه",
+    "sqlGuideTitle": "په Supabase کې د جدول جوړولو لارښود",
+    "sqlGuideDescription": "ستاسو د Supabase پروژې د SQL Editor برخه کې دا امر یو ځل اجرا کړئ:",
+    "saveSettings": "تنظیمات خوندي کول",
+    "restoreConfirmTitle": "له ورېځ زیرمې نه بېرته راستنول",
+    "restoreConfirmDescription": "له ورېځ زیرمې نه بېرته راستنول به د دې وسیلې ټول اوسني معلومات د ورېځ کې خوندي شوي وروستي نسخې سره بدل کړي. دا کړنه بیرته نشي کیدی. مخکې ولاړ شئ؟",
+    "toastSettingsSaved": "د ورېځ زیرمې تنظیمات خوندي شول.",
+    "toastRestoreSuccess": "له ورېځ زیرمې نه بېرته راستنول په بریالیتوب سره ترسره شول. اپلیکیشن به بیا لوډ شي...",
+    "settingsNotLoadedError": "تنظیمات لا تر اوسه نه دي لوډ شوي."
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "تر"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "دندې او مزدوري",
+    "jobsTab": "دندې",
+    "methodsTab": "د محاسبې طریقې"
+  },
+  "charts": {
+    "monthlySalaryTitle": "د دې مودې لپاره ورځني مزدورۍ چارت",
+    "salaryLabel": "مزدوري",
+    "dateLabelPrefix": "نېټه",
+    "weeklyTrendTitle": "د تېرو 7 ورځو رجحان (ګټور ساعتونه)",
+    "usefulHoursLabel": "ګټور ساعتونه",
+    "hourUnitSuffix": "{{value}} ساعتونه"
+  },
+  "voiceNote": {
+    "sectionTitle": "غږیز یادداشتونه",
+    "record": "ثبتول",
+    "recording": "ثبتیږي",
+    "unsupported": "غږ ثبتول په دې وسیله کې ملاتړ نه کیږي.",
+    "permissionDenied": "د مایکروفون لاسرسی رد شو.",
+    "tooShort": "ثبت ډیر لنډ و، بیا هڅه وکړئ.",
+    "empty": "تر اوسه هیڅ غږیز یادداشت نشته."
+  }
+}

@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "required": "یہ فیلڈ لازمی ہے۔",
+    "close": "بند کریں",
+    "menu": "مینو",
+    "notFound": "نہیں ملا",
+    "confirm": "تصدیق کریں",
+    "cancel": "منسوخ کریں",
+    "save": "محفوظ کریں",
+    "retry": "دوبارہ کوشش کریں",
+    "error": "خرابی",
+    "scrollToTop": "اوپر واپس جائیں",
+    "delete": "حذف کریں",
+    "clearSearch": "تلاش صاف کریں",
+    "usePreviousText": "پچھلا متن استعمال کریں",
+    "exportMenu": {
+      "label": "برآمد",
+      "exporting": "تیار ہو رہا ہے...",
+      "shareImage": "تصویر شیئر کریں",
+      "shareExcel": "ایکسل شیئر کریں (CSV)",
+      "saveToDeviceHeader": "ڈیوائس میں محفوظ کریں",
+      "saveImage": "تصویر ڈیوائس میں محفوظ کریں",
+      "saveExcel": "ایکسل ڈیوائس میں محفوظ کریں"
+    },
+    "photo": {
+      "heicUnavailable": "HEIC پیش نظارہ دستیاب نہیں",
+      "retryPreviewTooltip": "پیش نظارہ بنانے کی دوبارہ کوشش کریں",
+      "defaultAlt": "تصویر"
+    }
+  },
+  "app": {
+    "name": "ورکشاپ سپروائزر اسسٹنٹ"
+  },
+  "nav": {
+    "dashboard": "ڈیش بورڈ",
+    "resources": "ٹیم اور سامان",
+    "activities": "سرگرمیاں",
+    "reports": "انتظام"
+  },
+  "topbar": {
+    "offlineTooltip": "انٹرنیٹ کنکشن نہیں ہے — یہ معمول ہے؛ یہ ایپ مکمل طور پر آف لائن کام کرتی ہے اور تمام ڈیٹا آپ کے فون میں محفوظ ہے۔",
+    "offlineAria": "انٹرنیٹ نہیں (آف لائن)",
+    "search": "تلاش",
+    "settings": "ترتیبات",
+    "project": {
+      "switcherAria": "پروجیکٹ تبدیل کریں",
+      "newProject": "نیا پروجیکٹ",
+      "renameProject": "پروجیکٹ میں ترمیم",
+      "deleteProject": "پروجیکٹ حذف کریں",
+      "dialogCreateTitle": "نیا پروجیکٹ",
+      "dialogEditTitle": "پروجیکٹ میں ترمیم",
+      "nameLabel": "پروجیکٹ کا نام",
+      "locationLabel": "پروجیکٹ کا مقام (اختیاری)",
+      "supervisorLabel": "سپروائزر کا نام (اختیاری)",
+      "save": "محفوظ کریں",
+      "cancel": "منسوخ",
+      "deleteConfirm": "پروجیکٹ «{{name}}» حذف کریں؟ فرش/کارکنان/کیش بک کا ڈیٹا حذف نہیں ہوگا، صرف اس پروجیکٹ میں نظر نہیں آئے گا۔",
+      "cannotDeleteLast": "آخری باقی پروجیکٹ حذف نہیں کیا جا سکتا۔",
+      "nameRequired": "پروجیکٹ کا نام خالی نہیں ہو سکتا۔"
+    }
+  },
+  "settings": {
+    "title": "ترتیبات",
+    "languageSection": {
+      "title": "زبان اور کرنسی",
+      "languageLabel": "ایپ کی زبان",
+      "currencyLabel": "کرنسی",
+      "description": "زبان تبدیل کرنے سے صفحے کی سمت اور کیلنڈر (فارسی/عیسوی) خودکار طور پر تبدیل ہو جاتا ہے۔"
+    },
+    "aboutSection": {
+      "title": "ہمارے بارے میں",
+      "appName": "سائٹ سپروائزر اسسٹنٹ (کارگاہ‌یار)",
+      "versionLabel": "ایپ ورژن",
+      "description": "یہ ایپ مکمل طور پر آف لائن کام کرتی ہے اور آپ کا تمام ڈیٹا صرف اسی فون پر محفوظ رہتا ہے۔"
+    },
+    "projectsSection": {
+      "title": "پراجیکٹس",
+      "description": "آپ متعدد پراجیکٹس/سائٹس کے درمیان سوئچ کر سکتے ہیں یا نیا پراجیکٹ بنا سکتے ہیں۔ ہر پراجیکٹ کی اپنی منزلیں اور کیش بک ہوتی ہے۔"
+    }
+  },
+  "currency": {
+    "IRT": "ایرانی تومان",
+    "USD": "امریکی ڈالر",
+    "SAR": "سعودی ریال",
+    "TRY": "ترک لیرا",
+    "PKR": "پاکستانی روپیہ",
+    "IQD": "عراقی دینار",
+    "AFN": "افغان افغانی",
+    "RUB": "روسی روبل"
+  },
+  "theme": {
+    "light": "ہلکا",
+    "dark": "گہرا",
+    "system": "خودکار (ڈیوائس کے مطابق)"
+  },
+  "dashboard": {
+    "title": "ڈیش بورڈ",
+    "quickBackup": "فوری بیک اپ",
+    "shareSummary": "آج کا خلاصہ شیئر کریں",
+    "loading": "ڈیش بورڈ لوڈ ہو رہا ہے...",
+    "quickActions": {
+      "workLog": "ورک رپورٹ درج کریں",
+      "attendance": "حاضری",
+      "addTransaction": "ٹرانزیکشن شامل کریں"
+    },
+    "stats": {
+      "presentWorkers": "حاضر کارکن",
+      "absentWorkers": "غیر حاضر کارکن",
+      "totalHoursToday": "آج کل کام کے گھنٹے",
+      "totalTimeLossToday": "آج کل ضائع شدہ وقت",
+      "todaySalary": "آج کی قابل ادائیگی تنخواہ",
+      "personUnit": "افراد",
+      "onLeaveSuffix": "چھٹی پر"
+    },
+    "recentActivities": "حالیہ سرگرمیاں",
+    "noActivitiesYet": "ابھی تک کوئی سرگرمی درج نہیں ہوئی۔",
+    "noWorkersAlert": "آپ نے ابھی تک کوئی کارکن شامل نہیں کیا۔ «وسائل» ٹیب سے شروع کریں۔",
+    "shareCopied": "آج کا خلاصہ کاپی ہو گیا۔",
+    "shareCopyUnsupported": "خودکار کاپی سپورٹ نہیں ہے۔",
+    "backupReadyNative": "بیک اپ فائل تیار ہے۔ اسے محفوظ کریں یا شیئر کریں۔",
+    "backupReadyWeb": "بیک اپ کامیابی سے ڈاؤن لوڈ ہو گیا۔",
+    "todayWorkLog": {
+      "title": "آج کا ورک لاگ",
+      "photoCountSuffix": "{{count}} تصاویر درج ہوئیں",
+      "noPhotos": "کوئی تصویر نہیں",
+      "emptyHint": "آج کے لیے ابھی کوئی رپورٹ درج نہیں ہوئی — تصویر یا نوٹ شامل کرنے کے لیے ٹیپ کریں۔"
+    },
+    "upcomingActivities": {
+      "title": "آنے والی سرگرمیاں",
+      "overdueChip": "{{count}} مؤخر",
+      "emptyHint": "کوئی آئندہ سرگرمی درج نہیں — شامل کرنے کے لیے ٹیپ کریں۔"
+    }
+  },
+  "resources": {
+    "title": "ورکشاپ ٹیم اور سامان",
+    "tabs": {
+      "workers": "کارکن",
+      "attendance": "حاضری",
+      "equipment": "سامان",
+      "cashbook": "کیش بک"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "کام کا ریکارڈ",
+      "upcoming": "منصوبے"
+    }
+  },
+  "workers": {
+    "pageTitle": "کارکنان کا انتظام",
+    "searchPlaceholder": "نام، عہدہ یا فون نمبر سے تلاش کریں...",
+    "sortTooltip": "ترتیب دیں",
+    "sortAriaLabel": "کارکنان کی فہرست ترتیب دیں",
+    "sort": {
+      "activeFirst": "پہلے فعال",
+      "nameAsc": "حروف تہجی (نام)",
+      "wageDesc": "اجرت: زیادہ سے کم",
+      "wageAsc": "اجرت: کم سے زیادہ",
+      "newest": "تازہ ترین"
+    },
+    "activeCountChip": "{{total}} میں سے {{active}} فعال",
+    "emptyNoResults": "کوئی نتیجہ نہیں ملا۔",
+    "emptyNoResultsDesc": "تلاش کی اصطلاح تبدیل کریں۔",
+    "emptyNone": "ابھی تک کوئی کارکن شامل نہیں کیا گیا۔",
+    "emptyNoneDesc": "+ بٹن سے نیا کارکن شامل کریں۔",
+    "deleteAriaLabel": "{{name}} حذف کریں",
+    "addAriaLabel": "کارکن شامل کریں",
+    "toastAdded": "کارکن کامیابی سے شامل ہو گیا۔",
+    "toastUpdated": "تبدیلیاں کامیابی سے محفوظ ہو گئیں۔",
+    "toastDeleted": "کارکن حذف ہو گیا۔",
+    "toastDeactivated": "کارکن غیر فعال ہو گیا اور فعال فہرست میں نہیں دکھایا جائے گا۔",
+    "toastCopiedGeneric": "{{label}} کاپی ہو گیا۔",
+    "toastCopyUnsupported": "خودکار کاپی سپورٹ نہیں ہے؛ براہ کرم دستی طور پر منتخب کریں۔",
+    "toastWorkerInfoCopied": "کارکن کی معلومات کاپی ہو گئیں۔",
+    "toastShareCopyUnsupported": "خودکار کاپی سپورٹ نہیں ہے۔",
+    "deleteDialog": {
+      "blockedTitle": "حذف ممکن نہیں",
+      "title": "کارکن حذف کریں",
+      "confirmText": "کیا آپ واقعی «{{name}}» کو حذف کرنا چاہتے ہیں؟ یہ عمل واپس نہیں ہو سکتا۔",
+      "confirmDeactivate": "غیر فعال کریں",
+      "confirmDelete": "حذف کریں"
+    },
+    "galleryTitle": "تصویری گیلری — {{name}}",
+    "shareLabels": {
+      "worker": "کارکن",
+      "position": "عہدہ",
+      "phone": "فون",
+      "cardNumber": "کارڈ نمبر",
+      "sheba": "آئی بی اے این"
+    },
+    "avatarPicker": {
+      "previewAlt": "پروفائل تصویر پیش نظارہ",
+      "previewInvalid": "غلط پیش نظارہ",
+      "profilePhoto": "پروفائل تصویر"
+    },
+    "wageSettingsTooltip": "ملازمت کی اقسام اور اجرت"
+  },
+  "workLog": {
+    "title": "کام کا ریکارڈ",
+    "subtitle": "اس دن کی تصاویر اور نوٹس دیکھنے کے لیے کیلنڈر پر رپورٹ والے دن منتخب کریں۔",
+    "prevMonth": "پچھلا مہینہ",
+    "nextMonth": "اگلا مہینہ",
+    "goToToday": "آج",
+    "loadingCalendar": "کام کے ریکارڈ کا کیلنڈر لوڈ ہو رہا ہے...",
+    "entryDialog": {
+      "title": "کام کی رپورٹ شامل کریں",
+      "countHint": "آج {{max}} میں سے {{existing}} تصاویر درج ہیں — آپ مزید {{remaining}} تصاویر شامل کر سکتے ہیں۔",
+      "photoAlt": "تصویر {{index}}",
+      "takePhoto": "تصویر لیں",
+      "pickFromGallery": "گیلری سے منتخب کریں",
+      "captionLabel": "کیے گئے کام کی تفصیل",
+      "captionPlaceholder": "مثلاً: دوسری منزل کی چھت کی کنکریٹ ڈالی گئی۔",
+      "captionHelper": "یہ تفصیل اس بیچ کی تمام تصاویر کے لیے محفوظ کی جائے گی۔",
+      "cancel": "منسوخ",
+      "submitting": "محفوظ ہو رہا ہے...",
+      "submitSingle": "رپورٹ محفوظ کریں",
+      "submitMultiple": "{{count}} تصاویر محفوظ کریں",
+      "maxPhotosError": "روزانہ زیادہ سے زیادہ {{max}} تصاویر کی اجازت ہے۔ کچھ تصاویر شامل نہیں کی گئیں۔",
+      "noPhotoError": "براہ کرم کیے گئے کام کی کم از کم ایک تصویر منتخب کریں۔"
+    }
+  },
+  "futureActivities": {
+    "title": "آئندہ سرگرمیاں",
+    "listView": "فہرست ملاحظہ",
+    "ganttView": "گینٹ ملاحظہ",
+    "tabUpcoming": "آئندہ",
+    "tabHistory": "تاریخ",
+    "showCompleted": "مکمل شدہ دکھائیں",
+    "historyHint": "تاریخ میں ماضی کی تمام سرگرمیاں شامل ہیں، چاہے مکمل ہوں یا نہ ہوں۔",
+    "sortAriaLabel": "ترتیب دکھائیں",
+    "sortByDate": "تاریخ کے لحاظ سے ترتیب دیں",
+    "sortByPriority": "ترجیح کے لحاظ سے ترتیب دیں",
+    "emptyUpcomingTitle": "ابھی تک کوئی سرگرمی نہیں",
+    "emptyHistoryTitle": "ابھی تک کوئی تاریخ نہیں",
+    "emptyUpcomingDesc": "نیچے دیے گئے بٹن سے آئندہ کے دن کے لیے سرگرمی شامل کریں۔",
+    "emptyHistoryDesc": "ماضی کی سرگرمیاں یہاں دکھائی جائیں گی۔",
+    "deleteItemAriaLabel": "{{title}} حذف کریں",
+    "toastCreatedMultiple": "{{count}} تکراری سرگرمی کے واقعات درج کیے گئے۔",
+    "toastCreated": "سرگرمی درج کر دی گئی۔",
+    "toastUpdated": "تبدیلیاں محفوظ ہو گئیں۔",
+    "toastDeleted": "سرگرمی حذف کر دی گئی۔",
+    "toastSeriesDeleted": "اس سیریز کے تمام واقعات حذف کر دیے گئے۔",
+    "deleteDialogTitle": "سرگرمی حذف کریں؟",
+    "deleteDialogDesc": "یہ سرگرمی مستقل طور پر حذف ہو جائے گی۔",
+    "deleteAction": "حذف کریں",
+    "deleteSeriesDialogTitle": "یہ تکراری سرگرمی حذف کریں",
+    "deleteSeriesDialogDesc": "یہ سرگرمی ایک تکراری سیریز کا حصہ ہے۔ اس سیریز کے تمام واقعات (ماضی اور مستقبل) حذف ہو جائیں گے۔",
+    "deleteSeriesAction": "پوری سیریز حذف کریں",
+    "priorityLow": "کم",
+    "priorityMedium": "درمیانی",
+    "priorityHigh": "زیادہ",
+    "priorityLabel": "{{level}} ترجیح",
+    "statusCompleted": "مکمل",
+    "statusNotCompleted": "نامکمل",
+    "daysCount": "{{count}} دن"
+  },
+  "floor": {
+    "nav": {
+      "title": "ڈیجیٹل منزل نوٹ بک"
+    },
+    "project": {
+      "title": "پروجیکٹ کی منزلیں",
+      "subtitle": "ہر منزل کی ڈیجیٹل نوٹ بک کا نظم کریں",
+      "addFloor": "منزل شامل کریں",
+      "emptyTitle": "ابھی تک کوئی منزل نہیں",
+      "emptyDescription": "شروع کرنے کے لیے پروجیکٹ کی پہلی منزل شامل کریں۔",
+      "floorsCount": "{{count}} منزلیں",
+      "avgProgress": "اوسط پیش رفت"
+    },
+    "usageType": {
+      "residential": "رہائشی",
+      "office": "دفتری",
+      "commercial": "تجارتی",
+      "parking": "پارکنگ",
+      "storage": "گودام",
+      "utility": "تنصیبات",
+      "common": "مشترکہ حصہ",
+      "roof": "چھت",
+      "other": "دیگر"
+    },
+    "status": {
+      "not_started": "شروع نہیں ہوا",
+      "in_progress": "جاری ہے",
+      "paused": "رکا ہوا",
+      "completed": "مکمل"
+    },
+    "stageStatus": {
+      "not_started": "شروع نہیں ہوا",
+      "in_progress": "جاری ہے",
+      "blocked": "اٹکا ہوا",
+      "completed": "مکمل"
+    },
+    "taskStatus": {
+      "todo": "قطار میں",
+      "in_progress": "جاری ہے",
+      "blocked": "اٹکا ہوا",
+      "done": "مکمل"
+    },
+    "taskPriority": {
+      "low": "کم",
+      "medium": "درمیانی",
+      "high": "زیادہ",
+      "critical": "نازک"
+    },
+    "issueSeverity": {
+      "low": "کم",
+      "medium": "درمیانی",
+      "high": "زیادہ",
+      "critical": "نازک"
+    },
+    "issueStatus": {
+      "open": "کھلا",
+      "in_progress": "زیرِ جائزہ",
+      "resolved": "حل ہو گیا",
+      "rejected": "مسترد"
+    },
+    "checklistStatus": {
+      "pending": "زیرِ جائزہ",
+      "passed": "منظور",
+      "failed": "مسترد",
+      "label": "Status"
+    },
+    "planCategory": {
+      "architecture": "تعمیراتی نقشہ",
+      "structure": "ڈھانچہ",
+      "electrical": "بجلی",
+      "mechanical": "میکانیکی",
+      "utilities": "تنصیبات",
+      "as_built": "بمطابق تعمیر",
+      "detail": "تفصیلی نقشہ",
+      "other": "دیگر"
+    },
+    "planStatus": {
+      "draft": "مسودہ",
+      "review": "زیرِ جائزہ",
+      "approved": "منظور شدہ",
+      "obsolete": "منسوخ"
+    },
+    "stageTitle": {
+      "project_start": "کام کا آغاز",
+      "structure": "ڈھانچہ",
+      "masonry": "دیوار سازی",
+      "mep": "بجلی و میکانیکی تنصیبات",
+      "plaster": "پلستر کاری",
+      "flooring": "فرش سازی",
+      "painting": "پینٹنگ",
+      "completion": "تکمیل اور حوالگی"
+    },
+    "checklistTitle": {
+      "electrical": "برقی تاریں",
+      "mechanical": "میکانیکی",
+      "water": "پانی کی پائپ لائن",
+      "sewage": "نکاسی آب",
+      "flooring": "فرش",
+      "walls": "دیواریں",
+      "ceiling": "چھت",
+      "doors": "دروازے",
+      "windows": "کھڑکیاں",
+      "painting": "پینٹنگ",
+      "cleaning": "حتمی صفائی",
+      "defect_fixing": "خرابیوں کی مرمت"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "نئی منزل",
+        "editTitle": "منزل میں ترمیم",
+        "name": "منزل کا نام",
+        "namePlaceholder": "مثلاً تیسری منزل",
+        "number": "منزل نمبر",
+        "usageType": "استعمال کی قسم",
+        "area": "رقبہ (مربع میٹر)",
+        "height": "اونچائی (میٹر)",
+        "description": "تفصیل",
+        "status": "حیثیت",
+        "save": "محفوظ کریں",
+        "cancel": "منسوخ کریں",
+        "unitType": "یونٹ کی قسم",
+        "unitCount": "یونٹس کی تعداد",
+        "unitCountError": "یونٹس کی تعداد کم از کم ۱ ہونی چاہیے۔"
+      },
+      "stage": {
+        "editTitle": "مرحلے میں ترمیم",
+        "addTitle": "نیا مخصوص مرحلہ",
+        "title": "مرحلے کا عنوان",
+        "weight": "پیش رفت کے حساب میں وزن",
+        "status": "حیثیت",
+        "startDate": "آغاز کی تاریخ",
+        "endDate": "اختتام کی تاریخ",
+        "description": "تفصیل",
+        "manualProgress": "دستی پیش رفت فیصد",
+        "progressMode": "پیش رفت شمار کرنے کا طریقہ",
+        "progressModeCalculated": "کاموں سے خودکار",
+        "progressModeManual": "دستی",
+        "save": "محفوظ کریں",
+        "cancel": "منسوخ کریں"
+      },
+      "task": {
+        "addTitle": "نیا کام",
+        "editTitle": "کام میں ترمیم",
+        "title": "کام کا عنوان",
+        "stage": "مرحلہ",
+        "noStage": "کوئی مرحلہ نہیں",
+        "priority": "ترجیح",
+        "status": "حیثیت",
+        "worker": "ذمہ دار کارکن",
+        "noWorker": "غیر متعین",
+        "startDate": "آغاز کی تاریخ",
+        "dueDate": "آخری تاریخ",
+        "estimatedCost": "تخمینی لاگت",
+        "actualCost": "حقیقی لاگت",
+        "note": "نوٹ",
+        "progress": "پیش رفت فیصد",
+        "save": "محفوظ کریں",
+        "cancel": "منسوخ کریں",
+        "noTask": "کوئی کام نہیں",
+        "description": "تفصیل"
+      },
+      "plan": {
+        "addTitle": "نقشہ شامل کریں",
+        "editTitle": "نقشے میں ترمیم",
+        "title": "نقشے کا عنوان",
+        "category": "زمرہ",
+        "code": "نقشہ کوڈ",
+        "revision": "نظرثانی نمبر",
+        "status": "حیثیت",
+        "designer": "ڈیزائنر",
+        "date": "تاریخ",
+        "description": "تفصیل",
+        "file": "نقشے کی فائل (تصویر)",
+        "newRevisionOf": "اس نقشے کی نئی نظرثانی",
+        "save": "محفوظ کریں",
+        "cancel": "منسوخ کریں"
+      },
+      "issue": {
+        "addTitle": "مسئلہ رپورٹ کریں",
+        "editTitle": "مسئلے میں ترمیم",
+        "title": "مسئلے کا عنوان",
+        "description": "تفصیل",
+        "severity": "شدت",
+        "status": "حیثیت",
+        "stage": "متعلقہ مرحلہ",
+        "task": "متعلقہ کام",
+        "assignedWorker": "حل کا ذمہ دار",
+        "dueDate": "حل کی آخری تاریخ",
+        "resolutionNote": "حل کا نوٹ",
+        "save": "محفوظ کریں",
+        "cancel": "منسوخ کریں",
+        "noTask": "کوئی کام نہیں"
+      },
+      "worker": {
+        "addTitle": "منزل میں کارکن شامل کریں",
+        "worker": "کارکن",
+        "role": "اس منزل پر کردار",
+        "rolePlaceholder": "مثلاً تنصیبات کا ٹھیکیدار",
+        "stage": "متعلقہ مرحلہ (اختیاری)",
+        "save": "شامل کریں",
+        "cancel": "منسوخ کریں"
+      },
+      "checklistItem": {
+        "addTitle": "چیک لسٹ میں آئٹم شامل کریں",
+        "title": "عنوان",
+        "save": "شامل کریں",
+        "cancel": "منسوخ کریں",
+        "edit": "Edit item",
+        "worker": "Responsible",
+        "note": "Note"
+      }
+    },
+    "tabs": {
+      "overview": "جائزہ",
+      "tasks": "کام",
+      "docs": "نقشے اور تصاویر",
+      "issues": "رپورٹس اور مسائل",
+      "finance": "مالیات اور عملہ"
+    },
+    "overview": {
+      "kpiProgress": "مجموعی پیش رفت",
+      "kpiOpenTasks": "کھلے کام",
+      "kpiOpenIssues": "کھلے مسائل",
+      "kpiHealth": "منزل کی صحت",
+      "timelineTitle": "مراحل کا ٹائم لائن",
+      "activityTitle": "حالیہ سرگرمیاں",
+      "activityEmpty": "ابھی تک کوئی سرگرمی درج نہیں ہوئی۔",
+      "tasksCount": "{{count}} کام",
+      "readyForNext": "اگلے مرحلے کے لیے تیار",
+      "remainingItems": "{{count}} باقی آئٹمز",
+      "kpiCost": "منزلے کی لاگت"
+    },
+    "tasksTab": {
+      "title": "اس منزل کے کام",
+      "addTask": "نیا کام",
+      "empty": "اس منزل کے لیے ابھی تک کوئی کام درج نہیں ہوا۔",
+      "filterAll": "تمام",
+      "checklistTitle": "حوالگی چیک لسٹ",
+      "checklistAddItem": "آئٹم شامل کریں",
+      "filterStatus": "حیثیت فلٹر",
+      "filterPriority": "ترجیح فلٹر",
+      "sort": "ترتیب",
+      "sortNewest": "نیا ترین",
+      "sortDueDate": "قریب ترین آخری تاریخ",
+      "sortProgress": "سب سے زیادہ پیش رفت",
+      "all": "سب",
+      "taskPhotos": "کام کی تصاویر"
+    },
+    "docsTab": {
+      "plansTitle": "نقشے",
+      "addPlan": "نقشہ شامل کریں",
+      "plansEmpty": "ابھی تک کوئی نقشہ اپ لوڈ نہیں ہوا۔",
+      "activeRevision": "فعال نظرثانی",
+      "oldRevision": "پرانی نظرثانی",
+      "viewRevisions": "نظرثانی کی تاریخ",
+      "photosTitle": "منزل کی تصاویر",
+      "phaseBefore": "Before",
+      "phaseDuring": "During",
+      "phaseAfter": "After",
+      "comparePhases": "پہلے/دوران/بعد کا موازنہ",
+      "compareTitle": "تصاویر کا موازنہ",
+      "revisionLabel": "نظرثانی"
+    },
+    "issuesTab": {
+      "title": "مسائل اور خرابیاں",
+      "addIssue": "مسئلہ رپورٹ کریں",
+      "empty": "اس منزل کے لیے کوئی مسئلہ درج نہیں ہوا۔",
+      "activityTitle": "واقعات کا ریکارڈ",
+      "issuePhotos": "مسئلے کی تصاویر"
+    },
+    "financeTab": {
+      "linkedTotal": "کیش بک میں درج کل رقم",
+      "workersTitle": "اس منزل کے کارکن",
+      "addWorker": "کارکن شامل کریں",
+      "workersEmpty": "ابھی تک اس منزل میں کوئی کارکن شامل نہیں ہوا۔",
+      "taskCostsTitle": "کاموں کی تخمینی لاگت",
+      "estimatedTotal": "تخمینی کل",
+      "actualTotal": "حقیقی کل",
+      "todayCost": "Today",
+      "costPerSquareMeter": "Cost / m²",
+      "stageCosts": "Cost by stage"
+    },
+    "activity": {
+      "floorCreated": "منزل «{{name}}» بنائی گئی۔",
+      "floorStatusChanged": "منزل کی حیثیت «{{status}}» میں تبدیل ہو گئی۔",
+      "stageStarted": "مرحلہ شروع ہوا۔",
+      "stageCreated": "مرحلہ «{{title}}» بنایا گیا۔",
+      "stageCompleted": "مرحلہ مکمل ہوا۔",
+      "stageDeleted": "مرحلہ «{{title}}» حذف کر دیا گیا۔",
+      "stageBlocked": "مرحلہ اٹک گیا۔",
+      "taskCreated": "کام «{{title}}» درج ہوا۔",
+      "taskCompleted": "کام «{{title}}» مکمل ہوا۔",
+      "planUploaded": "نقشہ «{{title}}» اپ لوڈ ہوا۔",
+      "photoAdded": "ایک نئی تصویر شامل ہوئی۔",
+      "issueCreated": "مسئلہ «{{title}}» رپورٹ ہوا۔",
+      "issueResolved": "مسئلہ «{{title}}» حل ہو گیا۔",
+      "checklistUpdated": "چیک لسٹ اپ ڈیٹ ہوئی۔",
+      "workerAssigned": "{{name}} اس منزل میں شامل ہوا۔",
+      "cashbookLinked": "ایک کیش بک ٹرانزیکشن اس منزل سے منسلک ہوئی۔",
+      "reportSaved": "{{date}} کی کام کی رپورٹ محفوظ ہو گئی۔"
+    },
+    "dialogs": {
+      "deleteFloorTitle": "منزل حذف کریں",
+      "deleteFloorMessage": "اس منزل کو حذف کرنے سے اس کے تمام مراحل، کام، نقشے، مسائل اور چیک لسٹ حذف ہو جائیں گے۔ کارکن، مالی لین دین اور تصاویر حذف نہیں ہوں گی، صرف اس منزل سے ان کا تعلق ختم ہو جائے گا۔ یہ عمل واپس نہیں کیا جا سکتا۔",
+      "deleteStageMessage": "یہ مرحلہ حذف ہو جائے گا؛ متعلقہ کام اور نقشے حذف نہیں ہوں گے، صرف ان کا تعلق ختم ہو جائے گا۔",
+      "deleteTaskMessage": "کیا یہ کام حذف کر دیا جائے؟",
+      "deleteIssueMessage": "کیا یہ مسئلہ حذف کر دیا جائے؟",
+      "deletePlanMessage": "کیا یہ نقشہ حذف کر دیا جائے؟",
+      "removeWorkerMessage": "کیا اس کارکن کو اس منزل سے ہٹا دیا جائے؟",
+      "confirm": "تصدیق کریں",
+      "cancel": "منسوخ کریں"
+    },
+    "toasts": {
+      "floorCreated": "منزل بن گئی۔",
+      "floorUpdated": "منزل اپ ڈیٹ ہو گئی۔",
+      "floorDeleted": "منزل حذف ہو گئی۔",
+      "stageUpdated": "مرحلہ اپ ڈیٹ ہو گیا۔",
+      "taskCreated": "کام درج ہو گیا۔",
+      "taskUpdated": "کام اپ ڈیٹ ہو گیا۔",
+      "taskDeleted": "کام حذف ہو گیا۔",
+      "planCreated": "نقشہ شامل ہو گیا۔",
+      "planDeleted": "نقشہ حذف ہو گیا۔",
+      "issueCreated": "مسئلہ درج ہو گیا۔",
+      "issueUpdated": "مسئلہ اپ ڈیٹ ہو گیا۔",
+      "issueDeleted": "مسئلہ حذف ہو گیا۔",
+      "workerAdded": "کارکن شامل ہو گیا۔",
+      "workerRemoved": "کارکن ہٹا دیا گیا۔",
+      "checklistItemAdded": "چیک لسٹ آئٹم شامل ہو گیا۔",
+      "checklistUpdated": "Checklist item updated.",
+      "floorDuplicated": "منزل کامیابی سے نقل ہو گیا۔"
+    },
+    "dashboard": {
+      "title": "ڈیجیٹل منزل نوٹ بک",
+      "subtitle": "{{count}} منزلیں · اوسط پیش رفت {{progress}}٪",
+      "empty": "ابھی تک کوئی منزل درج نہیں ہوئی۔",
+      "viewAll": "تمام دیکھیں",
+      "openTasks": "Open tasks: {{count}}",
+      "lastActivity": "Last activity"
+    },
+    "search": {
+      "floor": "منزل",
+      "floorTask": "منزل کا کام",
+      "floorIssue": "منزل کا مسئلہ",
+      "floorPlan": "منزل کا نقشہ",
+      "floorReport": "فلور رپورٹ"
+    },
+    "backButton": "واپس",
+    "editFloor": "منزل میں ترمیم",
+    "deleteFloor": "منزل حذف کریں",
+    "health": {
+      "dialogTitle": "صحت کا اسکور یہ عدد کیوں ہے؟",
+      "startScore": "100 سے شروع",
+      "noPenalties": "کوئی فعال جرمانہ عنصر نہیں — مکمل اسکور۔",
+      "resultScore": "حتمی اسکور: {{score}}",
+      "factors": {
+        "criticalIssues": "کھلا سنگین مسئلہ ({{count}}× -15)",
+        "otherOpenIssues": "دیگر کھلا مسئلہ ({{count}}× -5)",
+        "blockedStages": "رکاوٹ کا شکار مرحلہ ({{count}}× -10)",
+        "overdueTasks": "مقررہ وقت سے پیچھے کام ({{count}}× -5)",
+        "failedChecklist": "ناکام چیک لسٹ آئٹم ({{count}}× -8)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "Linked reports",
+      "addReport": "Add report",
+      "date": "Report date",
+      "stage": "Related stage",
+      "noStage": "No stage",
+      "description": "Report description",
+      "reportSaved": "Report linked to the floor notebook.",
+      "linkedToFloor": "Linked to floor",
+      "emptyReport": "No description",
+      "emptyReports": "No reports have been linked to this floor yet.",
+      "activitiesTitle": "Scheduled activities",
+      "addActivity": "Add activity",
+      "activityTitle": "Activity title",
+      "activitySaved": "Activity added.",
+      "emptyActivities": "No activities have been scheduled for this floor yet.",
+      "completed": "Completed",
+      "export": "Export notebook"
+    },
+    "actions": {
+      "addStage": "Add stage",
+      "moveStageUp": "مرحلے کو اوپر لے جائیں",
+      "moveStageDown": "مرحلے کو نیچے لے جائیں",
+      "deleteStage": "Delete stage",
+      "deleteStageMessage": "Delete this stage? Task and plan links will be cleared, but the data itself will not be deleted.",
+      "exportNotebook": "Export notebook"
+    },
+    "planViewer": {
+      "view": "View plan",
+      "download": "Download",
+      "noPreview": "No preview available."
+    },
+    "handover": {
+      "handover": "حوالگی کے لیے تیار",
+      "needsFix": "اصلاح درکار ہے",
+      "handoverReady": "یہ منزل حوالگی کے لیے تیار ہے۔",
+      "handoverNeedsFix": "حوالگی سے پہلے کھلے یا ناکام نکات کا جائزہ لیں۔",
+      "checklistProgress": "حوالگی چیک لسٹ: {{total}} میں سے {{passed}} منظور"
+    },
+    "checklist": {
+      "photos": "چیک لسٹ کی تصاویر"
+    },
+    "duplicateFloor": "منزل کی نقل بنائیں",
+    "checklistProgress": {
+      "completedCount": "{{total}} میں سے {{completed}} مکمل",
+      "failedCount": "{{count}} ناکام"
+    },
+    "unitType": {
+      "single": "سنگل یونٹ",
+      "multi": "ملٹی یونٹ"
+    }
+  },
+  "timeRange": {
+    "all": "تمام وقت",
+    "today": "آج",
+    "week": "اس ہفتے",
+    "month": "اس مہینے",
+    "lastMonth": "پچھلا مہینہ",
+    "ariaLabel": "وقت کی حد کا فلٹر",
+    "last7Days": "آخری 7 دن"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "تلاش بند کریں",
+    "placeholder": "کارکن، لین دین، سرگرمی یا سامان تلاش کریں...",
+    "quickAccess": "فوری رسائی",
+    "recentSearches": "حالیہ تلاشیں",
+    "clearRecentSearches": "حالیہ تلاشیں صاف کریں",
+    "shortcutWorkers": "کارکن",
+    "shortcutCashbook": "کیش بک",
+    "shortcutActivities": "آنے والی سرگرمیاں",
+    "shortcutEquipment": "سائٹ کا سامان",
+    "minCharsHint": "کم از کم ۲ حروف لکھیں۔",
+    "emptyTitle": "کوئی نتیجہ نہیں ملا",
+    "emptyDescription": "کارکن کا نام، لین دین کا عنوان، سرگرمی کا عنوان یا سامان کا نام تلاش کریں۔",
+    "activityCompletedSuffix": " — مکمل",
+    "openTasksSuffix": "کھلا کام"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "خرچ",
+      "salary": "تنخواہ کی ادائیگی",
+      "deposit": "جمع / آمدنی"
+    }
+  },
+  "notificationSettings": {
+    "title": "آنے والی سرگرمیوں کی یاد دہانی",
+    "description": "فعال ہونے پر، ہر آنے والی سرگرمی کے لیے (مقررہ تاریخ/وقت پر، یا وقت نہ ہونے کی صورت میں صبح ۸ بجے) آپ کے فون پر ایک مقامی اطلاع دکھائی جائے گی — مکمل طور پر آف لائن۔",
+    "nativeOnly": "اطلاعات صرف اینڈرائیڈ پر نصب شدہ ورژن میں دستیاب ہیں۔",
+    "toggleLabel": "اطلاع کے ذریعے سرگرمیاں یاد دلائیں",
+    "syncing": "یاد دہانیاں ہم آہنگ ہو رہی ہیں...",
+    "permissionDenied": "اطلاع کی اجازت نہیں دی گئی۔ اینڈرائیڈ کی ترتیبات سے اسے فعال کریں۔",
+    "enabledToast": "سرگرمی کی یاد دہانیاں فعال ہو گئیں۔",
+    "disabledToast": "سرگرمی کی یاد دہانیاں غیر فعال ہو گئیں۔",
+    "sendTest": "ٹیسٹ اطلاع بھیجیں",
+    "sendingTest": "بھیجا جا رہا ہے...",
+    "testSentToast": "ٹیسٹ اطلاع بھیج دی گئی — چند سیکنڈ میں ظاہر ہونی چاہیے۔"
+  },
+  "attendance": {
+    "form": {
+      "title": "حاضری درج کریں",
+      "dateLabel": "تاریخ",
+      "checkInLabel": "آمد کا وقت",
+      "checkOutLabel": "روانگی کا وقت",
+      "noteLabel": "نوٹ (اختیاری)",
+      "cancel": "منسوخ",
+      "submit": "حاضری درج کریں",
+      "validationError": "کم از کم آمد یا روانگی کا وقت درج کریں۔",
+      "suggestionDefaultShift": "اس کارکن کی ڈیفالٹ شفٹ کی بنیاد پر پُر کیا گیا؛ ضرورت پڑنے پر تبدیل کریں۔",
+      "suggestionLastAttendance": "اس کارکن کی آخری درج شدہ حاضری کی بنیاد پر پُر کیا گیا؛ ضرورت پڑنے پر تبدیل کریں۔"
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "تصویر شامل کریں",
+      "pickPhotos": "ایک یا زیادہ تصاویر منتخب کریں",
+      "selectedCount": "{{count}} تصاویر منتخب کی گئیں",
+      "addMore": "مزید شامل کریں",
+      "dateLabel": "تصویروں کی تاریخ",
+      "captionLabel": "تفصیل (اختیاری، تمام تصاویر کے لیے)",
+      "cancel": "منسوخ",
+      "uploading": "اپ لوڈ ہو رہا ہے...",
+      "addSingle": "شامل کریں",
+      "addMultiple": "{{count}} تصاویر شامل کریں",
+      "noPhotoError": "براہ کرم کم از کم ایک تصویر منتخب کریں۔"
+    },
+    "gallery": {
+      "cancelSelection": "انتخاب منسوخ کریں",
+      "selectedCount": "{{count}} تصاویر منتخب کی گئیں",
+      "selectAll": "سب منتخب کریں",
+      "deleteSelected": "منتخب تصاویر حذف کریں",
+      "loading": "تصاویر لوڈ ہو رہی ہیں...",
+      "emptyTitle": "ابھی تک کوئی تصویر نہیں۔",
+      "emptyDescription": "+ بٹن سے پہلی تصویر شامل کریں۔",
+      "addPhotoAria": "تصویر شامل کریں",
+      "uploadingProgress": "{{total}} میں سے {{done}} اپ لوڈ ہو رہی ہے...",
+      "uploadedSingle": "تصویر کامیابی سے شامل ہو گئی۔",
+      "uploadedMultiple": "{{count}} تصاویر کامیابی سے شامل ہو گئیں۔",
+      "uploadedPartial": "{{total}} میں سے {{success}} تصاویر شامل ہوئیں؛ {{failed}} ناکام رہیں۔",
+      "deletedSingle": "تصویر حذف ہو گئی۔",
+      "deletedMultiple": "{{count}} تصاویر حذف ہو گئیں۔",
+      "deletedPartial": "{{total}} میں سے {{success}} تصاویر حذف ہوئیں؛ {{failed}} ناکام رہیں۔",
+      "deleteConfirmTitle": "تصویر حذف کریں",
+      "deleteConfirmDescription": "کیا آپ واقعی یہ تصویر حذف کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی۔",
+      "deleteAction": "حذف کریں",
+      "bulkDeleteConfirmTitle": "{{count}} تصاویر حذف کریں",
+      "bulkDeleteConfirmDescription": "کیا آپ واقعی {{count}} منتخب تصاویر حذف کرنا چاہتے ہیں؟ یہ کارروائی واپس نہیں ہو سکتی۔",
+      "bulkDeleteConfirmAction": "{{count}} تصاویر حذف کریں"
+    },
+    "lightbox": {
+      "shareTitle": "تصویر شیئر کریں"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "وقفہ درج کریں",
+    "workerLabel": "کارکن",
+    "legalRightNote": "یہ وقت کارکن کا قانونی حق ہے اور تنخواہ سے نہیں کاٹا جاتا۔",
+    "typeBreakfast": "ناشتہ",
+    "typeLunch": "دوپہر کا کھانا",
+    "typeOther": "دیگر",
+    "noHistoryHint": "اس کارکن کے لیے اس قسم کے وقفے کی کوئی سابقہ ریکارڈ نہیں؛ وقت خود درج کریں — اگلی بار خودکار تجویز ہوگا۔",
+    "startTimeLabel": "شروع ہونے کا وقت",
+    "endTimeLabel": "ختم ہونے کا وقت",
+    "noteLabel": "نوٹ (اختیاری)",
+    "cancel": "منسوخ",
+    "submit": "وقفہ محفوظ کریں",
+    "validationError": "شروع اور اختتام کا وقت ضروری ہے۔"
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "کارکن کو سامان دیں",
+      "equipmentLabel": "سامان",
+      "selectPlaceholder": "منتخب کریں",
+      "availableCount": "دستیاب: {{count}} {{unit}}",
+      "workerLabel": "کارکن",
+      "quantityLabel": "تعداد",
+      "dateLabel": "تحویل کی تاریخ",
+      "noteLabel": "نوٹ (اختیاری)",
+      "cancel": "منسوخ",
+      "submit": "تحویل کریں",
+      "selectionRequired": "سامان اور کارکن کا انتخاب ضروری ہے۔",
+      "quantityInvalid": "تعداد صفر سے زیادہ ہونی چاہیے۔",
+      "insufficientStock": "کافی ذخیرہ نہیں ہے۔ دستیاب: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "ابھی تک کوئی سامان تحویل نہیں دیا گیا۔",
+      "emptyDescription": "+ بٹن سے کارکن کو سامان دیں۔",
+      "workerLabel": "کارکن",
+      "quantityLabel": "تعداد",
+      "assignedDateLabel": "تحویل کی تاریخ",
+      "returnedOn": "واپس ہوا: {{date}}",
+      "withWorker": "کارکن کے پاس",
+      "daysInUse": "{{count}} دن کارکن کے پاس",
+      "returnAction": "واپسی",
+      "fabAriaLabel": "سامان تحویل دیں",
+      "toastAssigned": "سامان تحویل دے دیا گیا۔",
+      "toastReturned": "سامان کی واپسی درج ہو گئی۔"
+    },
+    "pageTitle": "سائٹ کا سامان",
+    "inventoryTab": "انوینٹری",
+    "assignTab": "کارکن کو حوالگی"
+  },
+  "optionalLeave": {
+    "createTitle": "چھٹی درج کریں",
+    "editTitle": "چھٹی میں ترمیم کریں",
+    "typeLabel": "چھٹی کی قسم",
+    "type": {
+      "sick": "بیماری کی چھٹی",
+      "personal": "ذاتی چھٹی",
+      "mission": "مشن",
+      "unpaid": "بلا تنخواہ چھٹی",
+      "other": "دیگر"
+    },
+    "isPaidLabel": "تنخواہ کے ساتھ (عام کام کے دن کی طرح شمار کیا جائے)",
+    "noteLabel": "نوٹ (اختیاری)",
+    "cancel": "منسوخ",
+    "saving": "محفوظ ہو رہا ہے...",
+    "save": "محفوظ کریں"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "پہرے کی شفٹ درج کریں",
+      "editTitle": "پہرے کی شفٹ میں ترمیم کریں",
+      "workerLabel": "کارکن",
+      "usePreviousShift": "پچھلی شفٹ استعمال کریں ({{start}} تا {{end}})",
+      "startTimeLabel": "شفٹ شروع ہونے کا وقت",
+      "endTimeLabel": "شفٹ ختم ہونے کا وقت",
+      "endTimeHelper": "اگر شفٹ آدھی رات کے بعد جاری رہے تو اختتامی وقت ابتدائی وقت سے کم ہو سکتا ہے۔",
+      "noteLabel": "نوٹ (اختیاری)",
+      "cancel": "منسوخ",
+      "saveChanges": "تبدیلیاں محفوظ کریں",
+      "submit": "شفٹ محفوظ کریں",
+      "validationError": "شفٹ شروع اور ختم ہونے کا وقت ضروری ہے۔"
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "کیش باکس کا انتظام",
+    "description": "ہر کیش باکس ایک آزاد اکاؤنٹ ہے (مثلاً 'سائٹ نقدی'، 'بینک اکاؤنٹ')۔ ہر کیش باکس کے لین دین اور بیلنس کا حساب دوسروں سے مکمل طور پر الگ کیا جاتا ہے۔",
+    "isDefaultTitle": "ڈیفالٹ کیش باکس",
+    "setDefaultTitle": "بطور ڈیفالٹ سیٹ کریں",
+    "cannotDeleteDefault": "ڈیفالٹ کیش باکس حذف نہیں کیا جا سکتا",
+    "deleteTitle": "کیش باکس حذف کریں",
+    "defaultChip": "ڈیفالٹ",
+    "newFundPlaceholder": "نئے کیش باکس کا نام",
+    "add": "شامل کریں",
+    "close": "بند کریں",
+    "deleteConfirmTitle": "کیش باکس حذف کریں",
+    "deleteConfirmDescription": "کیا آپ واقعی '{{name}}' کیش باکس حذف کرنا چاہتے ہیں؟ اگر اس میں لین دین ہوں تو حذف ممکن نہیں ہوگا۔",
+    "toastCreated": "نیا کیش باکس شامل ہو گیا۔",
+    "toastDefaultChanged": "ڈیفالٹ کیش باکس تبدیل ہو گیا۔",
+    "toastDeleted": "کیش باکس حذف ہو گیا۔"
+  },
+  "jobType": {
+    "createTitle": "نئی ملازمت کی قسم شامل کریں",
+    "editTitle": "ملازمت میں ترمیم کریں",
+    "nameLabel": "ملازمت کا نام",
+    "descriptionLabel": "تفصیل",
+    "categoryLabel": "زمرہ",
+    "iconLabel": "آئیکن",
+    "wageNoteLabel": "عمومی اجرت کے حساب کا نوٹ (اختیاری)",
+    "wageNoteHelper": "ایک مختصر نوٹ جو کارکن شامل کرنے کے فارم میں اس ملازمت کے ساتھ دکھایا جائے گا۔",
+    "suggestedMethodsLabel": "تجویز کردہ ادائیگی کے طریقے",
+    "cancel": "منسوخ",
+    "saving": "محفوظ ہو رہا ہے...",
+    "save": "محفوظ کریں",
+    "toastCreated": "نئی ملازمت بن گئی۔",
+    "toastUpdated": "ملازمت اپ ڈیٹ ہو گئی۔",
+    "category": {
+      "structure": "ڈھانچہ",
+      "masonry": "معماری",
+      "finishing": "فنشنگ",
+      "flooring": "فرش",
+      "mep": "تنصیبات",
+      "installation": "تنصیب",
+      "sitework": "عمومی سائٹ کام",
+      "other": "دیگر"
+    },
+    "emptyTitle": "ابھی تک کوئی ملازمت متعین نہیں کی گئی",
+    "builtInChip": "ڈیفالٹ",
+    "editAction": "ترمیم",
+    "duplicateAction": "نقل",
+    "restoreAction": "بحال کریں",
+    "deleteAction": "حذف کریں",
+    "deleteConfirmTitle": "ملازمت حذف کریں",
+    "deleteConfirmDescription": "کیا آپ واقعی '{{name}}' حذف کرنا چاہتے ہیں؟ اس ملازمت والے کارکن متاثر نہیں ہوں گے، بس یہ فہرست میں نظر نہیں آئے گی۔",
+    "restoreConfirmTitle": "ڈیفالٹ پر بحال کریں",
+    "restoreConfirmDescription": "'{{name}}' اپنی اصل حالت (کسی بھی ترمیم سے پہلے) پر واپس آ جائے گی۔",
+    "toastDeleted": "ملازمت حذف ہو گئی۔",
+    "toastRestored": "ملازمت ڈیفالٹ پر بحال ہو گئی۔",
+    "toastDuplicated": "ملازمت کی ایک نقل بن گئی۔"
+  },
+  "ledgerEntry": {
+    "dialogTitle": "اکاؤنٹ لین دین درج کریں",
+    "workerLabel": "کارکن",
+    "typeAdvance": "پیشگی",
+    "typeAdvanceHelper": "وہ رقم جو کارکن کو پہلے سے ادا کی جا چکی ہے اور تنخواہ سے کاٹی جانی ہے",
+    "typeDeduction": "دستی کٹوتی",
+    "typeDeductionHelper": "مثلاً غیر حاضری کے گھنٹے جو تنخواہ سے کاٹے جائیں",
+    "typeCredit": "اضافی واجب",
+    "typeCreditHelper": "وہ رقم جو کارکن کو معمول کی تنخواہ کے علاوہ ملنی ہے",
+    "cashbookCheckboxAdvance": "یہ رقم کیش بک کے بیلنس سے بھی کاٹی جائے",
+    "cashbookCheckboxDeduction": "یہ رقم کیش بک میں بطور 'خرچ' بھی درج کی جائے",
+    "amountLabel": "رقم",
+    "dateLabel": "تاریخ",
+    "descriptionLabel": "نوٹ (اختیاری)",
+    "cancel": "منسوخ",
+    "submit": "محفوظ کریں",
+    "validationError": "رقم ایک مثبت عدد ہونی چاہیے۔"
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "کارکن منتخب کریں",
+      "selectWorkerPlaceholder": "ایک کارکن منتخب کریں",
+      "fromDateLabel": "تاریخ سے",
+      "toDateLabel": "تاریخ تک",
+      "toSeparator": "تا",
+      "exportingPdf": "PDF بن رہی ہے...",
+      "downloadPdf": "PDF ڈاؤن لوڈ کریں",
+      "presentDaysTitle": "حاضری کے دن",
+      "totalWorkHoursTitle": "کل کام کے گھنٹے",
+      "totalTimeLossTitle": "کل ضائع وقت",
+      "totalBreakTitle": "کل مجاز وقفہ",
+      "guardDutySalaryTitle": "پہرے کی اجرت ({{count}} شفٹیں)",
+      "calendarView": "کیلنڈر",
+      "listView": "فہرست",
+      "dailyDetailsTitle": "روزانہ تفصیلات",
+      "noRecordsInRange": "اس مدت میں کوئی ریکارڈ درج نہیں۔",
+      "usefulTimeLabel": "مفید",
+      "guardDutySuffix": "پہرہ"
+    },
+    "monthly": {
+      "emptySelectTitle": "ایک کارکن منتخب کریں",
+      "emptySelectDescription": "ماہانہ رپورٹ دیکھنے کے لیے کارکن اور تاریخ کی حد منتخب کریں۔",
+      "pdfFilenamePrefix": "ماہانہ-رپورٹ",
+      "rangeLabel": "مدت",
+      "presentDaysValue": "{{count}} دن",
+      "totalSalaryTitle": "کل عام تنخواہ"
+    },
+    "weekly": {
+      "emptySelectTitle": "ایک کارکن منتخب کریں",
+      "emptySelectDescription": "ہفتہ وار رپورٹ دیکھنے کے لیے پہلے ایک کارکن منتخب کریں۔",
+      "pdfFilenamePrefix": "ہفتہ-وار-رپورٹ",
+      "weekLabel": "ہفتہ:",
+      "presentDaysValue": "7 میں سے {{count}} دن",
+      "totalSalaryTitle": "اس ہفتے کی کل تنخواہ",
+      "dailyDetailsTitle": "ہفتے کے دنوں کی تفصیلات",
+      "noRecordsInRange": "اس ہفتے کوئی ریکارڈ درج نہیں۔",
+      "previousWeekAria": "پچھلا ہفتہ",
+      "nextWeekAria": "اگلا ہفتہ",
+      "currentWeekAria": "موجودہ ہفتہ"
+    },
+    "tabs": {
+      "dailyMonthly": "روزانہ اور ماہانہ",
+      "payroll": "کارکنوں کی تنخواہ",
+      "cashbook": "کیش بک"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "روزانہ",
+      "weeklyToggle": "ہفتہ وار",
+      "monthlyToggle": "ماہانہ"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "کارکنوں پر جائیں",
+      "hint": "کسی کارکن کا حساب دیکھنے اور نمٹانے کے لیے \"سائٹ کے وسائل ← کارکن\" سے اس کے نام پر ٹیپ کریں۔"
+    }
+  },
+  "cloudBackup": {
+    "title": "کلاؤڈ بیک اپ (اختیاری)",
+    "descriptionBeforeLink": "مقامی بیک اپ کے علاوہ، آپ ہر ۲۴ گھنٹے بعد خودکار طور پر ڈیٹا کی ایک خفیہ کاری شدہ کاپی ایک مفت",
+    "descriptionAfterLink": "اکاؤنٹ (ایک آزاد کلاؤڈ سروس) میں محفوظ کر سکتے ہیں۔ یہ مکمل طور پر اختیاری ہے؛ ایپ اس کے بغیر بھی مکمل طور پر آف لائن کام کرتی ہے۔",
+    "enableLabel": "کلاؤڈ بیک اپ فعال کریں",
+    "urlLabel": "Supabase پراجیکٹ کا URL",
+    "keyLabel": "Supabase کلید (Publishable / anon)",
+    "intervalLabel": "کلاؤڈ بیک اپ کا وقفہ",
+    "interval12h": "ہر ۱۲ گھنٹے",
+    "interval24h": "روزانہ (۲۴ گھنٹے)",
+    "interval3d": "ہر ۳ دن",
+    "intervalWeekly": "ہفتہ وار",
+    "testConnection": "کنکشن ٹیسٹ کریں",
+    "restoreAction": "کلاؤڈ بیک اپ سے بحال کریں",
+    "lastBackupLabel": "آخری کامیاب کلاؤڈ بیک اپ",
+    "sqlGuideTitle": "Supabase میں ٹیبل بنانے کی گائیڈ",
+    "sqlGuideDescription": "اپنے Supabase پراجیکٹ کے SQL Editor میں یہ کمانڈ ایک بار چلائیں:",
+    "saveSettings": "ترتیبات محفوظ کریں",
+    "restoreConfirmTitle": "کلاؤڈ بیک اپ سے بحال کریں",
+    "restoreConfirmDescription": "کلاؤڈ بیک اپ سے بحالی، اس ڈیوائس کے تمام موجودہ ڈیٹا کو کلاؤڈ میں محفوظ تازہ ترین ورژن سے تبدیل کر دے گی۔ یہ واپس نہیں ہو سکتی۔ جاری رکھیں؟",
+    "toastSettingsSaved": "کلاؤڈ بیک اپ کی ترتیبات محفوظ ہو گئیں۔",
+    "toastRestoreSuccess": "کلاؤڈ بیک اپ سے بحالی کامیابی سے مکمل ہوئی۔ ایپ دوبارہ لوڈ ہو رہی ہے...",
+    "settingsNotLoadedError": "ترتیبات ابھی تک لوڈ نہیں ہوئیں۔"
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "تا"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "ملازمتیں اور اجرت",
+    "jobsTab": "ملازمتیں",
+    "methodsTab": "حساب کے طریقے"
+  },
+  "charts": {
+    "monthlySalaryTitle": "اس مدت کے لیے روزانہ اجرت کا چارٹ",
+    "salaryLabel": "اجرت",
+    "dateLabelPrefix": "تاریخ",
+    "weeklyTrendTitle": "پچھلے 7 دن کا رجحان (مفید اوقات)",
+    "usefulHoursLabel": "مفید اوقات",
+    "hourUnitSuffix": "{{value}} گھنٹے"
+  },
+  "voiceNote": {
+    "sectionTitle": "صوتی نوٹس",
+    "record": "ریکارڈ کریں",
+    "recording": "ریکارڈ ہو رہا ہے",
+    "unsupported": "اس ڈیوائس پر صوتی ریکارڈنگ سپورٹ نہیں ہے۔",
+    "permissionDenied": "مائیکروفون تک رسائی مسترد کر دی گئی۔",
+    "tooShort": "ریکارڈنگ بہت مختصر تھی، دوبارہ کوشش کریں۔",
+    "empty": "ابھی تک کوئی صوتی نوٹ نہیں۔"
+  }
+}

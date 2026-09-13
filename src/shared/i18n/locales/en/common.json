@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "required": "This field is required.",
+    "close": "Close",
+    "menu": "Menu",
+    "notFound": "Not found",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "retry": "Retry",
+    "error": "Error",
+    "scrollToTop": "Back to top",
+    "delete": "Delete",
+    "clearSearch": "Clear search",
+    "usePreviousText": "Use previous text",
+    "exportMenu": {
+      "label": "Export",
+      "exporting": "Generating...",
+      "shareImage": "Share image",
+      "shareExcel": "Share Excel (CSV)",
+      "saveToDeviceHeader": "Save to device storage",
+      "saveImage": "Save image to device",
+      "saveExcel": "Save Excel to device"
+    },
+    "photo": {
+      "heicUnavailable": "HEIC preview unavailable",
+      "retryPreviewTooltip": "Retry generating preview",
+      "defaultAlt": "Photo"
+    }
+  },
+  "app": {
+    "name": "Workshop Supervisor Assistant"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "resources": "Team & Equipment",
+    "activities": "Activities",
+    "reports": "Reports"
+  },
+  "topbar": {
+    "offlineTooltip": "No internet connection — that's normal; this app works fully offline and all data is stored right here on your phone.",
+    "offlineAria": "No internet (offline)",
+    "search": "Search",
+    "settings": "Settings",
+    "project": {
+      "switcherAria": "Switch project",
+      "newProject": "New project",
+      "renameProject": "Edit project",
+      "deleteProject": "Delete project",
+      "dialogCreateTitle": "New project",
+      "dialogEditTitle": "Edit project",
+      "nameLabel": "Project name",
+      "locationLabel": "Project location (optional)",
+      "supervisorLabel": "Supervisor name (optional)",
+      "save": "Save",
+      "cancel": "Cancel",
+      "deleteConfirm": "Delete project \"{{name}}\"? Its floors/workers/cashbook data won't be deleted, just no longer shown in this project.",
+      "cannotDeleteLast": "You cannot delete the last remaining project.",
+      "nameRequired": "Project name cannot be empty."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "languageSection": {
+      "title": "Language & Currency",
+      "languageLabel": "App language",
+      "currencyLabel": "Currency",
+      "description": "Changing the language also automatically sets the page direction and calendar (Persian/Gregorian)."
+    },
+    "aboutSection": {
+      "title": "About the app",
+      "appName": "Site Supervisor Assistant (Karegah-Yar)",
+      "versionLabel": "App version",
+      "description": "This app is fully offline and all your data is stored only on this phone."
+    },
+    "projectsSection": {
+      "title": "Projects",
+      "description": "Switch between multiple projects/sites or create a new one. Each project has its own floors and cashbook."
+    }
+  },
+  "currency": {
+    "IRT": "Iranian Toman",
+    "USD": "US Dollar",
+    "SAR": "Saudi Riyal",
+    "TRY": "Turkish Lira",
+    "PKR": "Pakistani Rupee",
+    "IQD": "Iraqi Dinar",
+    "AFN": "Afghan Afghani",
+    "RUB": "Russian Ruble"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Automatic (follow device)"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "quickBackup": "Quick backup",
+    "shareSummary": "Share today's summary",
+    "loading": "Loading dashboard...",
+    "quickActions": {
+      "workLog": "Log work report",
+      "attendance": "Attendance",
+      "addTransaction": "Add transaction"
+    },
+    "stats": {
+      "presentWorkers": "Present workers",
+      "absentWorkers": "Absent workers",
+      "totalHoursToday": "Total hours today",
+      "totalTimeLossToday": "Total time loss today",
+      "todaySalary": "Today's payable salary",
+      "personUnit": "people",
+      "onLeaveSuffix": "on leave"
+    },
+    "recentActivities": "Recent activity",
+    "noActivitiesYet": "No activity recorded yet.",
+    "noWorkersAlert": "You haven't added any workers yet. Start from the Resources tab.",
+    "shareCopied": "Today's summary copied.",
+    "shareCopyUnsupported": "Automatic copy isn't supported.",
+    "backupReadyNative": "Backup file is ready. Save or share it.",
+    "backupReadyWeb": "Backup downloaded successfully.",
+    "todayWorkLog": {
+      "title": "Today's work log",
+      "photoCountSuffix": "{{count}} photos recorded",
+      "noPhotos": "No photos",
+      "emptyHint": "No report for today yet — tap to add a photo or note."
+    },
+    "upcomingActivities": {
+      "title": "Upcoming activities",
+      "overdueChip": "{{count}} overdue",
+      "emptyHint": "No upcoming activity recorded — tap to add."
+    }
+  },
+  "resources": {
+    "title": "Workshop Team & Equipment",
+    "tabs": {
+      "workers": "Workers",
+      "attendance": "Attendance",
+      "equipment": "Equipment",
+      "cashbook": "Cashbook"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "Work Log",
+      "upcoming": "Schedule"
+    }
+  },
+  "workers": {
+    "pageTitle": "Worker Management",
+    "searchPlaceholder": "Search by name, position, or phone...",
+    "sortTooltip": "Sort",
+    "sortAriaLabel": "Sort worker list",
+    "sort": {
+      "activeFirst": "Active first",
+      "nameAsc": "Alphabetical (name)",
+      "wageDesc": "Wage: highest",
+      "wageAsc": "Wage: lowest",
+      "newest": "Newest"
+    },
+    "activeCountChip": "{{active}} active of {{total}}",
+    "emptyNoResults": "No results found.",
+    "emptyNoResultsDesc": "Try a different search term.",
+    "emptyNone": "No workers added yet.",
+    "emptyNoneDesc": "Use the + button to add a new worker.",
+    "deleteAriaLabel": "Delete {{name}}",
+    "addAriaLabel": "Add worker",
+    "toastAdded": "Worker added successfully.",
+    "toastUpdated": "Changes saved successfully.",
+    "toastDeleted": "Worker deleted.",
+    "toastDeactivated": "Worker deactivated and hidden from the active list.",
+    "toastCopiedGeneric": "{{label}} copied.",
+    "toastCopyUnsupported": "Automatic copy isn't supported; please select the value manually.",
+    "toastWorkerInfoCopied": "Worker info copied.",
+    "toastShareCopyUnsupported": "Automatic copy isn't supported.",
+    "deleteDialog": {
+      "blockedTitle": "Can't delete",
+      "title": "Delete worker",
+      "confirmText": "Are you sure you want to delete \"{{name}}\"? This can't be undone.",
+      "confirmDeactivate": "Deactivate",
+      "confirmDelete": "Delete"
+    },
+    "galleryTitle": "Photo gallery — {{name}}",
+    "shareLabels": {
+      "worker": "Worker",
+      "position": "Position",
+      "phone": "Phone",
+      "cardNumber": "Card number",
+      "sheba": "IBAN"
+    },
+    "avatarPicker": {
+      "previewAlt": "Profile photo preview",
+      "previewInvalid": "Invalid preview",
+      "profilePhoto": "Profile photo"
+    },
+    "wageSettingsTooltip": "Job types & wages"
+  },
+  "workLog": {
+    "title": "Work Log",
+    "subtitle": "Select days with reports on the calendar to view that day's photos and notes.",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "goToToday": "Today",
+    "loadingCalendar": "Loading work log calendar...",
+    "entryDialog": {
+      "title": "Add work log",
+      "countHint": "{{existing}} of {{max}} photos recorded today — you can add {{remaining}} more.",
+      "photoAlt": "Photo {{index}}",
+      "takePhoto": "Take photo",
+      "pickFromGallery": "Choose from gallery",
+      "captionLabel": "Work description",
+      "captionPlaceholder": "e.g. Poured concrete on the 2nd floor slab.",
+      "captionHelper": "This description will be saved for all photos in this batch.",
+      "cancel": "Cancel",
+      "submitting": "Saving...",
+      "submitSingle": "Save entry",
+      "submitMultiple": "Save {{count}} photos",
+      "maxPhotosError": "A maximum of {{max}} photos per day is allowed. Some photos were not added.",
+      "noPhotoError": "Please select at least one photo of the completed work."
+    }
+  },
+  "futureActivities": {
+    "title": "Upcoming Activities",
+    "listView": "List view",
+    "ganttView": "Gantt view",
+    "tabUpcoming": "Upcoming",
+    "tabHistory": "History",
+    "showCompleted": "Show completed",
+    "historyHint": "History includes past activities, both completed and not.",
+    "sortAriaLabel": "Sort order",
+    "sortByDate": "Sort by date",
+    "sortByPriority": "Sort by priority",
+    "emptyUpcomingTitle": "No activities yet",
+    "emptyHistoryTitle": "No history yet",
+    "emptyUpcomingDesc": "Use the button below to add an activity for a future day.",
+    "emptyHistoryDesc": "Past activities will appear here.",
+    "deleteItemAriaLabel": "Delete {{title}}",
+    "toastCreatedMultiple": "{{count}} recurring activity events were added.",
+    "toastCreated": "Activity added.",
+    "toastUpdated": "Changes saved.",
+    "toastDeleted": "Activity deleted.",
+    "toastSeriesDeleted": "All events in this series were deleted.",
+    "deleteDialogTitle": "Delete activity?",
+    "deleteDialogDesc": "This activity will be permanently deleted.",
+    "deleteAction": "Delete",
+    "deleteSeriesDialogTitle": "Delete this recurring activity",
+    "deleteSeriesDialogDesc": "This activity is part of a recurring series. All events in this series (past and future) will be deleted.",
+    "deleteSeriesAction": "Delete entire series",
+    "priorityLow": "Low",
+    "priorityMedium": "Medium",
+    "priorityHigh": "High",
+    "priorityLabel": "{{level}} priority",
+    "statusCompleted": "Done",
+    "statusNotCompleted": "Not done",
+    "daysCount": "{{count}} days"
+  },
+  "floor": {
+    "nav": {
+      "title": "Digital Floor Notebook"
+    },
+    "project": {
+      "title": "Project Floors",
+      "subtitle": "Manage the digital notebook for each floor",
+      "addFloor": "Add Floor",
+      "emptyTitle": "No floors yet",
+      "emptyDescription": "Add the first floor of the project to get started.",
+      "floorsCount": "{{count}} floors",
+      "avgProgress": "Average progress"
+    },
+    "usageType": {
+      "residential": "Residential",
+      "office": "Office",
+      "commercial": "Commercial",
+      "parking": "Parking",
+      "storage": "Storage",
+      "utility": "Utility",
+      "common": "Common area",
+      "roof": "Roof",
+      "other": "Other"
+    },
+    "status": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "paused": "Paused",
+      "completed": "Completed"
+    },
+    "stageStatus": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "blocked": "Blocked",
+      "completed": "Completed"
+    },
+    "taskStatus": {
+      "todo": "To do",
+      "in_progress": "In progress",
+      "blocked": "Blocked",
+      "done": "Done"
+    },
+    "taskPriority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "issueSeverity": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "issueStatus": {
+      "open": "Open",
+      "in_progress": "In review",
+      "resolved": "Resolved",
+      "rejected": "Rejected"
+    },
+    "checklistStatus": {
+      "pending": "Pending",
+      "passed": "Passed",
+      "failed": "Failed",
+      "label": "Status"
+    },
+    "planCategory": {
+      "architecture": "Architecture",
+      "structure": "Structure",
+      "electrical": "Electrical",
+      "mechanical": "Mechanical",
+      "utilities": "Utilities",
+      "as_built": "As-built",
+      "detail": "Detail drawing",
+      "other": "Other"
+    },
+    "planStatus": {
+      "draft": "Draft",
+      "review": "In review",
+      "approved": "Approved",
+      "obsolete": "Obsolete"
+    },
+    "stageTitle": {
+      "project_start": "Project start",
+      "structure": "Structure",
+      "masonry": "Masonry",
+      "mep": "Electrical & mechanical",
+      "plaster": "Plastering",
+      "flooring": "Flooring",
+      "painting": "Painting",
+      "completion": "Completion & handover"
+    },
+    "checklistTitle": {
+      "electrical": "Electrical wiring",
+      "mechanical": "Mechanical",
+      "water": "Water plumbing",
+      "sewage": "Sewage",
+      "flooring": "Flooring",
+      "walls": "Walls",
+      "ceiling": "Ceiling",
+      "doors": "Doors",
+      "windows": "Windows",
+      "painting": "Painting",
+      "cleaning": "Final cleaning",
+      "defect_fixing": "Defect fixing"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "New floor",
+        "editTitle": "Edit floor",
+        "name": "Floor name",
+        "namePlaceholder": "e.g. Third floor",
+        "number": "Floor number",
+        "usageType": "Usage type",
+        "area": "Area (sq. m)",
+        "height": "Height (m)",
+        "description": "Description",
+        "status": "Status",
+        "save": "Save",
+        "cancel": "Cancel",
+        "unitType": "Unit type",
+        "unitCount": "Number of units",
+        "unitCountError": "Number of units must be at least 1."
+      },
+      "stage": {
+        "editTitle": "Edit stage",
+        "addTitle": "New custom stage",
+        "title": "Stage title",
+        "weight": "Weight in progress calculation",
+        "status": "Status",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "description": "Description",
+        "manualProgress": "Manual progress %",
+        "progressMode": "Progress calculation",
+        "progressModeCalculated": "Automatic from tasks",
+        "progressModeManual": "Manual",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "task": {
+        "addTitle": "New task",
+        "editTitle": "Edit task",
+        "title": "Task title",
+        "stage": "Stage",
+        "noStage": "No stage",
+        "priority": "Priority",
+        "status": "Status",
+        "worker": "Assigned worker",
+        "noWorker": "Unassigned",
+        "startDate": "Start date",
+        "dueDate": "Due date",
+        "estimatedCost": "Estimated cost",
+        "actualCost": "Actual cost",
+        "note": "Note",
+        "progress": "Progress %",
+        "save": "Save",
+        "cancel": "Cancel",
+        "noTask": "No task",
+        "description": "Description"
+      },
+      "plan": {
+        "addTitle": "Add plan",
+        "editTitle": "Edit plan",
+        "title": "Plan title",
+        "category": "Category",
+        "code": "Plan code",
+        "revision": "Revision",
+        "status": "Status",
+        "designer": "Designer",
+        "date": "Date",
+        "description": "Description",
+        "file": "Plan file (image)",
+        "newRevisionOf": "New revision of this plan",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "issue": {
+        "addTitle": "Report issue",
+        "editTitle": "Edit issue",
+        "title": "Issue title",
+        "description": "Description",
+        "severity": "Severity",
+        "status": "Status",
+        "stage": "Related stage",
+        "task": "Related task",
+        "assignedWorker": "Assigned to",
+        "dueDate": "Due date",
+        "resolutionNote": "Resolution note",
+        "save": "Save",
+        "cancel": "Cancel",
+        "noTask": "No task"
+      },
+      "worker": {
+        "addTitle": "Add worker to floor",
+        "worker": "Worker",
+        "role": "Role on this floor",
+        "rolePlaceholder": "e.g. MEP contractor",
+        "stage": "Related stage (optional)",
+        "save": "Add",
+        "cancel": "Cancel"
+      },
+      "checklistItem": {
+        "addTitle": "Add checklist item",
+        "title": "Title",
+        "save": "Add",
+        "cancel": "Cancel",
+        "edit": "Edit item",
+        "worker": "Responsible",
+        "note": "Note"
+      }
+    },
+    "tabs": {
+      "overview": "Overview",
+      "tasks": "Tasks",
+      "docs": "Plans & photos",
+      "issues": "Reports & issues",
+      "finance": "Finance & team"
+    },
+    "overview": {
+      "kpiProgress": "Overall progress",
+      "kpiOpenTasks": "Open tasks",
+      "kpiOpenIssues": "Open issues",
+      "kpiHealth": "Floor health",
+      "timelineTitle": "Stage timeline",
+      "activityTitle": "Recent activity",
+      "activityEmpty": "No activity recorded yet.",
+      "tasksCount": "{{count}} tasks",
+      "readyForNext": "Ready for next stage",
+      "remainingItems": "{{count}} items remaining",
+      "kpiCost": "Floor Cost"
+    },
+    "tasksTab": {
+      "title": "Tasks on this floor",
+      "addTask": "New task",
+      "empty": "No tasks recorded for this floor yet.",
+      "filterAll": "All",
+      "checklistTitle": "Handover checklist",
+      "checklistAddItem": "Add item",
+      "filterStatus": "Filter status",
+      "filterPriority": "Filter priority",
+      "sort": "Sort",
+      "sortNewest": "Newest",
+      "sortDueDate": "Nearest due date",
+      "sortProgress": "Highest progress",
+      "all": "All",
+      "taskPhotos": "Task photos"
+    },
+    "docsTab": {
+      "plansTitle": "Plans",
+      "addPlan": "Add plan",
+      "plansEmpty": "No plans uploaded yet.",
+      "activeRevision": "Active revision",
+      "oldRevision": "Old revision",
+      "viewRevisions": "Revision history",
+      "photosTitle": "Floor photos",
+      "phaseBefore": "Before",
+      "phaseDuring": "During",
+      "phaseAfter": "After",
+      "comparePhases": "Compare Before/During/After",
+      "compareTitle": "Photo Comparison",
+      "revisionLabel": "Rev."
+    },
+    "issuesTab": {
+      "title": "Issues & defects",
+      "addIssue": "Report issue",
+      "empty": "No issues recorded for this floor.",
+      "activityTitle": "Event log",
+      "issuePhotos": "Issue photos"
+    },
+    "financeTab": {
+      "linkedTotal": "Total recorded in cashbook",
+      "workersTitle": "Workers on this floor",
+      "addWorker": "Add worker",
+      "workersEmpty": "No workers added to this floor yet.",
+      "taskCostsTitle": "Task cost estimates",
+      "estimatedTotal": "Estimated total",
+      "actualTotal": "Actual total",
+      "todayCost": "Today",
+      "costPerSquareMeter": "Cost / m²",
+      "stageCosts": "Cost by stage"
+    },
+    "activity": {
+      "floorCreated": "Floor \"{{name}}\" was created.",
+      "floorStatusChanged": "Floor status changed to \"{{status}}\".",
+      "stageStarted": "Stage started.",
+      "stageCreated": "Stage \"{{title}}\" was created.",
+      "stageCompleted": "Stage completed.",
+      "stageDeleted": "Stage \"{{title}}\" was deleted.",
+      "stageBlocked": "Stage got blocked.",
+      "taskCreated": "Task \"{{title}}\" was created.",
+      "taskCompleted": "Task \"{{title}}\" was completed.",
+      "planUploaded": "Plan \"{{title}}\" was uploaded.",
+      "photoAdded": "A new photo was added.",
+      "issueCreated": "Issue \"{{title}}\" was reported.",
+      "issueResolved": "Issue \"{{title}}\" was resolved.",
+      "checklistUpdated": "Checklist was updated.",
+      "workerAssigned": "{{name}} was added to this floor.",
+      "cashbookLinked": "A cashbook transaction was linked to this floor.",
+      "reportSaved": "Work report for {{date}} was saved."
+    },
+    "dialogs": {
+      "deleteFloorTitle": "Delete floor",
+      "deleteFloorMessage": "Deleting this floor removes all its stages, tasks, plans, issues and checklist. Workers, financial transactions and photos are not deleted, only unlinked from this floor. This cannot be undone.",
+      "deleteStageMessage": "This stage will be deleted; related tasks and plans are not deleted, they are only unlinked.",
+      "deleteTaskMessage": "Delete this task?",
+      "deleteIssueMessage": "Delete this issue?",
+      "deletePlanMessage": "Delete this plan?",
+      "removeWorkerMessage": "Remove this worker from this floor?",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "toasts": {
+      "floorCreated": "Floor created.",
+      "floorUpdated": "Floor updated.",
+      "floorDeleted": "Floor deleted.",
+      "stageUpdated": "Stage updated.",
+      "taskCreated": "Task created.",
+      "taskUpdated": "Task updated.",
+      "taskDeleted": "Task deleted.",
+      "planCreated": "Plan added.",
+      "planDeleted": "Plan deleted.",
+      "issueCreated": "Issue created.",
+      "issueUpdated": "Issue updated.",
+      "issueDeleted": "Issue deleted.",
+      "workerAdded": "Worker added.",
+      "workerRemoved": "Worker removed.",
+      "checklistItemAdded": "Checklist item added.",
+      "checklistUpdated": "Checklist item updated.",
+      "floorDuplicated": "Floor duplicated successfully."
+    },
+    "dashboard": {
+      "title": "Digital floor notebook",
+      "subtitle": "{{count}} floors · {{progress}}% average progress",
+      "empty": "No floors recorded yet.",
+      "viewAll": "View all",
+      "openTasks": "Open tasks: {{count}}",
+      "lastActivity": "Last activity"
+    },
+    "search": {
+      "floor": "Floor",
+      "floorTask": "Floor task",
+      "floorIssue": "Floor issue",
+      "floorPlan": "Floor plan",
+      "floorReport": "Floor report"
+    },
+    "backButton": "Back",
+    "editFloor": "Edit floor",
+    "deleteFloor": "Delete floor",
+    "health": {
+      "dialogTitle": "Why is the health score this number?",
+      "startScore": "Starts at 100",
+      "noPenalties": "No active penalty factors — full score.",
+      "resultScore": "Final score: {{score}}",
+      "factors": {
+        "criticalIssues": "Open critical issue ({{count}}× -15)",
+        "otherOpenIssues": "Other open issue ({{count}}× -5)",
+        "blockedStages": "Blocked stage ({{count}}× -10)",
+        "overdueTasks": "Overdue task ({{count}}× -5)",
+        "failedChecklist": "Failed checklist item ({{count}}× -8)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "Linked reports",
+      "addReport": "Add report",
+      "date": "Report date",
+      "stage": "Related stage",
+      "noStage": "No stage",
+      "description": "Report description",
+      "reportSaved": "Report linked to the floor notebook.",
+      "linkedToFloor": "Linked to floor",
+      "emptyReport": "No description",
+      "emptyReports": "No reports have been linked to this floor yet.",
+      "activitiesTitle": "Scheduled activities",
+      "addActivity": "Add activity",
+      "activityTitle": "Activity title",
+      "activitySaved": "Activity added.",
+      "emptyActivities": "No activities have been scheduled for this floor yet.",
+      "completed": "Completed",
+      "export": "Export notebook"
+    },
+    "actions": {
+      "addStage": "Add stage",
+      "moveStageUp": "Move stage up",
+      "moveStageDown": "Move stage down",
+      "deleteStage": "Delete stage",
+      "deleteStageMessage": "Delete this stage? Task and plan links will be cleared, but the data itself will not be deleted.",
+      "exportNotebook": "Export notebook"
+    },
+    "planViewer": {
+      "view": "View plan",
+      "download": "Download",
+      "noPreview": "No preview available."
+    },
+    "handover": {
+      "handover": "Ready for handover",
+      "needsFix": "Needs corrective work",
+      "handoverReady": "This floor is ready for handover.",
+      "handoverNeedsFix": "Review open or failed items before handover.",
+      "checklistProgress": "Handover checklist: {{passed}} of {{total}} approved"
+    },
+    "checklist": {
+      "photos": "Checklist photos"
+    },
+    "duplicateFloor": "Duplicate floor",
+    "checklistProgress": {
+      "completedCount": "{{completed}} of {{total}} complete",
+      "failedCount": "{{count}} failed"
+    },
+    "unitType": {
+      "single": "Single-unit",
+      "multi": "Multi-unit"
+    }
+  },
+  "timeRange": {
+    "all": "All time",
+    "today": "Today",
+    "week": "This week",
+    "month": "This month",
+    "lastMonth": "Last month",
+    "ariaLabel": "Time range filter",
+    "last7Days": "Last 7 days"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "Close search",
+    "placeholder": "Search worker, transaction, activity or equipment...",
+    "quickAccess": "Quick access",
+    "recentSearches": "Recent searches",
+    "clearRecentSearches": "Clear recent searches",
+    "shortcutWorkers": "Workers",
+    "shortcutCashbook": "Cashbook",
+    "shortcutActivities": "Upcoming activities",
+    "shortcutEquipment": "Site equipment",
+    "minCharsHint": "Type at least 2 characters.",
+    "emptyTitle": "No results found",
+    "emptyDescription": "Search by worker name, transaction title, activity title, or equipment name.",
+    "activityCompletedSuffix": " — done",
+    "openTasksSuffix": "open tasks"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "Expense",
+      "salary": "Salary payment",
+      "deposit": "Deposit / income"
+    }
+  },
+  "notificationSettings": {
+    "title": "Upcoming activity reminders",
+    "description": "When enabled, a local notification is shown on your phone for each upcoming activity (at its set date/time, or 8 AM if no time is set) — fully offline.",
+    "nativeOnly": "Notifications are only available in the installed Android version.",
+    "toggleLabel": "Remind me about activities with a notification",
+    "syncing": "Syncing reminders...",
+    "permissionDenied": "Notification permission was not granted. Enable it in Android settings.",
+    "enabledToast": "Activity reminders turned on.",
+    "disabledToast": "Activity reminders turned off.",
+    "sendTest": "Send test notification",
+    "sendingTest": "Sending...",
+    "testSentToast": "Test notification sent — it should appear within a few seconds."
+  },
+  "attendance": {
+    "form": {
+      "title": "Record attendance",
+      "dateLabel": "Date",
+      "checkInLabel": "Check-in time",
+      "checkOutLabel": "Check-out time",
+      "noteLabel": "Note (optional)",
+      "cancel": "Cancel",
+      "submit": "Record attendance",
+      "validationError": "Enter at least a check-in or check-out time.",
+      "suggestionDefaultShift": "Filled from this worker's default shift; change it if needed.",
+      "suggestionLastAttendance": "Filled from this worker's last recorded attendance; change it if needed."
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "Add photo",
+      "pickPhotos": "Choose one or more photos",
+      "selectedCount": "{{count}} photos selected",
+      "addMore": "Add more",
+      "dateLabel": "Photo date",
+      "captionLabel": "Caption (optional, for all photos)",
+      "cancel": "Cancel",
+      "uploading": "Uploading...",
+      "addSingle": "Add",
+      "addMultiple": "Add {{count}} photos",
+      "noPhotoError": "Please select at least one photo."
+    },
+    "gallery": {
+      "cancelSelection": "Cancel selection",
+      "selectedCount": "{{count}} photos selected",
+      "selectAll": "Select all",
+      "deleteSelected": "Delete selected photos",
+      "loading": "Loading photos...",
+      "emptyTitle": "No photos yet.",
+      "emptyDescription": "Use the + button to add the first photo.",
+      "addPhotoAria": "Add photo",
+      "uploadingProgress": "Uploading {{done}} of {{total}}...",
+      "uploadedSingle": "Photo added successfully.",
+      "uploadedMultiple": "{{count}} photos added successfully.",
+      "uploadedPartial": "{{success}} of {{total}} photos added; {{failed}} failed.",
+      "deletedSingle": "Photo deleted.",
+      "deletedMultiple": "{{count}} photos deleted.",
+      "deletedPartial": "{{success}} of {{total}} photos deleted; {{failed}} failed.",
+      "deleteConfirmTitle": "Delete photo",
+      "deleteConfirmDescription": "Are you sure you want to delete this photo? This cannot be undone.",
+      "deleteAction": "Delete",
+      "bulkDeleteConfirmTitle": "Delete {{count}} photos",
+      "bulkDeleteConfirmDescription": "Are you sure you want to delete {{count}} selected photos? This cannot be undone.",
+      "bulkDeleteConfirmAction": "Delete {{count}} photos"
+    },
+    "lightbox": {
+      "shareTitle": "Share photo"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "Record a break",
+    "workerLabel": "Worker",
+    "legalRightNote": "This time is the worker's legal right and is not deducted from pay.",
+    "typeBreakfast": "Breakfast",
+    "typeLunch": "Lunch",
+    "typeOther": "Other",
+    "noHistoryHint": "No history of this break type for this worker; enter the time manually — it will be suggested next time.",
+    "startTimeLabel": "Start time",
+    "endTimeLabel": "End time",
+    "noteLabel": "Note (optional)",
+    "cancel": "Cancel",
+    "submit": "Save break",
+    "validationError": "Start and end time are required."
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "Assign equipment to worker",
+      "equipmentLabel": "Equipment",
+      "selectPlaceholder": "Select",
+      "availableCount": "Available: {{count}} {{unit}}",
+      "workerLabel": "Worker",
+      "quantityLabel": "Quantity",
+      "dateLabel": "Assignment date",
+      "noteLabel": "Note (optional)",
+      "cancel": "Cancel",
+      "submit": "Assign",
+      "selectionRequired": "Equipment and worker are required.",
+      "quantityInvalid": "Quantity must be greater than zero.",
+      "insufficientStock": "Not enough stock. Available: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "No equipment has been assigned yet.",
+      "emptyDescription": "Use the + button to assign equipment to a worker.",
+      "workerLabel": "Worker",
+      "quantityLabel": "Quantity",
+      "assignedDateLabel": "Assigned date",
+      "returnedOn": "Returned: {{date}}",
+      "withWorker": "With worker",
+      "daysInUse": "{{count}} days with worker",
+      "returnAction": "Return",
+      "fabAriaLabel": "Assign equipment",
+      "toastAssigned": "Equipment assigned.",
+      "toastReturned": "Equipment return recorded."
+    },
+    "pageTitle": "Site equipment",
+    "inventoryTab": "Inventory",
+    "assignTab": "Assign to worker"
+  },
+  "optionalLeave": {
+    "createTitle": "Record leave",
+    "editTitle": "Edit leave",
+    "typeLabel": "Leave type",
+    "type": {
+      "sick": "Sick leave",
+      "personal": "Personal leave",
+      "mission": "Mission/errand",
+      "unpaid": "Unpaid leave",
+      "other": "Other"
+    },
+    "isPaidLabel": "Paid (counted as a normal work day)",
+    "noteLabel": "Note (optional)",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "Record guard shift",
+      "editTitle": "Edit guard shift",
+      "workerLabel": "Worker",
+      "usePreviousShift": "Use previous shift ({{start}} to {{end}})",
+      "startTimeLabel": "Shift start time",
+      "endTimeLabel": "Shift end time",
+      "endTimeHelper": "If the shift crosses midnight, the end time can be earlier than the start time.",
+      "noteLabel": "Note (optional)",
+      "cancel": "Cancel",
+      "saveChanges": "Save changes",
+      "submit": "Save shift",
+      "validationError": "Shift start and end time are required."
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "Manage cashboxes",
+    "description": "Each cashbox is an independent account (e.g. 'Site cash', 'Bank account'). Each cashbox's transactions and balance are calculated completely separately from the others.",
+    "isDefaultTitle": "Default cashbox",
+    "setDefaultTitle": "Set as default",
+    "cannotDeleteDefault": "The default cashbox cannot be deleted",
+    "deleteTitle": "Delete cashbox",
+    "defaultChip": "Default",
+    "newFundPlaceholder": "New cashbox name",
+    "add": "Add",
+    "close": "Close",
+    "deleteConfirmTitle": "Delete cashbox",
+    "deleteConfirmDescription": "Are you sure you want to delete the '{{name}}' cashbox? If it has any transactions, it cannot be deleted.",
+    "toastCreated": "New cashbox added.",
+    "toastDefaultChanged": "Default cashbox changed.",
+    "toastDeleted": "Cashbox deleted."
+  },
+  "jobType": {
+    "createTitle": "Add new job type",
+    "editTitle": "Edit job",
+    "nameLabel": "Job name",
+    "descriptionLabel": "Description",
+    "categoryLabel": "Category",
+    "iconLabel": "Icon",
+    "wageNoteLabel": "Common pay calculation note (optional)",
+    "wageNoteHelper": "A short note shown next to this job in the add-worker form.",
+    "suggestedMethodsLabel": "Suggested pay methods",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save",
+    "toastCreated": "New job created.",
+    "toastUpdated": "Job updated.",
+    "category": {
+      "structure": "Structure",
+      "masonry": "Masonry",
+      "finishing": "Finishing",
+      "flooring": "Flooring",
+      "mep": "MEP",
+      "installation": "Installation",
+      "sitework": "Sitework",
+      "other": "Other"
+    },
+    "emptyTitle": "No jobs defined yet",
+    "builtInChip": "Default",
+    "editAction": "Edit",
+    "duplicateAction": "Duplicate",
+    "restoreAction": "Restore",
+    "deleteAction": "Delete",
+    "deleteConfirmTitle": "Delete job",
+    "deleteConfirmDescription": "Are you sure you want to delete '{{name}}'? Workers with this job remain unaffected; it will just no longer appear in the selection list.",
+    "restoreConfirmTitle": "Restore to default",
+    "restoreConfirmDescription": "'{{name}}' will be reverted to its original state (before any edits).",
+    "toastDeleted": "Job deleted.",
+    "toastRestored": "Job restored to default.",
+    "toastDuplicated": "A copy of the job was created."
+  },
+  "ledgerEntry": {
+    "dialogTitle": "Record account transaction",
+    "workerLabel": "Worker",
+    "typeAdvance": "Advance",
+    "typeAdvanceHelper": "An amount already paid to the worker, to be deducted from their pay",
+    "typeDeduction": "Manual deduction",
+    "typeDeductionHelper": "e.g. hours of absence to be deducted from pay",
+    "typeCredit": "Extra credit",
+    "typeCreditHelper": "An amount owed to the worker on top of their normal pay",
+    "cashbookCheckboxAdvance": "Also deduct this amount from the cashbook balance",
+    "cashbookCheckboxDeduction": "Also record this amount as an 'expense' in the cashbook",
+    "amountLabel": "Amount",
+    "dateLabel": "Date",
+    "descriptionLabel": "Note (optional)",
+    "cancel": "Cancel",
+    "submit": "Save",
+    "validationError": "Amount must be a positive number."
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "Select worker",
+      "selectWorkerPlaceholder": "Choose a worker",
+      "fromDateLabel": "From date",
+      "toDateLabel": "To date",
+      "toSeparator": "to",
+      "exportingPdf": "Building PDF...",
+      "downloadPdf": "Download PDF",
+      "presentDaysTitle": "Days present",
+      "totalWorkHoursTitle": "Total work hours",
+      "totalTimeLossTitle": "Total time lost",
+      "totalBreakTitle": "Total allowed breaks",
+      "guardDutySalaryTitle": "Guard duty pay ({{count}} shifts)",
+      "calendarView": "Calendar",
+      "listView": "List",
+      "dailyDetailsTitle": "Daily details",
+      "noRecordsInRange": "No records in this range.",
+      "usefulTimeLabel": "Useful",
+      "guardDutySuffix": "guard duty"
+    },
+    "monthly": {
+      "emptySelectTitle": "Select a worker",
+      "emptySelectDescription": "To view the monthly report, choose a worker and date range.",
+      "pdfFilenamePrefix": "monthly-report",
+      "rangeLabel": "Range",
+      "presentDaysValue": "{{count}} days",
+      "totalSalaryTitle": "Total regular pay"
+    },
+    "weekly": {
+      "emptySelectTitle": "Select a worker",
+      "emptySelectDescription": "To view the weekly report, first choose a worker.",
+      "pdfFilenamePrefix": "weekly-report",
+      "weekLabel": "Week of",
+      "presentDaysValue": "{{count}} of 7 days",
+      "totalSalaryTitle": "Total pay this week",
+      "dailyDetailsTitle": "Daily details for the week",
+      "noRecordsInRange": "No records this week.",
+      "previousWeekAria": "Previous week",
+      "nextWeekAria": "Next week",
+      "currentWeekAria": "Current week"
+    },
+    "tabs": {
+      "dailyMonthly": "Daily & monthly",
+      "payroll": "Worker payroll",
+      "cashbook": "Cashbook"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "Daily",
+      "weeklyToggle": "Weekly",
+      "monthlyToggle": "Monthly"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "Go to workers",
+      "hint": "To view and settle a worker's balance, tap their name from \"Site resources → Workers\"."
+    }
+  },
+  "cloudBackup": {
+    "title": "Cloud backup (optional)",
+    "descriptionBeforeLink": "In addition to the local backup, you can automatically save an encrypted copy of your data every 24 hours to a free",
+    "descriptionAfterLink": "account (an independent cloud service). This is entirely optional; the app works fully offline without it.",
+    "enableLabel": "Enable cloud backup",
+    "urlLabel": "Supabase project URL",
+    "keyLabel": "Supabase key (Publishable / anon)",
+    "intervalLabel": "Cloud backup interval",
+    "interval12h": "Every 12 hours",
+    "interval24h": "Daily (24 hours)",
+    "interval3d": "Every 3 days",
+    "intervalWeekly": "Weekly",
+    "testConnection": "Test connection",
+    "restoreAction": "Restore from cloud backup",
+    "lastBackupLabel": "Last successful cloud backup",
+    "sqlGuideTitle": "Guide: creating the table in Supabase",
+    "sqlGuideDescription": "In your Supabase project's SQL Editor, run this command once:",
+    "saveSettings": "Save settings",
+    "restoreConfirmTitle": "Restore from cloud backup",
+    "restoreConfirmDescription": "Restoring from the cloud backup will replace all current data on this device with the latest version stored in the cloud. This cannot be undone. Continue?",
+    "toastSettingsSaved": "Cloud backup settings saved.",
+    "toastRestoreSuccess": "Restore from cloud backup completed successfully. The app will reload...",
+    "settingsNotLoadedError": "Settings have not loaded yet."
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "to"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "Jobs & wages",
+    "jobsTab": "Jobs",
+    "methodsTab": "Calculation methods"
+  },
+  "charts": {
+    "monthlySalaryTitle": "Daily wage chart for this range",
+    "salaryLabel": "Wage",
+    "dateLabelPrefix": "Date",
+    "weeklyTrendTitle": "Last 7 days trend (productive hours)",
+    "usefulHoursLabel": "Productive hours",
+    "hourUnitSuffix": "{{value}} hours"
+  },
+  "voiceNote": {
+    "sectionTitle": "Voice Notes",
+    "record": "Record",
+    "recording": "Recording",
+    "unsupported": "Voice recording is not supported on this device.",
+    "permissionDenied": "Microphone access was denied.",
+    "tooShort": "Recording was too short, try again.",
+    "empty": "No voice notes yet."
+  }
+}

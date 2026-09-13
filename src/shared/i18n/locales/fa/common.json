@@ -1,0 +1,1036 @@
+{
+  "common": {
+    "loading": "در حال بارگذاری...",
+    "required": "این فیلد الزامی است.",
+    "close": "بستن",
+    "menu": "منو",
+    "notFound": "یافت نشد",
+    "confirm": "تایید",
+    "cancel": "انصراف",
+    "save": "ذخیره",
+    "retry": "تلاش دوباره",
+    "error": "خطا",
+    "scrollToTop": "بازگشت به بالا",
+    "delete": "حذف",
+    "clearSearch": "پاک کردن جستجو",
+    "usePreviousText": "استفاده از متن قبلی",
+    "exportMenu": {
+      "label": "خروجی",
+      "exporting": "در حال ساخت...",
+      "shareImage": "اشتراک‌گذاری عکس",
+      "shareExcel": "اشتراک‌گذاری اکسل (CSV)",
+      "saveToDeviceHeader": "ذخیره در حافظهٔ گوشی",
+      "saveImage": "ذخیرهٔ عکس در گوشی",
+      "saveExcel": "ذخیرهٔ اکسل در گوشی"
+    },
+    "photo": {
+      "heicUnavailable": "پیش‌نمایش HEIC در دسترس نیست",
+      "retryPreviewTooltip": "تلاش مجدد برای ساخت پیش‌نمایش",
+      "defaultAlt": "عکس"
+    }
+  },
+  "app": {
+    "name": "دستیار سرپرست کارگاه"
+  },
+  "nav": {
+    "dashboard": "داشبورد",
+    "resources": "تیم و تجهیزات",
+    "activities": "فعالیت‌ها",
+    "reports": "گزارش‌ها"
+  },
+  "topbar": {
+    "offlineTooltip": "اتصال اینترنت نیست — طبیعی است؛ این برنامه کاملاً آفلاین کار می‌کند و همه اطلاعات همین‌جا روی گوشی ذخیره است.",
+    "offlineAria": "بدون اینترنت (آفلاین)",
+    "search": "جستجو",
+    "settings": "تنظیمات",
+    "project": {
+      "switcherAria": "سوییچ پروژه",
+      "newProject": "پروژهٔ جدید",
+      "renameProject": "ویرایش پروژه",
+      "deleteProject": "حذف پروژه",
+      "dialogCreateTitle": "پروژهٔ جدید",
+      "dialogEditTitle": "ویرایش پروژه",
+      "nameLabel": "نام پروژه",
+      "locationLabel": "محل پروژه (اختیاری)",
+      "supervisorLabel": "نام سرپرست (اختیاری)",
+      "save": "ذخیره",
+      "cancel": "انصراف",
+      "deleteConfirm": "پروژهٔ «{{name}}» حذف شود؟ خودِ طبقات/نیروها/دفتر حساب این پروژه حذف نمی‌شوند، فقط دیگر در این پروژه دیده نمی‌شوند.",
+      "cannotDeleteLast": "نمی‌توان آخرین پروژهٔ باقی‌مانده را حذف کرد.",
+      "nameRequired": "نام پروژه نمی‌تواند خالی باشد."
+    }
+  },
+  "settings": {
+    "title": "تنظیمات",
+    "languageSection": {
+      "title": "زبان و واحد پول",
+      "languageLabel": "زبان برنامه",
+      "currencyLabel": "واحد پول",
+      "description": "با تغییر زبان، جهت صفحه و تقویم (شمسی/میلادی) هم به‌صورت خودکار تنظیم می‌شود."
+    },
+    "aboutSection": {
+      "title": "درباره برنامه",
+      "appName": "دستیار سرپرست کارگاه (کارگاه‌یار)",
+      "versionLabel": "نسخه برنامه",
+      "description": "این برنامه کاملاً آفلاین است و همهٔ اطلاعات شما فقط روی همین گوشی ذخیره می‌شود."
+    },
+    "projectsSection": {
+      "title": "پروژه‌ها",
+      "description": "می‌توانید بین چند پروژه/کارگاه جابه‌جا شوید یا پروژهٔ جدید بسازید. هر پروژه طبقات و دفتر حساب خودش را دارد."
+    }
+  },
+  "currency": {
+    "IRT": "تومان ایران",
+    "USD": "دلار آمریکا",
+    "SAR": "ریال سعودی",
+    "TRY": "لیر ترکیه",
+    "PKR": "روپیه پاکستان",
+    "IQD": "دینار عراق",
+    "AFN": "افغانی",
+    "RUB": "روبل روسیه"
+  },
+  "theme": {
+    "light": "روشن",
+    "dark": "تاریک",
+    "system": "خودکار (پیرو گوشی)"
+  },
+  "dashboard": {
+    "title": "داشبورد",
+    "quickBackup": "پشتیبان‌گیری سریع",
+    "shareSummary": "اشتراک‌گذاری خلاصهٔ امروز",
+    "loading": "در حال بارگذاری داشبورد...",
+    "quickActions": {
+      "workLog": "ثبت گزارش کار",
+      "attendance": "حضور و غیاب",
+      "addTransaction": "افزودن تراکنش"
+    },
+    "stats": {
+      "presentWorkers": "نیروهای حاضر",
+      "absentWorkers": "نیروهای غایب",
+      "totalHoursToday": "کل ساعات کار امروز",
+      "totalTimeLossToday": "کل زمان اتلاف امروز",
+      "todaySalary": "مبلغ حقوق امروز",
+      "personUnit": "نفر",
+      "onLeaveSuffix": "مرخصی"
+    },
+    "recentActivities": "آخرین فعالیت‌ها",
+    "noActivitiesYet": "هنوز فعالیتی ثبت نشده است.",
+    "noWorkersAlert": "هنوز نیرویی ثبت نکرده‌اید. از تب «منابع» شروع کنید.",
+    "shareCopied": "خلاصهٔ امروز کپی شد.",
+    "shareCopyUnsupported": "کپی خودکار پشتیبانی نمی‌شود.",
+    "backupReadyNative": "فایل پشتیبان آماده شد. آن را ذخیره یا اشتراک بگذارید.",
+    "backupReadyWeb": "پشتیبان با موفقیت دانلود شد.",
+    "todayWorkLog": {
+      "title": "گزارش کار امروز",
+      "photoCountSuffix": "{{count}} عکس ثبت شده",
+      "noPhotos": "بدون عکس",
+      "emptyHint": "هنوز گزارشی برای امروز ثبت نشده — برای افزودن عکس یا توضیح لمس کنید."
+    },
+    "upcomingActivities": {
+      "title": "فعالیت‌های آینده",
+      "overdueChip": "{{count}} سررسید گذشته",
+      "emptyHint": "فعالیت آینده‌ای ثبت نشده — برای افزودن لمس کنید."
+    }
+  },
+  "resources": {
+    "title": "تیم و تجهیزات کارگاه",
+    "tabs": {
+      "workers": "نیروها",
+      "attendance": "حضور و غیاب",
+      "equipment": "تجهیزات",
+      "cashbook": "دفتر حساب"
+    }
+  },
+  "activities": {
+    "tabs": {
+      "workLog": "گزارش کار",
+      "upcoming": "برنامه‌ها"
+    }
+  },
+  "workers": {
+    "pageTitle": "مدیریت نیروها",
+    "searchPlaceholder": "جستجوی نام، سمت یا شماره تماس...",
+    "sortTooltip": "مرتب‌سازی",
+    "sortAriaLabel": "مرتب‌سازی فهرست نیروها",
+    "sort": {
+      "activeFirst": "فعال‌ها اول",
+      "nameAsc": "الفبا (نام)",
+      "wageDesc": "دستمزد: بیشترین",
+      "wageAsc": "دستمزد: کمترین",
+      "newest": "جدیدترین"
+    },
+    "activeCountChip": "{{active}} فعال از {{total}} نفر",
+    "emptyNoResults": "نتیجه‌ای یافت نشد.",
+    "emptyNoResultsDesc": "عبارت جستجو را تغییر دهید.",
+    "emptyNone": "هنوز نیرویی ثبت نشده است.",
+    "emptyNoneDesc": "با دکمه + یک نیروی جدید اضافه کنید.",
+    "deleteAriaLabel": "حذف {{name}}",
+    "addAriaLabel": "افزودن نیرو",
+    "toastAdded": "نیرو با موفقیت اضافه شد.",
+    "toastUpdated": "تغییرات با موفقیت ذخیره شد.",
+    "toastDeleted": "نیرو حذف شد.",
+    "toastDeactivated": "نیرو غیرفعال شد و در فهرست فعال‌ها نمایش داده نمی‌شود.",
+    "toastCopiedGeneric": "{{label}} کپی شد.",
+    "toastCopyUnsupported": "کپی خودکار پشتیبانی نمی‌شود؛ مقدار را به‌صورت دستی انتخاب کنید.",
+    "toastWorkerInfoCopied": "اطلاعات نیرو کپی شد.",
+    "toastShareCopyUnsupported": "کپی خودکار پشتیبانی نمی‌شود.",
+    "deleteDialog": {
+      "blockedTitle": "حذف ممکن نیست",
+      "title": "حذف نیرو",
+      "confirmText": "آیا از حذف «{{name}}» مطمئن هستید؟ این عملیات قابل بازگشت نیست.",
+      "confirmDeactivate": "غیرفعال کردن",
+      "confirmDelete": "حذف"
+    },
+    "galleryTitle": "گالری عکس — {{name}}",
+    "shareLabels": {
+      "worker": "نیرو",
+      "position": "سمت",
+      "phone": "تلفن",
+      "cardNumber": "شماره کارت",
+      "sheba": "شبا"
+    },
+    "avatarPicker": {
+      "previewAlt": "پیش‌نمایش عکس پروفایل",
+      "previewInvalid": "پیش‌نمایش نامعتبر",
+      "profilePhoto": "عکس پروفایل"
+    },
+    "wageSettingsTooltip": "شغل‌ها و دستمزد"
+  },
+  "workLog": {
+    "title": "گزارش کار",
+    "subtitle": "روزهای دارای گزارش را روی تقویم انتخاب کنید تا عکس‌ها و توضیحات کار همان روز را ببینید.",
+    "prevMonth": "ماه قبل",
+    "nextMonth": "ماه بعد",
+    "goToToday": "امروز",
+    "loadingCalendar": "در حال بارگذاری تقویم گزارش کار...",
+    "entryDialog": {
+      "title": "افزودن گزارش کار",
+      "countHint": "{{existing}} از {{max}} عکس این روز ثبت شده — می‌توانید تا {{remaining}} عکس دیگر اضافه کنید.",
+      "photoAlt": "عکس {{index}}",
+      "takePhoto": "گرفتن عکس",
+      "pickFromGallery": "انتخاب از گالری",
+      "captionLabel": "شرح کار انجام‌شده",
+      "captionPlaceholder": "مثلاً: بتن‌ریزی سقف طبقه دوم انجام شد.",
+      "captionHelper": "این توضیح برای همه عکس‌های همین دسته ثبت می‌شود.",
+      "cancel": "انصراف",
+      "submitting": "در حال ثبت...",
+      "submitSingle": "ثبت گزارش",
+      "submitMultiple": "ثبت {{count}} عکس",
+      "maxPhotosError": "حداکثر {{max}} عکس در هر روز مجاز است. تعدادی از عکس‌ها اضافه نشدند.",
+      "noPhotoError": "لطفاً حداقل یک عکس از کار انجام‌شده انتخاب کنید."
+    }
+  },
+  "futureActivities": {
+    "title": "فعالیت‌های آینده",
+    "listView": "نمای لیست",
+    "ganttView": "نمای گانت",
+    "tabUpcoming": "فعالیت‌های آینده",
+    "tabHistory": "تاریخچه",
+    "showCompleted": "نمایش انجام‌شده‌ها",
+    "historyHint": "تاریخچه شامل فعالیت‌های گذشته است، چه انجام‌شده و چه انجام‌نشده.",
+    "sortAriaLabel": "ترتیب نمایش",
+    "sortByDate": "مرتب‌سازی بر اساس تاریخ",
+    "sortByPriority": "مرتب‌سازی بر اساس اولویت",
+    "emptyUpcomingTitle": "فعالیتی ثبت نشده",
+    "emptyHistoryTitle": "هنوز تاریخچه‌ای وجود ندارد",
+    "emptyUpcomingDesc": "با دکمه‌ی زیر یک فعالیت برای روزهای آینده ثبت کنید.",
+    "emptyHistoryDesc": "فعالیت‌های گذشته اینجا نمایش داده می‌شوند.",
+    "deleteItemAriaLabel": "حذف {{title}}",
+    "toastCreatedMultiple": "{{count}} رخداد فعالیت تکرارشونده ثبت شد.",
+    "toastCreated": "فعالیت ثبت شد.",
+    "toastUpdated": "تغییرات ذخیره شد.",
+    "toastDeleted": "فعالیت حذف شد.",
+    "toastSeriesDeleted": "همه رخدادهای این سری حذف شدند.",
+    "deleteDialogTitle": "حذف فعالیت؟",
+    "deleteDialogDesc": "این فعالیت برای همیشه حذف می‌شود.",
+    "deleteAction": "حذف",
+    "deleteSeriesDialogTitle": "حذف این فعالیت تکرارشونده",
+    "deleteSeriesDialogDesc": "این فعالیت بخشی از یک سری تکرارشونده است. همه رخدادهای این سری (گذشته و آینده) حذف خواهند شد.",
+    "deleteSeriesAction": "حذف کل سری",
+    "priorityLow": "کم",
+    "priorityMedium": "متوسط",
+    "priorityHigh": "زیاد",
+    "priorityLabel": "اولویت {{level}}",
+    "statusCompleted": "انجام‌شده",
+    "statusNotCompleted": "انجام‌نشده",
+    "daysCount": "{{count}} روزه"
+  },
+  "floor": {
+    "nav": {
+      "title": "دفترچه دیجیتال طبقه"
+    },
+    "project": {
+      "title": "طبقات پروژه",
+      "subtitle": "دفترچه دیجیتال هر طبقه را مدیریت کنید",
+      "addFloor": "افزودن طبقه",
+      "emptyTitle": "هنوز طبقه‌ای ثبت نشده",
+      "emptyDescription": "برای شروع، اولین طبقهٔ پروژه را اضافه کنید.",
+      "floorsCount": "{{count}} طبقه",
+      "avgProgress": "میانگین پیشرفت"
+    },
+    "usageType": {
+      "residential": "مسکونی",
+      "office": "اداری",
+      "commercial": "تجاری",
+      "parking": "پارکینگ",
+      "storage": "انباری",
+      "utility": "تأسیسات",
+      "common": "مشاعات",
+      "roof": "پشت‌بام",
+      "other": "سایر"
+    },
+    "status": {
+      "not_started": "شروع‌نشده",
+      "in_progress": "در حال اجرا",
+      "paused": "متوقف‌شده",
+      "completed": "تکمیل‌شده"
+    },
+    "stageStatus": {
+      "not_started": "شروع‌نشده",
+      "in_progress": "در حال اجرا",
+      "blocked": "گیر کرده",
+      "completed": "تکمیل‌شده"
+    },
+    "taskStatus": {
+      "todo": "در صف",
+      "in_progress": "در حال انجام",
+      "blocked": "گیر کرده",
+      "done": "انجام‌شده"
+    },
+    "taskPriority": {
+      "low": "کم",
+      "medium": "متوسط",
+      "high": "زیاد",
+      "critical": "بحرانی"
+    },
+    "issueSeverity": {
+      "low": "کم",
+      "medium": "متوسط",
+      "high": "زیاد",
+      "critical": "بحرانی"
+    },
+    "issueStatus": {
+      "open": "باز",
+      "in_progress": "در حال بررسی",
+      "resolved": "رفع‌شده",
+      "rejected": "رد شده"
+    },
+    "checklistStatus": {
+      "pending": "بررسی‌نشده",
+      "passed": "تأیید شده",
+      "failed": "رد شده",
+      "label": "وضعیت"
+    },
+    "planCategory": {
+      "architecture": "معماری",
+      "structure": "سازه",
+      "electrical": "برق",
+      "mechanical": "مکانیک",
+      "utilities": "تأسیسات",
+      "as_built": "چون‌ساخت",
+      "detail": "جزئیات اجرایی",
+      "other": "سایر"
+    },
+    "planStatus": {
+      "draft": "پیش‌نویس",
+      "review": "در حال بازبینی",
+      "approved": "تأییدشده",
+      "obsolete": "منسوخ‌شده"
+    },
+    "stageTitle": {
+      "project_start": "شروع کار",
+      "structure": "اسکلت",
+      "masonry": "دیوارچینی",
+      "mep": "تأسیسات برق و مکانیک",
+      "plaster": "گچ‌کاری و سفت‌کاری",
+      "flooring": "کف‌سازی",
+      "painting": "نقاشی",
+      "completion": "تکمیل و تحویل"
+    },
+    "checklistTitle": {
+      "electrical": "برق‌کشی",
+      "mechanical": "مکانیک",
+      "water": "لوله‌کشی آب",
+      "sewage": "فاضلاب",
+      "flooring": "کف",
+      "walls": "دیوارها",
+      "ceiling": "سقف",
+      "doors": "درها",
+      "windows": "پنجره‌ها",
+      "painting": "نقاشی",
+      "cleaning": "نظافت نهایی",
+      "defect_fixing": "رفع نواقص"
+    },
+    "form": {
+      "floor": {
+        "addTitle": "طبقهٔ جدید",
+        "editTitle": "ویرایش طبقه",
+        "name": "نام طبقه",
+        "namePlaceholder": "مثلاً طبقهٔ سوم",
+        "number": "شمارهٔ طبقه",
+        "usageType": "نوع کاربری",
+        "area": "متراژ (متر مربع)",
+        "height": "ارتفاع (متر)",
+        "description": "توضیحات",
+        "status": "وضعیت",
+        "save": "ذخیره",
+        "cancel": "انصراف",
+        "unitType": "نوع واحد",
+        "unitCount": "تعداد واحد",
+        "unitCountError": "تعداد واحد باید حداقل ۱ باشد."
+      },
+      "stage": {
+        "editTitle": "ویرایش مرحله",
+        "addTitle": "مرحلهٔ سفارشی جدید",
+        "title": "عنوان مرحله",
+        "weight": "وزن در محاسبهٔ پیشرفت",
+        "status": "وضعیت",
+        "startDate": "تاریخ شروع",
+        "endDate": "تاریخ پایان",
+        "description": "توضیحات",
+        "manualProgress": "درصد پیشرفت دستی",
+        "progressMode": "نحوهٔ محاسبهٔ پیشرفت",
+        "progressModeCalculated": "خودکار از روی کارها",
+        "progressModeManual": "دستی",
+        "save": "ذخیره",
+        "cancel": "انصراف"
+      },
+      "task": {
+        "addTitle": "کار جدید",
+        "editTitle": "ویرایش کار",
+        "title": "عنوان کار",
+        "stage": "مرحله",
+        "noStage": "بدون مرحله",
+        "priority": "اولویت",
+        "status": "وضعیت",
+        "worker": "نیروی مسئول",
+        "noWorker": "تعیین‌نشده",
+        "startDate": "تاریخ شروع",
+        "dueDate": "موعد انجام",
+        "estimatedCost": "هزینهٔ برآوردی",
+        "actualCost": "هزینهٔ واقعی",
+        "note": "یادداشت",
+        "progress": "درصد پیشرفت",
+        "save": "ذخیره",
+        "cancel": "انصراف",
+        "noTask": "بدون کار",
+        "description": "توضیحات"
+      },
+      "plan": {
+        "addTitle": "افزودن نقشه",
+        "editTitle": "ویرایش نقشه",
+        "title": "عنوان نقشه",
+        "category": "دسته",
+        "code": "کد نقشه",
+        "revision": "شمارهٔ بازبینی",
+        "status": "وضعیت",
+        "designer": "طراح",
+        "date": "تاریخ",
+        "description": "توضیحات",
+        "file": "فایل نقشه (تصویر)",
+        "newRevisionOf": "نسخهٔ جدید از این نقشه",
+        "save": "ذخیره",
+        "cancel": "انصراف"
+      },
+      "issue": {
+        "addTitle": "ثبت مشکل",
+        "editTitle": "ویرایش مشکل",
+        "title": "عنوان مشکل",
+        "description": "توضیحات",
+        "severity": "شدت",
+        "status": "وضعیت",
+        "stage": "مرحلهٔ مرتبط",
+        "task": "کار مرتبط",
+        "assignedWorker": "مسئول رفع",
+        "dueDate": "موعد رفع",
+        "resolutionNote": "یادداشت رفع مشکل",
+        "save": "ذخیره",
+        "cancel": "انصراف",
+        "noTask": "بدون کار"
+      },
+      "worker": {
+        "addTitle": "افزودن نیرو به طبقه",
+        "worker": "نیرو",
+        "role": "نقش در این طبقه",
+        "rolePlaceholder": "مثلاً پیمانکار تأسیسات",
+        "stage": "مرحلهٔ مرتبط (اختیاری)",
+        "save": "افزودن",
+        "cancel": "انصراف"
+      },
+      "checklistItem": {
+        "addTitle": "افزودن مورد چک‌لیست",
+        "title": "عنوان",
+        "save": "افزودن",
+        "cancel": "انصراف",
+        "edit": "ویرایش مورد",
+        "worker": "مسئول",
+        "note": "یادداشت"
+      }
+    },
+    "tabs": {
+      "overview": "نمای کلی",
+      "tasks": "کارها",
+      "docs": "نقشه و عکس",
+      "issues": "گزارش و مشکلات",
+      "finance": "هزینه و افراد"
+    },
+    "overview": {
+      "kpiProgress": "پیشرفت کلی",
+      "kpiOpenTasks": "کارهای باز",
+      "kpiOpenIssues": "مشکلات باز",
+      "kpiHealth": "سلامت طبقه",
+      "timelineTitle": "مسیر اجرای مراحل",
+      "activityTitle": "آخرین فعالیت‌ها",
+      "activityEmpty": "هنوز فعالیتی ثبت نشده است.",
+      "tasksCount": "{{count}} کار",
+      "readyForNext": "آمادهٔ مرحلهٔ بعد",
+      "remainingItems": "{{count}} مورد باز مانده",
+      "kpiCost": "هزینه طبقه"
+    },
+    "tasksTab": {
+      "title": "کارهای این طبقه",
+      "addTask": "کار جدید",
+      "empty": "هنوز کاری برای این طبقه ثبت نشده است.",
+      "filterAll": "همه",
+      "checklistTitle": "چک‌لیست تحویل طبقه",
+      "checklistAddItem": "افزودن مورد",
+      "filterStatus": "فیلتر وضعیت",
+      "filterPriority": "فیلتر اولویت",
+      "sort": "مرتب‌سازی",
+      "sortNewest": "جدیدترین",
+      "sortDueDate": "نزدیک‌ترین موعد",
+      "sortProgress": "بیشترین پیشرفت",
+      "all": "همه",
+      "taskPhotos": "عکس‌های کار"
+    },
+    "docsTab": {
+      "plansTitle": "نقشه‌ها",
+      "addPlan": "افزودن نقشه",
+      "plansEmpty": "هنوز نقشه‌ای بارگذاری نشده است.",
+      "activeRevision": "نسخهٔ فعال",
+      "oldRevision": "نسخهٔ قدیمی",
+      "viewRevisions": "تاریخچهٔ نسخه‌ها",
+      "photosTitle": "عکس‌های طبقه",
+      "phaseBefore": "قبل از اجرا",
+      "phaseDuring": "حین اجرا",
+      "phaseAfter": "بعد از اجرا",
+      "comparePhases": "مقایسه قبل/حین/بعد",
+      "compareTitle": "مقایسه تصاویر اجرا",
+      "revisionLabel": "نسخه"
+    },
+    "issuesTab": {
+      "title": "مشکلات و نواقص",
+      "addIssue": "ثبت مشکل",
+      "empty": "مشکلی برای این طبقه ثبت نشده است.",
+      "activityTitle": "گزارش رویدادها",
+      "issuePhotos": "عکس‌های مشکل"
+    },
+    "financeTab": {
+      "linkedTotal": "جمع هزینه‌های ثبت‌شدهٔ دفتر حساب",
+      "workersTitle": "نیروهای این طبقه",
+      "addWorker": "افزودن نیرو",
+      "workersEmpty": "هنوز نیرویی به این طبقه اضافه نشده است.",
+      "taskCostsTitle": "برآورد هزینهٔ کارها",
+      "estimatedTotal": "جمع برآوردی",
+      "actualTotal": "جمع واقعی",
+      "todayCost": "هزینه امروز",
+      "costPerSquareMeter": "هزینه / مترمربع",
+      "stageCosts": "هزینه بر اساس مرحله"
+    },
+    "activity": {
+      "floorCreated": "طبقهٔ «{{name}}» ساخته شد.",
+      "floorStatusChanged": "وضعیت طبقه به «{{status}}» تغییر کرد.",
+      "stageStarted": "مرحله شروع شد.",
+      "stageCreated": "مرحلهٔ «{{title}}» ساخته شد.",
+      "stageCompleted": "مرحله تکمیل شد.",
+      "stageDeleted": "مرحلهٔ «{{title}}» حذف شد.",
+      "stageBlocked": "مرحله گیر کرد.",
+      "taskCreated": "کار «{{title}}» ثبت شد.",
+      "taskCompleted": "کار «{{title}}» انجام شد.",
+      "planUploaded": "نقشهٔ «{{title}}» بارگذاری شد.",
+      "photoAdded": "عکس جدید اضافه شد.",
+      "issueCreated": "مشکل «{{title}}» ثبت شد.",
+      "issueResolved": "مشکل «{{title}}» رفع شد.",
+      "checklistUpdated": "چک‌لیست به‌روزرسانی شد.",
+      "workerAssigned": "{{name}} به این طبقه اضافه شد.",
+      "cashbookLinked": "یک تراکنش دفتر حساب به این طبقه مرتبط شد.",
+      "reportSaved": "گزارش کار {{date}} ثبت شد."
+    },
+    "dialogs": {
+      "deleteFloorTitle": "حذف طبقه",
+      "deleteFloorMessage": "با حذف این طبقه، همهٔ مراحل، کارها، نقشه‌ها، مشکلات و چک‌لیست آن حذف می‌شود. نیروها، تراکنش‌های مالی و عکس‌ها حذف نمی‌شوند، فقط ارتباطشان با این طبقه قطع می‌شود. این کار قابل بازگشت نیست.",
+      "deleteStageMessage": "این مرحله حذف می‌شود؛ کارها و نقشه‌های مرتبط با آن حذف نمی‌شوند، فقط دیگر به مرحله‌ای وصل نیستند.",
+      "deleteTaskMessage": "این کار حذف شود؟",
+      "deleteIssueMessage": "این مشکل حذف شود؟",
+      "deletePlanMessage": "این نقشه حذف شود؟",
+      "removeWorkerMessage": "این نیرو از این طبقه حذف شود؟",
+      "confirm": "تأیید",
+      "cancel": "انصراف"
+    },
+    "toasts": {
+      "floorCreated": "طبقه ساخته شد.",
+      "floorUpdated": "طبقه به‌روزرسانی شد.",
+      "floorDeleted": "طبقه حذف شد.",
+      "stageUpdated": "مرحله به‌روزرسانی شد.",
+      "taskCreated": "کار ثبت شد.",
+      "taskUpdated": "کار به‌روزرسانی شد.",
+      "taskDeleted": "کار حذف شد.",
+      "planCreated": "نقشه اضافه شد.",
+      "planDeleted": "نقشه حذف شد.",
+      "issueCreated": "مشکل ثبت شد.",
+      "issueUpdated": "مشکل به‌روزرسانی شد.",
+      "issueDeleted": "مشکل حذف شد.",
+      "workerAdded": "نیرو اضافه شد.",
+      "workerRemoved": "نیرو حذف شد.",
+      "checklistItemAdded": "مورد چک‌لیست اضافه شد.",
+      "checklistUpdated": "مورد چک‌لیست به‌روزرسانی شد.",
+      "floorDuplicated": "کپی طبقه با موفقیت ساخته شد."
+    },
+    "dashboard": {
+      "title": "دفترچهٔ دیجیتال طبقات",
+      "subtitle": "{{count}} طبقه · میانگین پیشرفت {{progress}}٪",
+      "empty": "هنوز طبقه‌ای ثبت نشده است.",
+      "viewAll": "مشاهدهٔ همه",
+      "openTasks": "کار باز: {{count}}",
+      "lastActivity": "آخرین فعالیت"
+    },
+    "search": {
+      "floor": "طبقه",
+      "floorTask": "کار طبقه",
+      "floorIssue": "مشکل طبقه",
+      "floorPlan": "نقشهٔ طبقه",
+      "floorReport": "گزارش طبقه"
+    },
+    "backButton": "بازگشت",
+    "editFloor": "ویرایش طبقه",
+    "deleteFloor": "حذف طبقه",
+    "health": {
+      "dialogTitle": "چرا امتیاز سلامت این‌طوره؟",
+      "startScore": "شروع از ۱۰۰",
+      "noPenalties": "هیچ عامل جریمه‌کننده‌ای فعال نیست — امتیاز کامل است.",
+      "resultScore": "امتیاز نهایی: {{score}}",
+      "factors": {
+        "criticalIssues": "مشکل بحرانی باز ({{count}}× ۱۵-)",
+        "otherOpenIssues": "سایر مشکلات باز ({{count}}× ۵-)",
+        "blockedStages": "مرحلهٔ گیرکرده ({{count}}× ۱۰-)",
+        "overdueTasks": "کار عقب‌افتاده از موعد ({{count}}× ۵-)",
+        "failedChecklist": "مورد ردشدهٔ چک‌لیست ({{count}}× ۸-)"
+      }
+    },
+    "reportsTab": {
+      "reportsTitle": "گزارش‌های متصل به طبقه",
+      "addReport": "ثبت گزارش",
+      "date": "تاریخ گزارش",
+      "stage": "مرحله مرتبط",
+      "noStage": "بدون مرحله",
+      "description": "شرح گزارش",
+      "reportSaved": "گزارش با موفقیت به دفترچه طبقه متصل شد.",
+      "linkedToFloor": "متصل به طبقه",
+      "emptyReport": "بدون شرح",
+      "emptyReports": "هنوز گزارشی برای این طبقه ثبت نشده.",
+      "activitiesTitle": "فعالیت‌های برنامه‌ریزی‌شده",
+      "addActivity": "ثبت فعالیت",
+      "activityTitle": "عنوان فعالیت",
+      "activitySaved": "فعالیت با موفقیت ثبت شد.",
+      "emptyActivities": "هنوز فعالیتی برای این طبقه ثبت نشده.",
+      "completed": "انجام‌شده",
+      "export": "خروجی دفترچه"
+    },
+    "actions": {
+      "addStage": "افزودن مرحله",
+      "moveStageUp": "جابجایی مرحله به بالا",
+      "moveStageDown": "جابجایی مرحله به پایین",
+      "deleteStage": "حذف مرحله",
+      "deleteStageMessage": "این مرحله حذف شود؟ ارتباط کارها و نقشه‌های آن قطع می‌شود اما خود داده‌ها حذف نمی‌شوند.",
+      "exportNotebook": "خروجی دفترچه"
+    },
+    "planViewer": {
+      "view": "مشاهده نقشه",
+      "download": "دانلود",
+      "noPreview": "پیش‌نمایشی برای این نقشه موجود نیست."
+    },
+    "handover": {
+      "handover": "آماده تحویل",
+      "needsFix": "نیازمند رفع نقص",
+      "handoverReady": "این طبقه آماده تحویل است.",
+      "handoverNeedsFix": "برای تحویل، موارد باز یا ردشده را بررسی کنید.",
+      "checklistProgress": "چک‌لیست تحویل: {{passed}} از {{total}} مورد تأیید شده"
+    },
+    "checklist": {
+      "photos": "عکس‌های چک‌لیست"
+    },
+    "duplicateFloor": "کپی طبقه",
+    "checklistProgress": {
+      "completedCount": "{{completed}} از {{total}} تکمیل",
+      "failedCount": "{{count}} مردود"
+    },
+    "unitType": {
+      "single": "تک‌واحدی",
+      "multi": "چندواحدی"
+    }
+  },
+  "timeRange": {
+    "all": "کل زمان‌ها",
+    "today": "امروز",
+    "week": "این هفته",
+    "month": "این ماه",
+    "lastMonth": "ماه قبل",
+    "ariaLabel": "فیلتر بازه زمانی",
+    "last7Days": "۷ روز اخیر"
+  },
+  "globalSearch": {
+    "closeAriaLabel": "بستن جستجو",
+    "placeholder": "جستجوی نیرو، تراکنش، فعالیت یا تجهیزات...",
+    "quickAccess": "دسترسی سریع",
+    "recentSearches": "جستجوهای اخیر",
+    "clearRecentSearches": "پاک کردن جستجوهای اخیر",
+    "shortcutWorkers": "نیروها",
+    "shortcutCashbook": "دفتر حساب",
+    "shortcutActivities": "فعالیت‌های آینده",
+    "shortcutEquipment": "تجهیزات کارگاه",
+    "minCharsHint": "حداقل ۲ حرف بنویسید.",
+    "emptyTitle": "نتیجه‌ای یافت نشد",
+    "emptyDescription": "نام نیرو، عنوان تراکنش، عنوان فعالیت یا نام تجهیزات را جستجو کنید.",
+    "activityCompletedSuffix": " — انجام‌شده",
+    "openTasksSuffix": "کار باز"
+  },
+  "cashbook": {
+    "entryType": {
+      "expense": "خرج / هزینه",
+      "salary": "پرداخت حقوق",
+      "deposit": "واریزی / درآمد"
+    }
+  },
+  "notificationSettings": {
+    "title": "یادآوری فعالیت‌های آینده",
+    "description": "با فعال بودن این گزینه، برای هر فعالیت آینده (در تاریخ و ساعت مشخص‌شده، یا ساعت ۸ صبح در صورت نبود ساعت) یک نوتیفیکیشن محلی روی گوشی نمایش داده می‌شود — کاملاً آفلاین.",
+    "nativeOnly": "نوتیفیکیشن فقط در نسخهٔ نصب‌شده روی اندروید فعال است.",
+    "toggleLabel": "یادآوری فعالیت‌ها با نوتیفیکیشن",
+    "syncing": "در حال هماهنگ‌سازی یادآوری‌ها...",
+    "permissionDenied": "مجوز نمایش نوتیفیکیشن داده نشد. از تنظیمات اندروید آن را فعال کنید.",
+    "enabledToast": "یادآوری فعالیت‌ها فعال شد.",
+    "disabledToast": "یادآوری فعالیت‌ها غیرفعال شد.",
+    "sendTest": "ارسال نوتیفیکیشن آزمایشی",
+    "sendingTest": "در حال ارسال...",
+    "testSentToast": "نوتیفیکیشن آزمایشی ارسال شد — تا چند ثانیهٔ دیگر باید ظاهر شود."
+  },
+  "attendance": {
+    "form": {
+      "title": "ثبت حضور",
+      "dateLabel": "تاریخ",
+      "checkInLabel": "ساعت ورود",
+      "checkOutLabel": "ساعت خروج",
+      "noteLabel": "توضیح (اختیاری)",
+      "cancel": "انصراف",
+      "submit": "ثبت حضور",
+      "validationError": "حداقل یکی از ساعت ورود یا خروج را وارد کنید.",
+      "suggestionDefaultShift": "بر اساس شیفت پیش‌فرض این نیرو پر شد؛ در صورت نیاز تغییر دهید.",
+      "suggestionLastAttendance": "بر اساس آخرین حضور ثبت‌شده این نیرو پر شد؛ در صورت نیاز تغییر دهید."
+    }
+  },
+  "photoGallery": {
+    "uploadDialog": {
+      "title": "افزودن عکس",
+      "pickPhotos": "انتخاب یک یا چند عکس",
+      "selectedCount": "{{count}} عکس انتخاب شده",
+      "addMore": "افزودن بیشتر",
+      "dateLabel": "تاریخ عکس‌ها",
+      "captionLabel": "توضیح (اختیاری، برای همه عکس‌ها)",
+      "cancel": "انصراف",
+      "uploading": "در حال آپلود...",
+      "addSingle": "افزودن",
+      "addMultiple": "افزودن {{count}} عکس",
+      "noPhotoError": "لطفاً حداقل یک عکس انتخاب کنید."
+    },
+    "gallery": {
+      "cancelSelection": "لغو انتخاب",
+      "selectedCount": "{{count}} عکس انتخاب شده",
+      "selectAll": "انتخاب همه",
+      "deleteSelected": "حذف عکس‌های انتخاب‌شده",
+      "loading": "در حال بارگذاری عکس‌ها...",
+      "emptyTitle": "هنوز عکسی ثبت نشده است.",
+      "emptyDescription": "با دکمه + اولین عکس را اضافه کنید.",
+      "addPhotoAria": "افزودن عکس",
+      "uploadingProgress": "در حال آپلود {{done}} از {{total}}...",
+      "uploadedSingle": "عکس با موفقیت اضافه شد.",
+      "uploadedMultiple": "{{count}} عکس با موفقیت اضافه شد.",
+      "uploadedPartial": "{{success}} از {{total}} عکس اضافه شد؛ {{failed}} مورد ناموفق بود.",
+      "deletedSingle": "عکس حذف شد.",
+      "deletedMultiple": "{{count}} عکس حذف شد.",
+      "deletedPartial": "{{success}} از {{total}} عکس حذف شد؛ {{failed}} مورد ناموفق بود.",
+      "deleteConfirmTitle": "حذف عکس",
+      "deleteConfirmDescription": "آیا از حذف این عکس مطمئن هستید؟ این عملیات قابل بازگشت نیست.",
+      "deleteAction": "حذف",
+      "bulkDeleteConfirmTitle": "حذف {{count}} عکس",
+      "bulkDeleteConfirmDescription": "آیا از حذف {{count}} عکس انتخاب‌شده مطمئن هستید؟ این عملیات قابل بازگشت نیست.",
+      "bulkDeleteConfirmAction": "حذف {{count}} عکس"
+    },
+    "lightbox": {
+      "shareTitle": "اشتراک‌گذاری عکس"
+    }
+  },
+  "breakTime": {
+    "dialogTitle": "ثبت استراحت مجاز",
+    "workerLabel": "نیرو",
+    "legalRightNote": "این زمان حق قانونی نیروست و از حقوق کسر نمی‌شود.",
+    "typeBreakfast": "صبحانه",
+    "typeLunch": "ناهار",
+    "typeOther": "سایر",
+    "noHistoryHint": "سابقه‌ای از این نوع استراحت برای این نیرو نبود؛ ساعت را دستی وارد کنید — از دفعهٔ بعد پیشنهاد می‌شود.",
+    "startTimeLabel": "ساعت شروع",
+    "endTimeLabel": "ساعت پایان",
+    "noteLabel": "توضیح (اختیاری)",
+    "cancel": "انصراف",
+    "submit": "ثبت استراحت",
+    "validationError": "ساعت شروع و پایان الزامی است."
+  },
+  "equipment": {
+    "assignDialog": {
+      "title": "تحویل تجهیزات به نیرو",
+      "equipmentLabel": "تجهیزات",
+      "selectPlaceholder": "انتخاب کنید",
+      "availableCount": "موجودی: {{count}} {{unit}}",
+      "workerLabel": "نیرو",
+      "quantityLabel": "تعداد",
+      "dateLabel": "تاریخ تحویل",
+      "noteLabel": "توضیح (اختیاری)",
+      "cancel": "انصراف",
+      "submit": "تحویل بده",
+      "selectionRequired": "انتخاب تجهیزات و نیرو الزامی است.",
+      "quantityInvalid": "تعداد باید بزرگتر از صفر باشد.",
+      "insufficientStock": "موجودی کافی نیست. موجودی در دسترس: {{available}} {{unit}}"
+    },
+    "assignmentSection": {
+      "emptyTitle": "هنوز تجهیزاتی تحویل داده نشده است.",
+      "emptyDescription": "با دکمه + تجهیزات را به نیرو تحویل دهید.",
+      "workerLabel": "نیرو",
+      "quantityLabel": "تعداد",
+      "assignedDateLabel": "تاریخ تحویل",
+      "returnedOn": "برگردانده شده: {{date}}",
+      "withWorker": "نزد نیرو",
+      "daysInUse": "{{count}} روز نزد نیرو",
+      "returnAction": "بازگشت",
+      "fabAriaLabel": "تحویل تجهیزات",
+      "toastAssigned": "تجهیزات تحویل داده شد.",
+      "toastReturned": "بازگشت تجهیزات ثبت شد."
+    },
+    "pageTitle": "تجهیزات کارگاه",
+    "inventoryTab": "انبار تجهیزات",
+    "assignTab": "تحویل به نیرو"
+  },
+  "optionalLeave": {
+    "createTitle": "ثبت غیبت مجاز",
+    "editTitle": "ویرایش غیبت مجاز",
+    "typeLabel": "نوع غیبت",
+    "type": {
+      "sick": "مرخصی استعلاجی",
+      "personal": "مرخصی شخصی",
+      "mission": "مأموریت",
+      "unpaid": "مرخصی بدون حقوق",
+      "other": "سایر"
+    },
+    "isPaidLabel": "با حقوق (مثل یک روز کاری عادی محاسبه شود)",
+    "noteLabel": "توضیح (اختیاری)",
+    "cancel": "انصراف",
+    "saving": "در حال ذخیره...",
+    "save": "ذخیره"
+  },
+  "guardDuty": {
+    "formDialog": {
+      "createTitle": "ثبت نوبت نگهبانی",
+      "editTitle": "ویرایش نوبت نگهبانی",
+      "workerLabel": "نیرو",
+      "usePreviousShift": "استفاده از نوبت قبلی ({{start}} تا {{end}})",
+      "startTimeLabel": "ساعت شروع نگهبانی",
+      "endTimeLabel": "ساعت پایان نگهبانی",
+      "endTimeHelper": "اگر نوبت از نیمه‌شب رد می‌شود، ساعت پایان می‌تواند کوچک‌تر از ساعت شروع باشد.",
+      "noteLabel": "توضیح (اختیاری)",
+      "cancel": "انصراف",
+      "saveChanges": "ذخیره تغییرات",
+      "submit": "ثبت نوبت",
+      "validationError": "ساعت شروع و پایان نگهبانی الزامی است."
+    }
+  },
+  "cashboxFund": {
+    "dialogTitle": "مدیریت صندوق‌ها",
+    "description": "هر صندوق یک حساب مستقل است (مثلاً «نقدی کارگاه»، «حساب بانکی»). تراکنش‌های هر صندوق و مانده‌اش کاملاً جدا از بقیه محاسبه می‌شود.",
+    "isDefaultTitle": "صندوق پیش‌فرض",
+    "setDefaultTitle": "تنظیم به‌عنوان پیش‌فرض",
+    "cannotDeleteDefault": "صندوق پیش‌فرض قابل حذف نیست",
+    "deleteTitle": "حذف صندوق",
+    "defaultChip": "پیش‌فرض",
+    "newFundPlaceholder": "نام صندوق جدید",
+    "add": "افزودن",
+    "close": "بستن",
+    "deleteConfirmTitle": "حذف صندوق",
+    "deleteConfirmDescription": "آیا از حذف صندوق «{{name}}» مطمئن هستید؟ اگر این صندوق تراکنشی داشته باشد، حذف امکان‌پذیر نخواهد بود.",
+    "toastCreated": "صندوق جدید اضافه شد.",
+    "toastDefaultChanged": "صندوق پیش‌فرض تغییر کرد.",
+    "toastDeleted": "صندوق حذف شد."
+  },
+  "jobType": {
+    "createTitle": "افزودن تیپ نیروی جدید",
+    "editTitle": "ویرایش شغل",
+    "nameLabel": "نام شغل",
+    "descriptionLabel": "توضیحات",
+    "categoryLabel": "دسته‌بندی",
+    "iconLabel": "آیکون",
+    "wageNoteLabel": "توضیح نحوهٔ محاسبهٔ رایج (اختیاری)",
+    "wageNoteHelper": "یک توضیح کوتاه که در فرم افزودن نیرو، کنار این شغل نمایش داده می‌شود.",
+    "suggestedMethodsLabel": "روش‌های پرداخت پیشنهادی",
+    "cancel": "انصراف",
+    "saving": "در حال ذخیره...",
+    "save": "ذخیره",
+    "toastCreated": "شغل جدید ثبت شد.",
+    "toastUpdated": "شغل به‌روزرسانی شد.",
+    "category": {
+      "structure": "اسکلت و سازه",
+      "masonry": "بنایی و دیوارچینی",
+      "finishing": "نازک‌کاری",
+      "flooring": "کف و پوشش",
+      "mep": "تأسیسات",
+      "installation": "نصب و اجرا",
+      "sitework": "عمومی کارگاه",
+      "other": "سایر"
+    },
+    "emptyTitle": "هنوز شغلی تعریف نشده",
+    "builtInChip": "پیش‌فرض",
+    "editAction": "ویرایش",
+    "duplicateAction": "کپی",
+    "restoreAction": "بازگردانی",
+    "deleteAction": "حذف",
+    "deleteConfirmTitle": "حذف شغل",
+    "deleteConfirmDescription": "آیا از حذف «{{name}}» مطمئن هستید؟ نیروهایی که این شغل را دارند دست‌نخورده می‌مانند، فقط این شغل دیگر در فهرست انتخاب نخواهد بود.",
+    "restoreConfirmTitle": "بازگردانی به پیش‌فرض",
+    "restoreConfirmDescription": "«{{name}}» به حالت اولیهٔ خودش (پیش از هرگونه ویرایش) بازمی‌گردد.",
+    "toastDeleted": "شغل حذف شد.",
+    "toastRestored": "شغل به حالت پیش‌فرض بازگردانده شد.",
+    "toastDuplicated": "یک کپی از شغل ساخته شد."
+  },
+  "ledgerEntry": {
+    "dialogTitle": "ثبت تراکنش حساب",
+    "workerLabel": "نیرو",
+    "typeAdvance": "مساعده",
+    "typeAdvanceHelper": "مبلغی که از قبل به نیرو پرداخت شده و باید از حقوقش کم شود",
+    "typeDeduction": "کسر دستی",
+    "typeDeductionHelper": "مثلاً چند ساعت غیبت که باید از حقوق کم شود",
+    "typeCredit": "طلب اضافه",
+    "typeCreditHelper": "مبلغی که علاوه بر حقوق عادی به نیرو تعلق می‌گیرد",
+    "cashbookCheckboxAdvance": "این مبلغ همزمان از موجودی دفتر حساب هم کم شود",
+    "cashbookCheckboxDeduction": "این مبلغ همزمان به‌عنوان «خرج» در دفتر حساب ثبت شود",
+    "amountLabel": "مبلغ",
+    "dateLabel": "تاریخ",
+    "descriptionLabel": "توضیح (اختیاری)",
+    "cancel": "انصراف",
+    "submit": "ثبت",
+    "validationError": "مبلغ باید عددی مثبت باشد."
+  },
+  "reports": {
+    "workerReport": {
+      "selectWorkerLabel": "انتخاب نیرو",
+      "selectWorkerPlaceholder": "یک نیرو را انتخاب کنید",
+      "fromDateLabel": "از تاریخ",
+      "toDateLabel": "تا تاریخ",
+      "toSeparator": "تا",
+      "exportingPdf": "در حال ساخت PDF...",
+      "downloadPdf": "دانلود PDF",
+      "presentDaysTitle": "روزهای حضور",
+      "totalWorkHoursTitle": "جمع ساعات کار",
+      "totalTimeLossTitle": "جمع اتلاف وقت",
+      "totalBreakTitle": "جمع استراحت مجاز",
+      "guardDutySalaryTitle": "دستمزد نگهبانی ({{count}} نوبت)",
+      "calendarView": "تقویم",
+      "listView": "لیست",
+      "dailyDetailsTitle": "جزئیات روزانه",
+      "noRecordsInRange": "در این بازه رکوردی ثبت نشده است.",
+      "usefulTimeLabel": "مفید",
+      "guardDutySuffix": "نگهبانی"
+    },
+    "monthly": {
+      "emptySelectTitle": "یک نیرو انتخاب کنید",
+      "emptySelectDescription": "برای مشاهده گزارش ماهانه، نیرو و بازه تاریخ را انتخاب کنید.",
+      "pdfFilenamePrefix": "گزارش-ماهانه",
+      "rangeLabel": "بازه",
+      "presentDaysValue": "{{count}} روز",
+      "totalSalaryTitle": "جمع حقوق کار عادی"
+    },
+    "weekly": {
+      "emptySelectTitle": "یک نیرو انتخاب کنید",
+      "emptySelectDescription": "برای مشاهدهٔ گزارش هفتگی، ابتدا یک نیرو را انتخاب کنید.",
+      "pdfFilenamePrefix": "گزارش-هفتگی",
+      "weekLabel": "هفتهٔ",
+      "presentDaysValue": "{{count}} از ۷ روز",
+      "totalSalaryTitle": "جمع حقوق این هفته",
+      "dailyDetailsTitle": "جزئیات روزهای هفته",
+      "noRecordsInRange": "در این هفته رکوردی ثبت نشده است.",
+      "previousWeekAria": "هفتهٔ قبل",
+      "nextWeekAria": "هفتهٔ بعد",
+      "currentWeekAria": "هفتهٔ جاری"
+    },
+    "tabs": {
+      "dailyMonthly": "روزانه و ماهانه",
+      "payroll": "حقوق نیروها",
+      "cashbook": "دفتر حساب"
+    },
+    "dailyAndMonthly": {
+      "dailyToggle": "روزانه",
+      "weeklyToggle": "هفتگی",
+      "monthlyToggle": "ماهانه"
+    },
+    "workerPayrollAccount": {
+      "goToWorkers": "رفتن به نیروها",
+      "hint": "برای مشاهده و تسویهٔ حساب طلب و بدهی هر نیرو، از بخش «منابع کارگاه ← نیروها» روی نام او بزنید."
+    }
+  },
+  "cloudBackup": {
+    "title": "بکاپ ابری (اختیاری)",
+    "descriptionBeforeLink": "علاوه بر بکاپ محلی، می‌توانید یک نسخهٔ رمزنگاری‌شده از اطلاعات را هر ۲۴ ساعت به‌صورت خودکار در یک حساب رایگان",
+    "descriptionAfterLink": "(سرویس ابری مستقل) ذخیره کنید. این کاملاً اختیاری است؛ برنامه بدون آن هم کاملاً آفلاین و کامل کار می‌کند.",
+    "enableLabel": "فعال‌سازی بکاپ ابری",
+    "urlLabel": "آدرس پروژهٔ Supabase",
+    "keyLabel": "کلید Supabase (Publishable / anon)",
+    "intervalLabel": "فاصلهٔ زمانی بکاپ ابری",
+    "interval12h": "هر ۱۲ ساعت",
+    "interval24h": "روزانه (۲۴ ساعت)",
+    "interval3d": "هر ۳ روز",
+    "intervalWeekly": "هفتگی",
+    "testConnection": "تست اتصال",
+    "restoreAction": "بازیابی از بکاپ ابری",
+    "lastBackupLabel": "آخرین بکاپ ابری موفق",
+    "sqlGuideTitle": "راهنمای ساخت جدول در Supabase",
+    "sqlGuideDescription": "در بخش SQL Editor پروژهٔ Supabase خود این دستور را یک‌بار اجرا کنید:",
+    "saveSettings": "ذخیرهٔ تنظیمات",
+    "restoreConfirmTitle": "بازیابی از بکاپ ابری",
+    "restoreConfirmDescription": "بازیابی از بکاپ ابری، تمام اطلاعات فعلی این دستگاه را با آخرین نسخهٔ ذخیره‌شده در ابر جایگزین می‌کند. این عملیات قابل بازگشت نیست. ادامه می‌دهید؟",
+    "toastSettingsSaved": "تنظیمات بکاپ ابری ذخیره شد.",
+    "toastRestoreSuccess": "بازیابی از بکاپ ابری با موفقیت انجام شد. برنامه دوباره بارگذاری می‌شود...",
+    "settingsNotLoadedError": "تنظیمات هنوز بارگذاری نشده است."
+  },
+  "timeLoss": {
+    "item": {
+      "rangeSeparator": "تا"
+    }
+  },
+  "wageSettings": {
+    "pageTitle": "شغل‌ها و دستمزد",
+    "jobsTab": "شغل‌ها",
+    "methodsTab": "روش‌های محاسبه"
+  },
+  "charts": {
+    "monthlySalaryTitle": "نمودار حقوق روزانه در این بازه",
+    "salaryLabel": "حقوق",
+    "dateLabelPrefix": "تاریخ",
+    "weeklyTrendTitle": "روند ۷ روز اخیر (ساعات مفید کار)",
+    "usefulHoursLabel": "ساعات مفید",
+    "hourUnitSuffix": "{{value}} ساعت"
+  },
+  "voiceNote": {
+    "sectionTitle": "یادداشت‌های صوتی",
+    "record": "ضبط صدا",
+    "recording": "در حال ضبط",
+    "unsupported": "ضبط صدا روی این دستگاه پشتیبانی نمی‌شود.",
+    "permissionDenied": "دسترسی به میکروفون داده نشد.",
+    "tooShort": "ضبط خیلی کوتاه بود، دوباره تلاش کنید.",
+    "empty": "هنوز یادداشت صوتی ثبت نشده است."
+  }
+}
